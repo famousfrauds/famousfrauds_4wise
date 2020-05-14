@@ -1,0 +1,445 @@
+Subject: =?UTF-8?Q?Fwd=3a_Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22P?=
+ =?UTF-8?B?YXNqb25hdGEiLCBvcGNqYSAjMiDigJMgZG9zdMSZcCBkbyAiUGFzamEgTWluaSIs?=
+ =?UTF-8?Q?_spotkanie_w_Miko=c5=82owie_w_najbli=c5=bcszych_dniach?=
+References: <a15ff91e-bfa0-ee7e-66ff-2dc57653bcd0@into.software>
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+X-Forwarded-Message-Id: <a15ff91e-bfa0-ee7e-66ff-2dc57653bcd0@into.software>
+Message-ID: <940a2291-05cf-a22d-78e5-6c2348053a9a@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Thu, 23 Jan 2020 11:29:42 +0100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101
+ Thunderbird/71.0
+MIME-Version: 1.0
+In-Reply-To: <a15ff91e-bfa0-ee7e-66ff-2dc57653bcd0@into.software>
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha-256; boundary="------------ms050600040907000401020002"
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms050600040907000401020002
+Content-Type: multipart/alternative;
+ boundary="------------8E5F905D08A0BCC3CA616F8B"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------8E5F905D08A0BCC3CA616F8B
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Cz=C4=99=C5=9B=C4=87 Mateusz,
+
+Prosz=C4=99 o prze=C5=82o=C5=BCenie jutrzejszego spotkania na przysz=C5=82=
+y tydzie=C5=84 (wtorek=20
+lub =C5=9Broda) - niestety bez dost=C4=99pu do Pasja Mini nie jestem w st=
+anie=20
+wykona=C4=87 tego co mam do wykonania na tym etapie; po moim mailu i przy=
+=20
+rozmowie na pocz=C4=85tku tygodnia wspomina=C5=82e=C5=9B, =C5=BCe przez s=
+erwer b=C4=99dzie mo=C5=BCna=20
+si=C4=99 po=C5=82=C4=85czy=C4=87 ale widz=C4=99 =C5=BCe klient tam by=C5=82=
+ zainstalowany.
+
+W temacie serwera i tego co jest potrzebne =C5=BCeby doko=C5=84czy=C4=87 =
+zlecenie od=20
+strony sprz=C4=99tu / systemu operacyjnego dam zna=C4=87 w osobnym mailu =
+- w=20
+skr=C3=B3cie to m.in.
+
+ =C2=A0* brak funkcji serwera NFS, poniewa=C5=BC jest to Windows 10 ... n=
+a=20
+serwerowych wersjach Windowsa funkcja serwera NFS jest dost=C4=99pna, a j=
+est=20
+konieczna do klastra
+
+ =C2=A0* restartowanie si=C4=99 systemu - ju=C5=BC 3 raz system si=C4=99 =
+restartowa=C5=82, w=20
+logach mo=C5=BCesz zweryfikowa=C4=87 - jest tez otwarte okno PowerShell g=
+dzie jest=20
+widoczne wywo=C5=82anie `Get-EventLog` - trzeba znale=C5=BA=C4=87 przyczy=
+n=C4=99 tego=20
+problemu i cokolwiek to powoduje naprawi=C4=87; nie jest normalne =C5=BCe=
+by nowy=20
+serwer restartowa=C5=82 si=C4=99 samoczynnie ju=C5=BC 3 raz
+
+Wi=C4=99cej informacji w osobnym mailu - na teraz z dostepem do Pasja Min=
+i=20
+musz=C4=99 mie=C4=87 pilnie spraw=C4=99 za=C5=82atwion=C4=85 i spotkanie =
+musi by=C4=87 w takim razie=20
+prze=C5=82o=C5=BCone.
+
+Pozdrawiam,
+
+--=20
+   Michal H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email:mhs@into.software,
+          mhsiemaszko@7thraylabs.com
+   WWW:http://ideas.into.software/
+   GitHub:https://github.com/ideas-into-software/
+   LinkedIn:http://www.linkedin.com/in/mhsiemaszko/
+   Twitter:https://twitter.com/IntoSoftware/
+
+
+
+-------- Forwarded Message --------
+Subject: 	Re: Rozw=C3=B3j i komercjalizacja aplikacji "Pasjonata", opcja =
+#2 =E2=80=93=20
+dost=C4=99p do "Pasja Mini", spotkanie w Miko=C5=82owie w najbli=C5=BCszy=
+ch dniach
+Date: 	Sat, 18 Jan 2020 13:57:35 +0100
+From: 	Michal Siemaszko <mhs@into.software>
+To: 	Mateusz Paluch <mateusz.paluch@4wise.pl>
+CC: 	=C5=81ukasz Paluch <lukasz.paluch@4wise.pl>
+
+
+
+Cze=C5=9B=C4=87 Mateusz,
+
+Chcia=C5=82em Cie prosi=C4=87 o nast=C4=99puj=C4=85ce:
+
+*1*) Udost=C4=99pnienie po=C5=82=C4=85czenia do komputera "Pasja Mini" (t=
+am gdzie=20
+=C5=82=C4=85czy=C5=82em si=C4=99 kilka dni temu =C5=BCeby z baz=C4=85 dan=
+ych naprawi=C4=87) - z uwagi na=20
+r=C3=B3=C5=BCnice w wersjach Teamviewer nie jestem w stanie si=C4=99 po=C5=
+=82=C4=85czy=C4=87=20
+stabilnie, a potrzebuje doko=C5=84czy=C4=87 zbiera=C4=87 informacje potrz=
+ebne =C5=BCeby klon=20
+aplikacji uruchomi=C4=87 na nowym sprz=C4=99cie; upgrade'owana wersja apl=
+ikacji=20
+(tj. nowe wersje MySQL, PHP, Apache, itd - wszystko wg. tego co zawiera=20
+opcja #2) zostanie uruchomiona w nast=C4=99pnym etapie; opcja #2 zawiera =
+
+oczywi=C5=9Bcie r=C3=B3wnie=C5=BC to co #1, czyli najpierw klon w celu uz=
+upe=C5=82nienia=20
+informacji / dopracowania wersji docelowej;
+
+ =C2=A0=C2=A0 Najlepiej je=C5=9Bli b=C4=99dzie to komputer z kt=C3=B3rego=
+ nie musisz korzysta=C4=87=20
+przynajmniej do poniedzia=C5=82ku - nie wiem ile razy b=C4=99d=C4=99 potr=
+zebowa=C5=82 si=C4=99=20
+po=C5=82=C4=85czy=C4=87, ale powinno wystarczy=C4=87 tyle czasu, tj. od d=
+zi=C5=9B do=20
+poniedzia=C5=82ku, =C5=BCeby ew. uzupe=C5=82ni=C4=87 to co potrzeba w cel=
+u uruchomienia=20
+klona aplikacji.
+
+
+*2*) Ustawienie spotkania na miejscu w oddziale firmy Pasja w Miko=C5=82o=
+wie=20
+- mi najbardziej odpowiada czwartek (23.01), pi=C4=85tek (24.01) lub ew. =
+
+sobota (25.01) ale nie p=C3=B3=C5=BAniej, tak =C5=BCeby zd=C4=85=C5=BCy=C4=
+=87 z wersj=C4=85 docelowa do=20
+ko=C5=84ca miesi=C4=85ca; cel spotkania to przede wszystkim uzupe=C5=82ni=
+=C4=87 informacje=20
+odno=C5=9Bnie wykorzystania na produkcji aplikacji na androida,=20
+przetestowania komunikacji nowo-skompilowanej wersji aplikacji z klonem=20
+aplikacji uruchomionym na nowym sprz=C4=99cie (tj. w klastrze), plus spor=
+o=20
+pyta=C5=84 na kt=C3=B3re odpowiedzi potrzebuje w celu uzupe=C5=82nienia i=
+nformacji /=20
+dopracowania docelowej dla tego zlecenia wersji aplikacji (tj.=20
+upgrade'owana / z najnowszymi wersjami MySQL, PHP, Apache, bibliotek=20
+zewn=C4=99trznych, itd.), w tym ustalenia jakie inne zmiany w kodzie s=C4=
+=85=20
+potrzebne opr=C3=B3cz tych o kt=C3=B3rych wiem ju=C5=BC; na miejscu potrz=
+ebuje ok. 1,5=20
+- 2 godziny, nie wi=C4=99cej, chyba =C5=BCe wynikn=C4=85 jakies problemy =
+techniczne -=20
+tak aby domkn=C4=85=C4=87 si=C4=99 z tym co jest potrzebne na tym etapie.=
+
+
+
+Pozdrawiam,
+
+--=20
+   Michal H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email:mhs@into.software,
+          mhsiemaszko@7thraylabs.com
+   WWW:http://ideas.into.software/
+   GitHub:https://github.com/ideas-into-software/
+   LinkedIn:http://www.linkedin.com/in/mhsiemaszko/
+   Twitter:https://twitter.com/IntoSoftware/
+
+
+--------------8E5F905D08A0BCC3CA616F8B
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body>
+    <p>Cz=C4=99=C5=9B=C4=87 Mateusz, <br>
+    </p>
+    <p>Prosz=C4=99 o prze=C5=82o=C5=BCenie jutrzejszego spotkania na przy=
+sz=C5=82y tydzie=C5=84
+      (wtorek lub =C5=9Broda) - niestety bez dost=C4=99pu do Pasja Mini n=
+ie jestem
+      w stanie wykona=C4=87 tego co mam do wykonania na tym etapie; po mo=
+im
+      mailu i przy rozmowie na pocz=C4=85tku tygodnia wspomina=C5=82e=C5=9B=
+, =C5=BCe przez
+      serwer b=C4=99dzie mo=C5=BCna si=C4=99 po=C5=82=C4=85czy=C4=87 ale =
+widz=C4=99 =C5=BCe klient tam by=C5=82
+      zainstalowany.<br>
+    </p>
+    <p>W temacie serwera i tego co jest potrzebne =C5=BCeby doko=C5=84czy=
+=C4=87
+      zlecenie od strony sprz=C4=99tu / systemu operacyjnego dam zna=C4=87=
+ w
+      osobnym mailu - w skr=C3=B3cie to m.in. <br>
+    </p>
+    <p>=C2=A0* brak funkcji serwera NFS, poniewa=C5=BC jest to Windows 10=
+ ... na
+      serwerowych wersjach Windowsa funkcja serwera NFS jest dost=C4=99pn=
+a, a
+      jest konieczna do klastra <br>
+    </p>
+    <p>=C2=A0* restartowanie si=C4=99 systemu - ju=C5=BC 3 raz system si=C4=
+=99 restartowa=C5=82,
+      w logach mo=C5=BCesz zweryfikowa=C4=87 - jest tez otwarte okno Powe=
+rShell
+      gdzie jest widoczne wywo=C5=82anie `Get-EventLog` - trzeba znale=C5=
+=BA=C4=87
+      przyczyn=C4=99 tego problemu i cokolwiek to powoduje naprawi=C4=87;=
+ nie jest
+      normalne =C5=BCeby nowy serwer restartowa=C5=82 si=C4=99 samoczynni=
+e ju=C5=BC 3 raz</p>
+    <p>Wi=C4=99cej informacji w osobnym mailu - na teraz z dostepem do Pa=
+sja
+      Mini musz=C4=99 mie=C4=87 pilnie spraw=C4=99 za=C5=82atwion=C4=85 i=
+ spotkanie musi by=C4=87 w
+      takim razie prze=C5=82o=C5=BCone.<br>
+    </p>
+    <p>Pozdrawiam,</p>
+    <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+    <div class=3D"moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class=3D"moz-email-headers-table" cellspacing=3D"0"
+        cellpadding=3D"0" border=3D"0">
+        <tbody>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"nowrap" align=3D"RIGHT">Sub=
+ject:
+            </th>
+            <td>Re: Rozw=C3=B3j i komercjalizacja aplikacji "Pasjonata",
+              opcja #2 =E2=80=93 dost=C4=99p do "Pasja Mini", spotkanie w=
+ Miko=C5=82owie w
+              najbli=C5=BCszych dniach</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"nowrap" align=3D"RIGHT">Dat=
+e: </th>
+            <td>Sat, 18 Jan 2020 13:57:35 +0100</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"nowrap" align=3D"RIGHT">Fro=
+m: </th>
+            <td>Michal Siemaszko <a class=3D"moz-txt-link-rfc2396E" href=3D=
+"mailto:mhs@into.software">&lt;mhs@into.software&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"nowrap" align=3D"RIGHT">To:=
+ </th>
+            <td>Mateusz Paluch <a class=3D"moz-txt-link-rfc2396E" href=3D=
+"mailto:mateusz.paluch@4wise.pl">&lt;mateusz.paluch@4wise.pl&gt;</a></td>=
+
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"nowrap" align=3D"RIGHT">CC:=
+ </th>
+            <td>=C5=81ukasz Paluch <a class=3D"moz-txt-link-rfc2396E" hre=
+f=3D"mailto:lukasz.paluch@4wise.pl">&lt;lukasz.paluch@4wise.pl&gt;</a></t=
+d>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DU=
+TF-8">
+      <p>Cze=C5=9B=C4=87 Mateusz, <br>
+        <br>
+        Chcia=C5=82em Cie prosi=C4=87 o nast=C4=99puj=C4=85ce: <br>
+        <br>
+        <b>1</b>) Udost=C4=99pnienie po=C5=82=C4=85czenia do komputera "P=
+asja Mini"
+        (tam gdzie =C5=82=C4=85czy=C5=82em si=C4=99 kilka dni temu =C5=BC=
+eby z baz=C4=85 danych
+        naprawi=C4=87) - z uwagi na r=C3=B3=C5=BCnice w wersjach Teamview=
+er nie jestem
+        w stanie si=C4=99 po=C5=82=C4=85czy=C4=87 stabilnie, a potrzebuje=
+ doko=C5=84czy=C4=87 zbiera=C4=87
+        informacje potrzebne =C5=BCeby klon aplikacji uruchomi=C4=87 na n=
+owym
+        sprz=C4=99cie; upgrade'owana wersja aplikacji (tj. nowe wersje My=
+SQL,
+        PHP, Apache, itd - wszystko wg. tego co zawiera opcja #2)
+        zostanie uruchomiona w nast=C4=99pnym etapie; opcja #2 zawiera
+        oczywi=C5=9Bcie r=C3=B3wnie=C5=BC to co #1, czyli najpierw klon w=
+ celu
+        uzupe=C5=82nienia informacji / dopracowania wersji docelowej;<br>=
+
+        <br>
+        =C2=A0=C2=A0 Najlepiej je=C5=9Bli b=C4=99dzie to komputer z kt=C3=
+=B3rego nie musisz
+        korzysta=C4=87 przynajmniej do poniedzia=C5=82ku - nie wiem ile r=
+azy b=C4=99d=C4=99
+        potrzebowa=C5=82 si=C4=99 po=C5=82=C4=85czy=C4=87, ale powinno wy=
+starczy=C4=87 tyle czasu, tj.
+        od dzi=C5=9B do poniedzia=C5=82ku, =C5=BCeby ew. uzupe=C5=82ni=C4=
+=87 to co potrzeba w
+        celu uruchomienia klona aplikacji. <br>
+      </p>
+      <p><br>
+        <b>2</b>) Ustawienie spotkania na miejscu w oddziale firmy Pasja
+        w Miko=C5=82owie - mi najbardziej odpowiada czwartek (23.01), pi=C4=
+=85tek
+        (24.01) lub ew. sobota (25.01) ale nie p=C3=B3=C5=BAniej, tak =C5=
+=BCeby zd=C4=85=C5=BCy=C4=87
+        z wersj=C4=85 docelowa do ko=C5=84ca miesi=C4=85ca; cel spotkania=
+ to przede
+        wszystkim uzupe=C5=82ni=C4=87 informacje odno=C5=9Bnie wykorzysta=
+nia na
+        produkcji aplikacji na androida, przetestowania komunikacji
+        nowo-skompilowanej wersji aplikacji z klonem aplikacji
+        uruchomionym na nowym sprz=C4=99cie (tj. w klastrze), plus sporo
+        pyta=C5=84 na kt=C3=B3re odpowiedzi potrzebuje w celu uzupe=C5=82=
+nienia
+        informacji / dopracowania docelowej dla tego zlecenia wersji
+        aplikacji (tj. upgrade'owana / z najnowszymi wersjami MySQL,
+        PHP, Apache, bibliotek zewn=C4=99trznych, itd.), w tym ustalenia
+        jakie inne zmiany w kodzie s=C4=85 potrzebne opr=C3=B3cz tych o k=
+t=C3=B3rych
+        wiem ju=C5=BC; na miejscu potrzebuje ok. 1,5 - 2 godziny, nie wi=C4=
+=99cej,
+        chyba =C5=BCe wynikn=C4=85 jakies problemy techniczne - tak aby d=
+omkn=C4=85=C4=87
+        si=C4=99 z tym co jest potrzebne na tym etapie. <br>
+        <br>
+        <br>
+        Pozdrawiam,<br>
+      </p>
+      <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware" moz-do-not-send=3D"true">mhs@into.software</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com" moz-do-not-send=3D"true">mhsiemaszko@7thraylabs.com</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/" moz-do-not-send=3D"true">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/" moz-do-not-send=3D"true">https://github.com/ideas-in=
+to-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/" moz-do-not-send=3D"true">http://www.linkedin.com/i=
+n/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/" moz-do-not-send=3D"true">https://twitter.com/IntoSoftware=
+/</a></pre>
+    </div>
+  </body>
+</html>
+
+--------------8E5F905D08A0BCC3CA616F8B--
+
+--------------ms050600040907000401020002
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCC
+CmcwggToMIID0KADAgECAg5IG2oJE72AJMpdIvAU8zANBgkqhkiG9w0BAQsFADBMMSAwHgYD
+VQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEG
+A1UEAxMKR2xvYmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxT
+aWduIFBlcnNvbmFsU2lnbiAyIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC2lmiTZf0sAexiow1Uv4vLpEORopqvsYPytW1v2fDq3M8We9cZ44QD
+hfnGH3CPH2xJxWkZHnCRODV+AkhdOWsYRKZqpch09F31hD5jH3FEggg+7cmn9uluJkEpgMlJ
+uv/ZdqCjuxv2ed9LKNNKe5xRwg9lUKGfqEqd5UYEjYNP3LLIPc+YIQmYTMDxj3qpPzcmZUfY
+Zo9JJsLDQL5mPWz/Oq0pRvATnOHy65mni8LTX1Btog5vxwaXOC9OoY5HArSDANik47pBB2Dl
+3Tda8gfBO6ecl2gut++pSDa86WmomapH6cf2UdL5sSy2xUm1mJ5TU9r7cvN8D/hxPtcD+mfD
+AgMBAAGjggG1MIIBsTAOBgNVHQ8BAf8EBAMCAQYwagYDVR0lBGMwYQYIKwYBBQUHAwIGCCsG
+AQUFBwMEBggrBgEFBQcDCQYKKwYBBAGCNxQCAgYKKwYBBAGCNwoDBAYJKwYBBAGCNxUGBgor
+BgEEAYI3CgMMBggrBgEFBQcDBwYIKwYBBQUHAxEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNV
+HQ4EFgQUaXKCYjFnlUSFd5GAxAQ2SZ17C2EwHwYDVR0jBBgwFoAUj/BLf6guRSSuTVD6Y5qL
+3uLdG7wwPgYIKwYBBQUHAQEEMjAwMC4GCCsGAQUFBzABhiJodHRwOi8vb2NzcDIuZ2xvYmFs
+c2lnbi5jb20vcm9vdHIzMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2ln
+bi5jb20vcm9vdC1yMy5jcmwwZwYDVR0gBGAwXjALBgkrBgEEAaAyASgwDAYKKwYBBAGgMgEo
+CjBBBgkrBgEEAaAyAV8wNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAKidzTLMfGfiC1DXpVxwo2biJe/q
+tLZTMG6HEjdcM+LCKFbjk71FlfNY2BVxTPPkgokUvv6lzEe96wZUgj7mv7716oj1ecQoIguM
+evYOC+MqrkmaDpvCJ/JsthtVSgG2GeFoUHRYvBJFGE+u3l4bEzDnVSY0gKL+FIoEqweEYVIR
+olAAtnLgcvQRZ24TogtgCNfoFJdEO0cV5Q911vjp/kd/mvMhMYuyf0Eimg5WuBLzvw7gmd9R
+ZCLb3IF+fvkdqOJ8W88L66qf6txWe+ukuCws5gb/riRZf8VEfz6aFV76ZxJffGxSlzEr2r28
+tNW2uhT/IlSYQLg5wfl1CxscGqMwggV3MIIEX6ADAgECAgxw1k1hZOUTEI3+XG0wDQYJKoZI
+hvcNAQELBQAwXTELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAx
+BgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWduIDIgQ0EgLSBTSEEyNTYgLSBHMzAeFw0x
+OTA2MDcxMzU5MDZaFw0yMDA2MDcxMzU5MDZaMIG3MQswCQYDVQQGEwJQTDEUMBIGA1UECBML
+TWFsb3BvbHNraWUxDzANBgNVBAcTBktyYWtvdzEuMCwGA1UEChMlTWljaGFsIFNpZW1hc3pr
+byBVc2x1Z2kgSW5mb3JtYXR5Y3puZTELMAkGA1UECxMCSVQxGTAXBgNVBAMTEE1pY2hhbCBT
+aWVtYXN6a28xKTAnBgkqhkiG9w0BCQEWGm1oc2llbWFzemtvQDd0aHJheWxhYnMuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfMDV/fjYnGvEwtkeqYUNv1t+yaRitSm
+NhFIs+8MmNVbm2Dxi38u0En2CT8iAwAA9yMfxJ/73If9DwF8Z6LBfPK4cfICG1/K6Xn1RiW7
+R+W+ap4xqkls9o+4yYyGtfNz2HSnfVxiTk/oBgNrIHlE76QXFvyrLLseWWtsmGcy2dPWdml2
+vdrStvChaaFATkEbrHmOFdNN9ERds6qEZgBVnW3FiV1GcPh5joVFxTbR5KxHrch6zWyxm35s
+GeoOIsNSDy1SN7AiO7YHSO1Xw1QPDVOGtCBlOD82YXEsxuSQVvdH/d5hKwaf2rsykE/pQl5e
+Av3v1aBb/BgQEIjVoN9N8QIDAQABo4IB2jCCAdYwDgYDVR0PAQH/BAQDAgWgMIGeBggrBgEF
+BQcBAQSBkTCBjjBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9j
+YWNlcnQvZ3NwZXJzb25hbHNpZ24yc2hhMmczb2NzcC5jcnQwPQYIKwYBBQUHMAGGMWh0dHA6
+Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc3BlcnNvbmFsc2lnbjJzaGEyZzMwTAYDVR0gBEUw
+QzBBBgkrBgEEAaAyASgwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wCQYDVR0TBAIwADBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3Js
+Lmdsb2JhbHNpZ24uY29tL2dzcGVyc29uYWxzaWduMnNoYTJnMy5jcmwwJQYDVR0RBB4wHIEa
+bWhzaWVtYXN6a29AN3RocmF5bGFicy5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMB8GA1UdIwQYMBaAFGlygmIxZ5VEhXeRgMQENkmdewthMB0GA1UdDgQWBBS1X0agigxe
+1CaY1fFiSLjPh7jZBTANBgkqhkiG9w0BAQsFAAOCAQEAnVYqGU3QLOwq+niL9kO8T8SjnNAP
+pQX/zbs7aRicWyV3NWy8HfDIWTzTeUKRjLu4PIb5MGWX1uLnFUMqyKf1SJIa7/gkMDTg9oQX
+7dO2psv/FoE73SLfiVgAWrVfwBdqF+m9j5iYkw9Uq/kqWQrHqnPnialJyk4TnKpgr9Hfd8Y7
+AEFE0vUB0MI5U1xZ9zs1rExckeRS/GC1In9mQjnQTJBdR4TUA3tVm2tL6fMR4ieuNGaGm2LZ
+GJLuiL9zl9R+7MN5SOgCLBheycGrrn386Wmx7Rdd9sjaLlKVPtDsxhV3io/vKAeos4NNyX7O
+w/Qx14CxtRn3prMvw2f6JC94hjGCAnIwggJuAgEBMG0wXTELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAxBgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWdu
+IDIgQ0EgLSBTSEEyNTYgLSBHMwIMcNZNYWTlExCN/lxtMA0GCWCGSAFlAwQCAQUAoIHXMBgG
+CSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDEyMzEwMjk0Mlow
+LwYJKoZIhvcNAQkEMSIEIPvDEumf5l7ep1iOIx7OypmKdGfrV84mOxz6sMr9Ax5xMGwGCSqG
+SIb3DQEJDzFfMF0wCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0DBzAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwDQYJ
+KoZIhvcNAQEBBQAEggEAoNOt1BeiuJbchNm4jOUI2tFH0wRJiDhPEjgUCnvXg2f2EqrxivkG
+eDFpawTAmf2pRnl9PWeYmSnFPKGFEGiivDaaQq5mDskxgU2G8AzrEuft9DpuCJplqPDIblS4
+22u1eDelHwc1m0v9pC4clcxnQGnQ2IxlK3YhQvDnk5i/ADobsKAmp+V/HfL2yNDkEX9FpOgb
+LBwYXPiFrKU3zWs2XXGtGSjUJ58iP4NfyJTpjJnXrxUhLRcmiesaFmp78+wI9hLh6Wr598wr
+MqxtEnhXiR51oFf9WMuQtI5M/9bQlw0hnOSWe3BeoKQWTugIdKJT2dgGJd9Ll2EfVBpNBdXG
+ywAAAAAAAA==
+--------------ms050600040907000401020002--

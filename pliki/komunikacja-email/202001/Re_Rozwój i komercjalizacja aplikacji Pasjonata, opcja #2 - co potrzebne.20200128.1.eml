@@ -1,0 +1,1649 @@
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Subject: =?UTF-8?Q?Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22Pasjonat?=
+ =?UTF-8?Q?a=22=2c_opcja_=232_-_co_potrzebne?=
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>,
+ =?UTF-8?Q?=c5=81ukasz_Paluch?= <lukasz.paluch@4wise.pl>
+References: <6de57d41-75cd-b441-836a-a679361b53ad@7thraylabs.com>
+ <AM0PR10MB18605348C0CD16119FD09519B80B0@AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM>
+Message-ID: <10d66ac7-65af-e4ac-914f-e291994580d9@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Tue, 28 Jan 2020 13:44:34 +0100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101
+ Thunderbird/71.0
+MIME-Version: 1.0
+In-Reply-To: <AM0PR10MB18605348C0CD16119FD09519B80B0@AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM>
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha-256; boundary="------------ms070407010503010304050603"
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms070407010503010304050603
+Content-Type: multipart/alternative;
+ boundary="------------4D85F05C7961D5771365F793"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------4D85F05C7961D5771365F793
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Mateusz,
+
+Chyba zasz=C5=82o nieporozumienie. Jasno napisa=C5=82em odno=C5=9Bnie teg=
+o, =C5=BCe gdyby=20
+systemem operacyjnym od pocz=C4=85tku by=C5=82 Windows Server ca=C5=82o=C5=
+=9B=C4=87 sam bym za=C5=82atwi=C5=82.
+
+Nigdzie nie by=C5=82o m=C3=B3wione wcze=C5=9Bniej =C5=BCe na SERWERZE (sp=
+rz=C4=99cie/hardware)=20
+b=C4=99dzie stawiany nie-serwerowy system operacyjny (tak jak to zrobili=C5=
+=9Bcie)=20
+- nigdy si=C4=99 z czym=C5=9B takim nie spotka=C5=82em; serwer jest serwe=
+rem i po to s=C4=85=20
+serwerowe systemy operacyjne.
+
+Przypominam r=C3=B3wnie=C5=BC =C5=BCe od 19 grudnia 2019 r. czeka=C5=82em=
+ na informacje=20
+odno=C5=9Bnie tego co to jest - dopiero 4 stycznia otrzyma=C5=82em cze=C5=
+=9B=C4=87=20
+informacji, po czym dopiero od 7 stycznia 2020 r. dost=C4=99p do serwera.=
+ Na=20
+=C5=BCadnym etapie nie bylem konsultowany odno=C5=9Bnie tego jaki system =
+
+operacyjny b=C4=99dzie wykorzystany, jak b=C4=99d=C4=85 dyski przygotowan=
+e, itd.
+
+Pisze jasno z czego p=C5=82yn=C4=85 wymagania i jaki jest skutek tego co =
+
+zrobili=C5=9Bcie nie konsultuj=C4=85c ze mn=C4=85 tego co robicie a co je=
+st potrzebne=20
+=C5=BCeby wykona=C4=87 moja prace wg. specyfikacji. Rozumiem, =C5=BCe dot=
+ychczas=20
+pracowali=C5=9Bcie sami, ale przy tym zleceniu tak nie jest. Ja od 19 gru=
+dnia=20
+2019 r. czeka=C5=82em na informacje kt=C3=B3re by=C5=82y mi potrzebne; na=
+gle po ponad 3=20
+tygodniach otrzyma=C5=82em od Was info i dost=C4=99p do sprz=C4=99tu kt=C3=
+=B3ry by=C5=82 ju=C5=BC=20
+przez Was zrobiony i - jak si=C4=99 okazuje - postawiony na nie-serwerowe=
+j=20
+wersji Windows'a i bez wydzielenia odpowiednio dysk=C3=B3w na partycje.=20
+Pomimo tego ponad 3 tygodniowego przesuni=C4=99cia w czasie ja wzi=C4=85=C5=
+=82em to "na=20
+swoje bary" i d=C5=82u=C5=BCej siedz=C4=99 =C5=BCeby nadrobi=C4=87 te zal=
+eg=C5=82o=C5=9Bci.
+
+Prosz=C4=99 zmie=C5=84 ton swojej wypowiedzi poniewa=C5=BC grzecznie pisz=
+e co jest=20
+potrzebne i z czego p=C5=82yn=C4=85 te wymagania, chyba nie rozumiesz teg=
+o. Na=20
+serwerze powinien by=C4=87 postawiony serwerowy system operacyjny a dysk =
+
+odpowiednio przygotowany / wydzielony na partycje. Wszystkie funkcje o=20
+kt=C3=B3rych pisze (NFS, DNS, itd.) s=C4=85 dost=C4=99pne / wbudowane w s=
+erwerowa=20
+wersje systemu operacyjnego.
+
+Czekam na informacje w takim razie jak zamierzacie ten problem rozwi=C4=85=
+za=C4=87=20
+- ja jasno wyja=C5=9Bni=C5=82em sk=C4=85d co wynika.
+
+Pozdrawiam,
+
+--=20
+   Michael H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email: mhsiemaszko@7thraylabs.com,
+          mhs@into.software
+   WWW: http://ideas.into.software/
+   GitHub: https://github.com/ideas-into-software/
+   LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+   Twitter: https://twitter.com/IntoSoftware/
+
+
+On 1/27/20 11:00 AM, Mateusz Paluch wrote:
+>
+> =09
+> Mateusz=C2=A0Paluch=E2=80=8B
+> Chief=C2=A0Operating=C2=A0Officer
+> E: *mateusz.paluch@4wise.pl* <mailto:mateusz.paluch@4wise.pl>
+> M: *+48=C2=A0883=C2=A0631=C2=A0911* <tel:+48%20883%20631%20911>
+>
+> 4WISE GROUP Sp. z o.o. | Wieniawskiego 18 | 41-506 Chorz=C3=B3w.
+> Sp=C3=B3=C5=82ka zarejestrowana w S=C4=85dzie Rejonowym Katowice =E2=80=
+=93 Wsch=C3=B3d Wydzia=C5=82=20
+> VIII Gospodarczy Krajowego Rejestru S=C4=85dowego =E2=80=8Bpod numerem =
+KRS=20
+> 0000728932 | NIP 6272757341 | REGON 380380318
+>
+> =E2=80=8BAdministratorem Pa=C5=84stwa danych jest 4WISE GROUP Sp. z o.o=
+=2E
+> =E2=80=8BPa=C5=84stwa dane przetwarzamy w celu podtrzymania kontaktu z =
+Pa=C5=84stwem=20
+> i=C2=A0prowadzenia korespondencji. Szczeg=C3=B3=C5=82owe informacje dot=
+ycz=C4=85ce=20
+> przetwarzania zawarli=C5=9Bmy w *polityce prywatno=C5=9Bci*=20
+> <https://mamrodo.pl/index.php/ochrona-danych-osobowy/>
+>
+> *From:* Michal Siemaszko <mhsiemaszko@fastmail.net>
+> *Sent:* Monday, January 27, 2020 3:08 AM
+> *To:* Mateusz Paluch <mateusz.paluch@4wise.pl>; =C5=81ukasz Paluch=20
+> <lukasz.paluch@4wise.pl>
+> *Subject:* Re: Rozw=C3=B3j i komercjalizacja aplikacji "Pasjonata", opc=
+ja=20
+> #2 - co potrzebne
+>
+> Cze=C5=9B=C4=87 Mateusz,
+>
+> Przepraszam ale nie da=C5=82em rady wcze=C5=9Bniej dostarczy=C4=87 tego=
+ co obieca=C5=82em=20
+> do ko=C5=84ca dnia w pi=C4=85tek Ci przekaza=C4=87 -- poni=C5=BCej list=
+a i wielka pro=C5=9Bba=20
+> =C5=BCeby mie=C4=87 te sprawy za=C5=82atwione jak najszybciej; chcia=C5=
+=82em si=C4=99 skupi=C4=87 w=20
+> najbli=C5=BCszych dniach na aplikacji, i dopracowaniu tego co pozosta=C5=
+=82o=20
+> =C5=BCeby w czasie si=C4=99 zmie=C5=9Bci=C4=87 z tym projektem.
+>
+> Je=C5=9Bli z czym=C5=9B z tej listy ju=C5=BC uda=C5=82o si=C4=99 za=C5=82=
+atwi=C4=87, po prostu pomi=C5=84 i=20
+> przejd=C5=BA do nast=C4=99pnego -- przez maile i wiadomo=C5=9Bci, kt=C3=
+=B3re przes=C5=82a=C5=82e=C5=9B=20
+> przez weekend b=C4=99d=C4=99 si=C4=99 "przedziera=C5=82" dopiero z rana=
+=2E
+>
+>
+> *1*. Dost=C4=99p do komputera na kt=C3=B3rym aplikacja "Pasjonata" jest=
+ uruchomiona
+>
+> =C2=A0Tr=C4=85bi=C5=82em od tym od samego pocz=C4=85tku, jeszcze na dzi=
+e=C5=84 przed tym jak=20
+> zacz=C4=99li=C5=9Bmy oficjalnie projekt 20 grudnia.
+>
+> =C2=A0KONIECZNIE potrzebuje mie=C4=87 stabilny dost=C4=99p do tego komp=
+utera do czasu=20
+> przeniesienia aplikacji na nowe =C5=9Brodowisko.
+>
+> Jeszcze raz przesy=C5=82am dost=C4=99p kt=C3=B3ry przekaza=C5=82em 23.0=
+1.2020r.
+>
+> *Dost=C4=99p do serwera 02:*
+>
+> **
+>
+> *ID 1 720 528 342*
+>
+> *=E2=80=8B*
+>
+> *HAS=C5=81O 872vmx*
+>
+> Na pulpicie ikona *MacMINI*
+>
+> **
+>
+> *DANE do PASJA MINI*
+>
+> **
+>
+> *ID 996 705=C2=A0034*
+>
+> *HAS=C5=81O: x92p7g*
+>
+> **
+>
+> *Dost=C4=99p sprawdzi=C5=82em o 10:40 i dzia=C5=82a.*
+>
+>
+> *2*. Serwer NFS
+>
+> Jako funkcja systemu operacyjnego (Windows Server) LUB przez=20
+> zewn=C4=99trzne oprogramowanie; przy wersji serwerowej Windows'a jest t=
+o=20
+> oczywi=C5=9Bcie wbudowane / mocno zintegrowane z systemem operacyjnym; =
+nie=20
+> wiem na ile zewn=C4=99trzne oprogramowanie jest stabilne, a to bardzo w=
+a=C5=BCne=20
+> bo to kluczowa funkcja.
+>
+>
+> _Dlaczego jest tak potrzebne_: dyski na dane musz=C4=85 "przetrwa=C4=87=
+" VM-y /=20
+> kontenery uruchomione w klastrze - jak wiesz, i VM-y, a przede=20
+> wszystkim kontenery uruchomione w klastrze utworzonym z VM-=C3=B3w, maj=
+=C4=85=20
+> swoje dyski, gdzie system operacyjny jest zainstalowany i=20
+> oprogramowanie z kt=C3=B3rego korzystaj=C4=85; ale dane takie jak m.in.=
+:
+>
+> *a*) dane aplikacji (dane zapisywane do bazy danych, artefakty=20
+> generowane przez aplikacje takie jak kody QR, itp.)
+> *b*) certyfikaty SSL
+> *c*) pliki konfiguracyjne
+> *d*) repozytoria GIT
+> *e*) automatyczne backup'y
+>
+> =C2=A0.. MUSZ=C4=84 by=C4=87 trzymane POZA VMami, tak aby zapewni=C4=87=
+ kontynuacje na=20
+> wypadek gdyby VM siad=C5=82, lub ugrade'u / wymiany na nowszy / inny sy=
+stem=20
+> operacyjny / itd., itp. Z automatyzacj=C4=85, kt=C3=B3r=C4=85 przygotow=
+a=C5=82em na=20
+> potrzeby tego projektu, takie sytuacje mo=C5=BCna =C5=82atwo ogarn=C4=85=
+=C4=87 - ale nawet=20
+> bez automatyzacji, jest konieczne =C5=BCeby tak wa=C5=BCne dane "siedzi=
+a=C5=82y poza"=20
+> wirtualizacja / klastrem.
+>
+> System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej bez ingeren=
+cji w=20
+> system g=C5=82=C3=B3wny. Wcze=C5=9Bniej nie wspomnia=C5=82e=C5=9B o tak=
+ich wymaganiach.
+>
+>
+>
+> *3*. Osobne partycje
+>
+> Aktualne jest tylko jeden dysk ("C").
+>
+> Wg. dobrych praktyk / zalece=C5=84, pliki VM-ow (dyski wirtualne, pliki=
+=20
+> konfiguracyjne, snapshot'y, itd.) zdecydowanie powinny by=C4=87 trzyman=
+e na=20
+> osobnej partycji (np. "D").
+>
+> Ponadto, na potrzeby wdro=C5=BCenia NFS, potrzebna jest jeszcze jedna=20
+> osobna partycja ("E") kt=C3=B3ra w ca=C5=82o=C5=9Bci b=C4=99dzie w=C5=82=
+a=C5=9Bnie dla NFS=20
+> przeznaczona.
+>
+> Wi=C4=99c co jest potrzebne to wydzielenie osobnych partycji -
+>
+> *a*) osobno system operacyjny, programy zainstalowane, itp. ("C"),
+>
+> *b*) osobno dane VM'ow,
+>
+> *c*) osobno partycja udost=C4=99pniania przez NFS.
+>
+> System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej bez ingeren=
+cji w=20
+> system g=C5=82=C3=B3wny. Wcze=C5=9Bniej nie wspomnia=C5=82e=C5=9B o tak=
+ich wymaganiach.
+>
+>
+>
+>
+> *4*. Dost=C4=99p do serwera SMTP
+>
+> Na potrzeby przesy=C5=82ania maili - coby nie obci=C4=85=C5=BCa=C4=87 n=
+iepotrzebnie tego=20
+> sprz=C4=99tu, poza tym mo=C5=BCliwo=C5=9B=C4=87 zarz=C4=85dzania kontam=
+i tam gdzie ju=C5=BC to=20
+> robicie / jest robione; wi=C4=99c potrzebne jest konto dedykowane / dan=
+e do=20
+> logowania / tak aby wpi=C4=85=C4=87 / skonfigurowa=C4=87 jako zewn=C4=99=
+trzny serwer SMTP.
+>
+> Nie wiem czy dla Pasji r=C3=B3wnie=C5=BC obs=C5=82ugujecie poczt=C4=99 =
+- je=C5=9Bli nie, chyba=20
+> nie b=C4=99dzie problemu =C5=BCeby dostarczyli od swojego providera now=
+e konto=20
+> dedykowane na potrzeby w=C5=82a=C5=9Bnie powiadomie=C5=84 / komunikacji=
+ z us=C5=82ug=20
+> uruchomionych w tej nowej infrastrukturze.
+>
+>
+> *5*. Serwer DNS, lokalne domeny, certyfikaty SSL
+>
+> Aplikacje ich by=C5=82y dost=C4=99pne dotychczas przez adresy IP. Nie w=
+ygl=C4=85da to=20
+> za fajnie, z zabezpieczeniem certyfikatami SSL jest troch=C4=99 utrudni=
+one=20
+> przez to, poza tym nie mo=C5=BCna =C5=82atwo "podmieni=C4=87" us=C5=82u=
+gi, kt=C3=B3ra stoi pod=20
+> danym adresem (np. upgrade na now=C4=85 wersj=C4=99, itp.).
+>
+> Mo=C5=BCliwo=C5=9B=C4=87 wykorzystania domen 3-4 poziomu i mapowanie ic=
+h na inne=20
+> adresy IP pozwoli=C5=82oby uruchomi=C4=87 g=C5=82=C3=B3wn=C4=85 aplikac=
+je i aplikacje=20
+> dedykowane dla ich klient=C3=B3w na tej samej domenie lokalnej ( .pasja=
+ ), np.
+>
+> =C2=A0 * https://produkcja.pasja <https://produkcja.pasja>
+> =C2=A0 * https://magazyn.pasja <https://magazyn.pasja>
+> =C2=A0 * https://biuro.pasja <https://biuro.pasja>
+> =C2=A0 * https://nazwa-klienta.klienci.pasja=20
+> <https://nazwa-klienta.klienci.pasja>
+>
+> ... poza tym w=C5=82a=C5=9Bnie mo=C5=BCliwo=C5=9B=C4=87 podmiany na now=
+sze wersje, kompletnie=20
+> "przezroczyste" dla u=C5=BCytkownik=C3=B3w ko=C5=84cowych (kt=C3=B3rzy =
+ca=C5=82y czas ta sama=20
+> domen=C4=99 wpisuj=C4=85, tylko co innego otrzymuj=C4=85 po upgradzie w=
+ takim=20
+> rozwi=C4=85zaniu).
+>
+> Do tego oczywi=C5=9Bcie jest potrzebny serwer DNS - kt=C3=B3ry akurat j=
+est=20
+> wbudowany w Windows Server; _nie jestem pewien czy bez wersji=20
+> serwerowej Windows'a mo=C5=BCna sobie z tym poradzi=C4=87_ (tj. czy jes=
+t, czy=20
+> jest wystarczaj=C4=85co stabilne), ja tylko z serwerowej wersji Windows=
+'a=20
+> korzysta=C5=82em dotychczas.
+>
+> Certyfikaty SSL generowane s=C4=85 automatycznie - wi=C4=99c z tym nie =
+ma problemu.
+>
+> S=C5=82uchaj wszystko jest do zrobienia ale nie m=C3=B3wi=C5=82e=C5=9B =
+o tym wcze=C5=9Bniej.=20
+> Pytania kto poniesie koszty naszej pracy. Rozumieli=C5=9Bmy =C5=BCe zle=
+camy=20
+> Tobie zrobieni wszystkiego od A do Z =E2=80=93 a od nas potrzebujesz Ma=
+szyny=20
+> wirtualnej oraz dost=C4=99pu do starego systemu.
+>
+> Teraz my mamy si=C4=99 tym wszystkim zaj=C4=85=C4=87 ? gdyby=C5=9Bmy wi=
+edzieli to=20
+> odpowiednio wyceniliby=C5=9Bmy nasz=C4=85 prace.
+>
+>
+>
+>
+> *6*. Stabilno=C5=9B=C4=87 systemu operacyjnego
+>
+> Jak widzia=C5=82e=C5=9B ju=C5=BC mo=C5=BCe w logach - wspomina=C5=82em =
+ju=C5=BC o tym kilka razy -=20
+> serwer restartowa=C5=82 si=C4=99 samoczynnie ju=C5=BC przynajmniej 3 ra=
+zy; nie by=C5=82y=20
+> to na 100% restarty spowodowane update'ami, lecz jakimi=C5=9B b=C5=82=C4=
+=99dami /=20
+> problemami.
+>
+> Nie wiem dok=C5=82adnie czym jest to spowodowane - nie mia=C5=82em czas=
+u=20
+> diagnozowa=C4=87 tego dog=C5=82=C4=99bnie, ale zauwa=C5=BCy=C5=82em za =
+ka=C5=BCdym razem; raz nawet=20
+> by=C5=82o to dos=C5=82ownie w momencie kiedy mia=C5=82em automatyzacje =
+zapuszczon=C4=85 i=20
+> dlatego od razu zauwa=C5=BCy=C5=82em (pisa=C5=82em / dzwoni=C5=82em wte=
+dy).
+>
+> Nie wiem czy doszli=C5=9Bcie do tego _czym to jest spowodowane_ - cokol=
+wiek=20
+> to jest powinno to by=C4=87 naprawione, bo _przy takich problemach za=20
+> chwile b=C4=99dzie powt=C3=B3rka problem=C3=B3w z baz=C4=85 danyc_h i i=
+nnych - jak wiesz,=20
+> takie nagle "wycinki" to najprostszy spos=C3=B3b na to =C5=BCeby uszkod=
+zi=C4=87 dane.
+>
+> TAK =E2=80=93 aktualizacje - =C2=A0trzeba je r=C4=99cznie wy=C5=82=C4=85=
+cza=C4=87 obecnie nie b=C4=99d=C4=85=20
+> dzia=C5=82a=C5=82y do 28.02.2020r.
+>
+>
+>
+>
+> *7*. Upgrade systemu operacyjnego
+>
+> NFS jest zdecydowanie potrzebny =C5=BCeby dostarczy=C4=87 to co wymieni=
+=C5=82em=20
+> powy=C5=BCej. Szczerze przyznaje, =C5=BCe ja tylko na wersjach Windows =
+Server=20
+> pracowa=C5=82em i nie wyobra=C5=BCam sobie =C5=BCeby serwer (sprz=C4=99=
+t / hardware kt=C3=B3ry=20
+> postawili=C5=9Bcie) mia=C5=82 uruchomione cokolwiek innego. Akurat w te=
+j=20
+> sytuacji gdzie NFS jest konieczny nie wiem jak to za=C5=82atwicie - tj.=
+=20
+> przez upgrade czy zewn=C4=99trzne oprogramowanie - ale przej=C5=9Bcie n=
+a wersje=20
+> serwerow=C4=85 dostarczy=C5=82oby dodatkowych korzy=C5=9Bci, m.in.:
+>
+> =C2=A0* zintegrowane us=C5=82ugi (nie tylko NFS czy DNS, ale i inne kt=C3=
+=B3re w=20
+> miar=C4=99 potrzeby mo=C5=BCna w=C5=82=C4=85czy=C4=87)
+>
+> =C2=A0* wi=C4=99ksza stabilno=C5=9B=C4=87
+>
+> =C2=A0* wg. informacji kt=C3=B3re posiadam (dokumentacja / publikacje M=
+icrosoft=20
+> i zewn=C4=99trznych serwis=C3=B3w) dopiero od wersji Windows Server 201=
+6 (tj.=20
+> Windows Server 2016 i Windows Server 2019) stawianie VM-ow 2 generacji =
+
+> z wykorzystaniem Secure Boot i kontroler=C3=B3w SCSI przy wykorzystaniu=
+=20
+> Linux'a jako systemu operacyjnego VM-ow jest dopracowane tak aby moc=20
+> normalnie z tego korzysta=C4=87.
+>
+> Jak na razie, poniewa=C5=BC na tej wersji Windows'a kt=C3=B3r=C4=85 dos=
+tarczyli=C5=9Bcie=20
+> ca=C5=82y czas b=C5=82=C4=99dy wyskakiwa=C5=82y chc=C4=85c korzysta=C4=87=
+ z Generacji 2 i SCSI, ja=20
+> VMy z Linux'em postawi=C5=82em Generacji 1 i kontrolerami IDE, ale=20
+> zdecydowanie wola=C5=82bym dostarczy=C4=87 w tej wersji zoptymalizowane=
+j, tj.=20
+> Gen 2 i SCSI. Wiec to kolejna korzy=C5=9B=C4=87 p=C5=82yn=C4=85ca z prz=
+ej=C5=9Bcia na serwerow=C4=85=20
+> wersj=C4=99 Windows'a.
+>
+> *System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej bez ingere=
+ncji w=20
+> system g=C5=82=C3=B3wny.* Wcze=C5=9Bniej nie wspomnia=C5=82e=C5=9B o ta=
+kich wymaganiach. Od=20
+> pocz=C4=85tku m=C3=B3wi=C5=82e=C5=9B =C5=BCe stawiamy maszyn=C4=99 i Ty=
+ si=C4=99 b=C4=99dzisz tam =C5=82=C4=85czy=C5=82 i=20
+> dzia=C5=82a=C5=82 z nowym systemem.
+>
+> Nie rozumiem dlaczego nagle zmieniamy koncepcj=C4=99 system kt=C3=B3ry =
+jest=20
+> obecnie mia=C5=82 tylko obs=C5=82ugiwa=C4=87 w=C5=82=C4=85czone maszyny=
+ nic wi=C4=99cej.
+>
+> **
+>
+> *Koszty: Licencja serwer 2500 z=C5=82 netto *
+>
+> *Koszty rzeczy o kt=C3=B3rych piszesz wed=C5=82ug stawki godzinowej 120=
+ z=C5=82=20
+> netto- min 10 h =E2=80=93 1200 z=C5=82 netto *
+>
+> *Pan Jacek nie zap=C5=82aci ju=C5=BC ani grosza do momentu a=C5=BC damy=
+ mu system =E2=80=93=20
+> Ja pierwsze s=C5=82ysz=C4=99 o wymaganiach z tego maila. Dlatego nie wi=
+em na=20
+> razie jak ale musimy rozwi=C4=85za=C4=87 t=C4=85 sytuacj=C4=99 . *
+>
+> *Czy pokryjesz koszty tych dodatkowych rzeczy ? *
+>
+> Z powa=C5=BCaniem,
+>
+>
+>
+> To tyle - tj. nic wi=C4=99cej nie powinno by=C4=87 potrzebne z mojej st=
+rony =C5=BCeby=20
+> dopi=C4=85=C4=87 to co jest potrzebne do dopi=C4=99cia z tym projektem =
+dla Pasji.
+>
+> Z tym co pisa=C5=82e=C5=9B / przes=C5=82a=C5=82e=C5=9B przez weekend za=
+poznam si=C4=99 z rana.
+>
+> Pozdrawiam,
+>
+> --=20
+>  =C2=A0=C2=A0Michal H. Siemaszko
+>  =C2=A0 Mobile: +48 723 039 978
+>  =C2=A0 Signal IM: +48668566023
+>  =C2=A0 Telegram: mhsiemaszko
+>  =C2=A0 Email:mhsiemaszko@7thraylabs.com  <mailto:mhsiemaszko@7thraylab=
+s.com>,
+>           mhs@into.software  <mailto:mhs@into.software>
+>  =C2=A0 WWW:http://ideas.into.software/  <http://ideas.into.software/>
+>  =C2=A0 GitHub:https://github.com/ideas-into-software/  <https://github=
+=2Ecom/ideas-into-software/>
+>  =C2=A0 LinkedIn:http://www.linkedin.com/in/mhsiemaszko/  <http://www.l=
+inkedin.com/in/mhsiemaszko/>
+>  =C2=A0 Twitter:https://twitter.com/IntoSoftware/  <https://twitter.com=
+/IntoSoftware/>
+
+
+--------------4D85F05C7961D5771365F793
+Content-Type: multipart/related;
+ boundary="------------B470B3F41E8DE72892C4F509"
+
+
+--------------B470B3F41E8DE72892C4F509
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body>
+    <p>Mateusz, <br>
+    </p>
+    <p>Chyba zasz=C5=82o nieporozumienie. Jasno napisa=C5=82em odno=C5=9B=
+nie tego, =C5=BCe
+      gdyby systemem operacyjnym od pocz=C4=85tku by=C5=82 Windows Server=
+ ca=C5=82o=C5=9B=C4=87
+      sam bym za=C5=82atwi=C5=82.<br>
+    </p>
+    <p>Nigdzie nie by=C5=82o m=C3=B3wione wcze=C5=9Bniej =C5=BCe na SERWE=
+RZE
+      (sprz=C4=99cie/hardware) b=C4=99dzie stawiany nie-serwerowy system
+      operacyjny (tak jak to zrobili=C5=9Bcie) - nigdy si=C4=99 z czym=C5=
+=9B takim nie
+      spotka=C5=82em; serwer jest serwerem i po to s=C4=85 serwerowe syst=
+emy
+      operacyjne.<br>
+    </p>
+    <p>Przypominam r=C3=B3wnie=C5=BC =C5=BCe od 19 grudnia 2019 r. czeka=C5=
+=82em na
+      informacje odno=C5=9Bnie tego co to jest - dopiero 4 stycznia
+      otrzyma=C5=82em cze=C5=9B=C4=87 informacji, po czym dopiero od 7 st=
+ycznia 2020 r.
+      dost=C4=99p do serwera. Na =C5=BCadnym etapie nie bylem konsultowan=
+y
+      odno=C5=9Bnie tego jaki system operacyjny b=C4=99dzie wykorzystany,=
+ jak b=C4=99d=C4=85
+      dyski przygotowane, itd. <br>
+    </p>
+    <p>Pisze jasno z czego p=C5=82yn=C4=85 wymagania i jaki jest skutek t=
+ego co
+      zrobili=C5=9Bcie nie konsultuj=C4=85c ze mn=C4=85 tego co robicie a=
+ co jest
+      potrzebne =C5=BCeby wykona=C4=87 moja prace wg. specyfikacji. Rozum=
+iem, =C5=BCe
+      dotychczas pracowali=C5=9Bcie sami, ale przy tym zleceniu tak nie j=
+est.
+      Ja od 19 grudnia 2019 r. czeka=C5=82em na informacje kt=C3=B3re by=C5=
+=82y mi
+      potrzebne; nagle po ponad 3 tygodniach otrzyma=C5=82em od Was info =
+i
+      dost=C4=99p do sprz=C4=99tu kt=C3=B3ry by=C5=82 ju=C5=BC przez Was =
+zrobiony i - jak si=C4=99
+      okazuje - postawiony na nie-serwerowej wersji Windows'a i bez
+      wydzielenia odpowiednio dysk=C3=B3w na partycje. Pomimo tego ponad =
+3
+      tygodniowego przesuni=C4=99cia w czasie ja wzi=C4=85=C5=82em to "na=
+ swoje bary" i
+      d=C5=82u=C5=BCej siedz=C4=99 =C5=BCeby nadrobi=C4=87 te zaleg=C5=82=
+o=C5=9Bci. <br>
+    </p>
+    <p>Prosz=C4=99 zmie=C5=84 ton swojej wypowiedzi poniewa=C5=BC grzeczn=
+ie pisze co
+      jest potrzebne i z czego p=C5=82yn=C4=85 te wymagania, chyba nie ro=
+zumiesz
+      tego. Na serwerze powinien by=C4=87 postawiony serwerowy system
+      operacyjny a dysk odpowiednio przygotowany / wydzielony na
+      partycje. Wszystkie funkcje o kt=C3=B3rych pisze (NFS, DNS, itd.) s=
+=C4=85
+      dost=C4=99pne / wbudowane w serwerowa wersje systemu operacyjnego. =
+<br>
+    </p>
+    <p>Czekam na informacje w takim razie jak zamierzacie ten problem
+      rozwi=C4=85za=C4=87 - ja jasno wyja=C5=9Bni=C5=82em sk=C4=85d co wy=
+nika. <br>
+    </p>
+    <p>Pozdrawiam,</p>
+    <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michael H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+    <p><br>
+    </p>
+    <div class=3D"moz-cite-prefix">On 1/27/20 11:00 AM, Mateusz Paluch
+      wrote:<br>
+    </div>
+    <blockquote type=3D"cite"
+cite=3D"mid:AM0PR10MB18605348C0CD16119FD09519B80B0@AM0PR10MB1860.EURPRD10=
+=2EPROD.OUTLOOK.COM">
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+      <meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered
+        medium)">
+      <style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+pre
+	{mso-style-priority:99;
+	mso-style-link:"HTML - wst=C4=99pnie sformatowany Znak";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.HTML-wstpniesformatowanyZnak
+	{mso-style-name:"HTML - wst=C4=99pnie sformatowany Znak";
+	mso-style-priority:99;
+	mso-style-link:"HTML - wst=C4=99pnie sformatowany";
+	font-family:Consolas;}
+span.Stylwiadomocie-mail21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+      <div class=3D"WordSection1">
+        <p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"=
+><o:p>=C2=A0</o:p></span></p>
+        <p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"=
+><o:p>=C2=A0</o:p></span></p>
+        <div>
+          <div
+            style=3D"mso-line-height-rule:exactly;-webkit-text-size-adjus=
+t:100%;">
+            <table style=3D"width:100%;" cellspacing=3D"0" cellpadding=3D=
+"0"
+              border=3D"0">
+              <tbody>
+                <tr style=3D"font-size:0;">
+                  <td style=3D"vertical-align:top;" align=3D"left">
+                    <table style=3D"font-size:0;" cellspacing=3D"0"
+                      cellpadding=3D"0" border=3D"0">
+                      <tbody>
+                        <tr style=3D"font-size:0;">
+                          <td colspan=3D"2" style=3D"padding:20px 0
+                            0;vertical-align:top;" align=3D"left">
+                            <table style=3D"font-size:0;" cellspacing=3D"=
+0"
+                              cellpadding=3D"0" border=3D"0">
+                              <tbody>
+                                <tr style=3D"font-size:0;">
+                                  <td style=3D"vertical-align:top;"
+                                    align=3D"left">
+                                    <table
+                                      style=3D"width:500px;font-size:0;"
+                                      cellspacing=3D"0" cellpadding=3D"0"=
+
+                                      border=3D"0">
+                                      <tbody>
+                                        <tr style=3D"font-size:0;">
+                                          <td
+                                            style=3D"padding:0;vertical-a=
+lign:middle;"
+                                            align=3D"left">
+                                            <table
+                                              style=3D"font-size:0;line-h=
+eight:normal;"
+                                              cellspacing=3D"0"
+                                              cellpadding=3D"0" border=3D=
+"0">
+                                              <tbody>
+                                                <tr style=3D"font-size:0;=
+">
+                                                  <td style=3D"padding:0
+                                                    6px 0
+                                                    0;vertical-align:midd=
+le;"
+                                                    align=3D"left"><img
+                                                      src=3D"cid:part1.C4=
+3C7B35.343454A6@7thraylabs.com"
+                                                      alt=3D""
+                                                      style=3D"width:200p=
+x;min-width:200px;max-width:200px;font-size:0;"
+                                                      class=3D""
+                                                      width=3D"200"
+                                                      border=3D"0"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                          <td
+style=3D"padding:0;border-top:none;border-right:none;border-bottom:none;b=
+order-left:solid
+                                            1px
+                                            #000001;vertical-align:top;"
+                                            align=3D"left">
+                                            <table
+                                              style=3D"width:100%;font-si=
+ze:0;"
+                                              cellspacing=3D"0"
+                                              cellpadding=3D"0" border=3D=
+"0">
+                                              <tbody>
+                                                <tr style=3D"font-size:0;=
+">
+                                                  <td style=3D"padding:0 =
+0
+                                                    0
+                                                    15px;vertical-align:t=
+op;"
+                                                    align=3D"left">
+                                                    <table
+style=3D"width:100%;font-size:0;color:#000001;font-style:normal;font-weig=
+ht:700;white-space:nowrap;"
+                                                      cellspacing=3D"0"
+                                                      cellpadding=3D"0"
+                                                      border=3D"0">
+                                                      <tbody>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:18.67px;">
+                                                          <td
+                                                          style=3D"vertic=
+al-align:top;font-family:Calibri;"
+                                                          align=3D"left">=
+Mateusz=C2=A0Paluch<span
+style=3D"font-family:remialcxesans;font-size:1px;color:#FFFFFF;line-heigh=
+t:1px;">=E2=80=8B</span></td>
+                                                        </tr>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:16px;color:#0D84FD;">
+                                                          <td
+                                                          style=3D"vertic=
+al-align:top;font-family:Calibri;"
+                                                          align=3D"left">=
+Chief=C2=A0Operating=C2=A0Officer</td>
+                                                        </tr>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:16px;font-weight:400;">
+                                                          <td
+                                                          style=3D"vertic=
+al-align:top;font-family:Calibri;"
+                                                          align=3D"left">=
+E:=C2=A0<a
+href=3D"mailto:mateusz.paluch@4wise.pl" target=3D"_blank" id=3D"LPlnk6897=
+13"
+                                                          style=3D"text-d=
+ecoration:none;color:#000001;"
+moz-do-not-send=3D"true"><strong style=3D"font-weight:400;">mateusz.paluc=
+h@4wise.pl</strong></a></td>
+                                                        </tr>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:16px;font-weight:400;">
+                                                          <td
+                                                          style=3D"vertic=
+al-align:top;font-family:Calibri;"
+                                                          align=3D"left">=
+M:=C2=A0<a
+href=3D"tel:+48%20883%20631%20911" target=3D"_blank" id=3D"LPlnk689713"
+                                                          style=3D"text-d=
+ecoration:none;color:#000001;"
+moz-do-not-send=3D"true"><strong style=3D"font-weight:400;">+48=C2=A0883=C2=
+=A0631=C2=A0911</strong></a></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr style=3D"font-size:0;">
+                                  <td style=3D"vertical-align:top;"
+                                    align=3D"left">
+                                    <table style=3D"font-size:0;"
+                                      cellspacing=3D"0" cellpadding=3D"0"=
+
+                                      border=3D"0">
+                                      <tbody>
+                                        <tr style=3D"font-size:0;">
+                                          <td
+                                            style=3D"vertical-align:top;"=
+
+                                            align=3D"left">
+                                            <table style=3D"font-size:0;"=
+
+                                              cellspacing=3D"0"
+                                              cellpadding=3D"0" border=3D=
+"0">
+                                              <tbody>
+                                                <tr style=3D"font-size:0;=
+">
+                                                  <td
+                                                    style=3D"padding:20px=
+
+                                                    0
+                                                    0;vertical-align:top;=
+"
+                                                    align=3D"left">
+                                                    <table
+style=3D"white-space:normal;color:#000001;font-size:18.67px;font-family:C=
+alibri;font-weight:400;font-style:normal;text-align:left;width:500px;"
+                                                      cellspacing=3D"0"
+                                                      cellpadding=3D"0"
+                                                      border=3D"0">
+                                                      <tbody>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:12px;">
+                                                          <td
+                                                          style=3D"font-f=
+amily:Calibri;">
+                                                          4WISE GROUP
+                                                          Sp. z o.o. |
+                                                          Wieniawskiego
+                                                          18 | 41-506
+                                                          Chorz=C3=B3w. <=
+br>
+                                                          Sp=C3=B3=C5=82k=
+a
+                                                          zarejestrowana
+                                                          w S=C4=85dzie
+                                                          Rejonowym
+                                                          Katowice =E2=80=
+=93
+                                                          Wsch=C3=B3d Wyd=
+zia=C5=82
+                                                          VIII
+                                                          Gospodarczy
+                                                          Krajowego
+                                                          Rejestru
+                                                          S=C4=85dowego =E2=
+=80=8Bpod
+                                                          numerem KRS
+                                                          0000728932 |
+                                                          NIP 6272757341
+                                                          | REGON
+                                                          380380318<br>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr style=3D"font-size:0;">
+                                          <td
+                                            style=3D"vertical-align:top;"=
+
+                                            align=3D"left">
+                                            <table style=3D"font-size:0;"=
+
+                                              cellspacing=3D"0"
+                                              cellpadding=3D"0" border=3D=
+"0">
+                                              <tbody>
+                                                <tr style=3D"font-size:0;=
+">
+                                                  <td
+                                                    style=3D"padding:10px=
+
+                                                    0
+                                                    0;vertical-align:top;=
+"
+                                                    align=3D"left">
+                                                    <table
+style=3D"white-space:normal;color:#000001;font-size:18.67px;font-family:C=
+alibri;font-weight:400;font-style:normal;text-align:left;width:500px;"
+                                                      cellspacing=3D"0"
+                                                      cellpadding=3D"0"
+                                                      border=3D"0">
+                                                      <tbody>
+                                                        <tr
+                                                          style=3D"font-s=
+ize:12px;">
+                                                          <td
+                                                          style=3D"font-f=
+amily:Calibri;">=E2=80=8BAdministratorem
+                                                          Pa=C5=84stwa da=
+nych
+                                                          jest 4WISE
+                                                          GROUP Sp. z
+                                                          o.o. <br>
+                                                          =E2=80=8BPa=C5=84=
+stwa dane
+                                                          przetwarzamy w
+                                                          celu
+                                                          podtrzymania
+                                                          kontaktu z
+                                                          Pa=C5=84stwem
+                                                          i=C2=A0prowadze=
+nia
+korespondencji. Szczeg=C3=B3=C5=82owe informacje dotycz=C4=85ce przetwarz=
+ania
+                                                          zawarli=C5=9Bmy=
+ w=C2=A0<a
+href=3D"https://mamrodo.pl/index.php/ochrona-danych-osobowy/"
+                                                          target=3D"_blan=
+k"
+id=3D"LPlnk689713" style=3D"text-decoration:none;color:#000001;"
+                                                          moz-do-not-send=
+=3D"true"><strong
+style=3D"font-weight:400;">polityce prywatno=C5=9Bci</strong></a></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style=3D"border:none;border-top:solid #E1E1E1
+            1.0pt;padding:3.0pt 0cm 0cm 0cm">
+            <p class=3D"MsoNormal"><b>From:</b> Michal Siemaszko <a
+                class=3D"moz-txt-link-rfc2396E"
+                href=3D"mailto:mhsiemaszko@fastmail.net">&lt;mhsiemaszko@=
+fastmail.net&gt;</a>
+              <br>
+              <b>Sent:</b> Monday, January 27, 2020 3:08 AM<br>
+              <b>To:</b> Mateusz Paluch <a
+                class=3D"moz-txt-link-rfc2396E"
+                href=3D"mailto:mateusz.paluch@4wise.pl">&lt;mateusz.paluc=
+h@4wise.pl&gt;</a>;
+              =C5=81ukasz Paluch <a class=3D"moz-txt-link-rfc2396E"
+                href=3D"mailto:lukasz.paluch@4wise.pl">&lt;lukasz.paluch@=
+4wise.pl&gt;</a><br>
+              <b>Subject:</b> Re: Rozw=C3=B3j i komercjalizacja aplikacji=
+
+              "Pasjonata", opcja #2 - co potrzebne<o:p></o:p></p>
+          </div>
+        </div>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p>Cze=C5=9B=C4=87 Mateusz,<br>
+          <br>
+          Przepraszam ale nie da=C5=82em rady wcze=C5=9Bniej dostarczy=C4=
+=87 tego co
+          obieca=C5=82em do ko=C5=84ca dnia w pi=C4=85tek Ci przekaza=C4=87=
+ -- poni=C5=BCej lista
+          i wielka pro=C5=9Bba =C5=BCeby mie=C4=87 te sprawy za=C5=82atwi=
+one jak
+          najszybciej; chcia=C5=82em si=C4=99 skupi=C4=87 w najbli=C5=BCs=
+zych dniach na
+          aplikacji, i dopracowaniu tego co pozosta=C5=82o =C5=BCeby w cz=
+asie si=C4=99
+          zmie=C5=9Bci=C4=87 z tym projektem.<br>
+          <br>
+          Je=C5=9Bli z czym=C5=9B z tej listy ju=C5=BC uda=C5=82o si=C4=99=
+ za=C5=82atwi=C4=87, po prostu
+          pomi=C5=84 i przejd=C5=BA do nast=C4=99pnego -- przez maile i w=
+iadomo=C5=9Bci,
+          kt=C3=B3re przes=C5=82a=C5=82e=C5=9B przez weekend b=C4=99d=C4=99=
+ si=C4=99 "przedziera=C5=82" dopiero
+          z rana. <o:p></o:p></p>
+        <p><br>
+          <b><span style=3D"color:red">1</span></b><span style=3D"color:r=
+ed">.
+            Dost=C4=99p do komputera na kt=C3=B3rym aplikacja "Pasjonata"=
+ jest
+            uruchomiona <br>
+            <br>
+            =C2=A0Tr=C4=85bi=C5=82em od tym od samego pocz=C4=85tku, jesz=
+cze na dzie=C5=84 przed
+            tym jak zacz=C4=99li=C5=9Bmy oficjalnie projekt 20 grudnia. <=
+br>
+            <br>
+            =C2=A0KONIECZNIE potrzebuje mie=C4=87 stabilny dost=C4=99p do=
+ tego
+            komputera do czasu przeniesienia aplikacji na nowe
+            =C5=9Brodowisko. </span><br>
+          <br>
+          <o:p></o:p></p>
+        <p>Jeszcze raz przesy=C5=82am dost=C4=99p kt=C3=B3ry przekaza=C5=82=
+em 23.01.2020r.<o:p></o:p></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">Dost=C4=99p do serwera 02:<o:p></o:p><=
+/span></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif"><o:p>=C2=A0</o:p></span></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">ID 1 720 528 342<o:p></o:p></span></b>=
+</p>
+        <p class=3D"MsoNormal"><b>=E2=80=8B<o:p></o:p></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">HAS=C5=81O 872vmx<o:p></o:p></span></b=
+></p>
+        <p class=3D"MsoNormal"><span
+            style=3D"font-size:10.5pt;font-family:&quot;Segoe
+            UI&quot;,sans-serif"><o:p>=C2=A0</o:p></span></p>
+        <p class=3D"MsoNormal"><span
+            style=3D"font-size:10.5pt;font-family:&quot;Segoe
+            UI&quot;,sans-serif">Na pulpicie ikona <b>MacMINI<o:p></o:p><=
+/b></span></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif"><o:p>=C2=A0</o:p></span></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">DANE do PASJA MINI<o:p></o:p></span></=
+b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif"><o:p>=C2=A0</o:p></span></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">ID 996 705=C2=A0034<o:p></o:p></span><=
+/b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">HAS=C5=81O: x92p7g<o:p></o:p></span></=
+b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif"><o:p>=C2=A0</o:p></span></b></p>
+        <p class=3D"MsoNormal"><b><span
+              style=3D"font-size:10.5pt;font-family:&quot;Segoe
+              UI&quot;,sans-serif">Dost=C4=99p sprawdzi=C5=82em o 10:40 i=
+ dzia=C5=82a.<o:p></o:p></span></b></p>
+        <p><br>
+          <b><span style=3D"color:red">2</span></b><span style=3D"color:r=
+ed">.
+            Serwer NFS <br>
+            <br>
+            Jako funkcja systemu operacyjnego (Windows Server) LUB przez
+            zewn=C4=99trzne oprogramowanie; przy wersji serwerowej Window=
+s'a
+            jest to oczywi=C5=9Bcie wbudowane / mocno zintegrowane z syst=
+emem
+            operacyjnym; nie wiem na ile zewn=C4=99trzne oprogramowanie j=
+est
+            stabilne, a to bardzo wa=C5=BCne bo to kluczowa funkcja.</spa=
+n><o:p></o:p></p>
+        <p><span style=3D"color:red"><br>
+            <u>Dlaczego jest tak potrzebne</u>: dyski na dane musz=C4=85
+            "przetrwa=C4=87" VM-y / kontenery uruchomione w klastrze - ja=
+k
+            wiesz, i VM-y, a przede wszystkim kontenery uruchomione w
+            klastrze utworzonym z VM-=C3=B3w, maj=C4=85 swoje dyski, gdzi=
+e system
+            operacyjny jest zainstalowany i oprogramowanie z kt=C3=B3rego=
+
+            korzystaj=C4=85; ale dane takie jak m.in.: </span><br>
+          <br>
+          =C2=A0 <b><span style=3D"color:red">a</span></b><span
+            style=3D"color:red">) dane aplikacji (dane zapisywane do bazy=
+
+            danych, artefakty generowane przez aplikacje takie jak kody
+            QR, itp.) <br>
+            =C2=A0 <b>b</b>) certyfikaty SSL <br>
+            =C2=A0 <b>c</b>) pliki konfiguracyjne<br>
+            =C2=A0 <b>d</b>) repozytoria GIT<br>
+            =C2=A0 <b>e</b>) automatyczne backup'y <br>
+            =C2=A0<br>
+            =C2=A0.. MUSZ=C4=84 by=C4=87 trzymane POZA VMami, tak aby zap=
+ewni=C4=87
+            kontynuacje na wypadek gdyby VM siad=C5=82, lub ugrade'u /
+            wymiany na nowszy / inny system operacyjny / itd., itp. Z
+            automatyzacj=C4=85, kt=C3=B3r=C4=85 przygotowa=C5=82em na pot=
+rzeby tego
+            projektu, takie sytuacje mo=C5=BCna =C5=82atwo ogarn=C4=85=C4=
+=87 - ale nawet bez
+            automatyzacji, jest konieczne =C5=BCeby tak wa=C5=BCne dane "=
+siedzia=C5=82y
+            poza" wirtualizacja / klastrem. </span><o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p>System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej be=
+z
+          ingerencji w system g=C5=82=C3=B3wny. Wcze=C5=9Bniej nie wspomn=
+ia=C5=82e=C5=9B o takich
+          wymaganiach.<o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><br>
+          <br>
+          <b><span style=3D"color:red">3</span></b><span style=3D"color:r=
+ed">.
+            Osobne partycje <br>
+            <br>
+            Aktualne jest tylko jeden dysk ("C"). <br>
+            <br>
+            Wg. dobrych praktyk / zalece=C5=84, pliki VM-ow (dyski wirtua=
+lne,
+            pliki konfiguracyjne, snapshot'y, itd.) zdecydowanie powinny
+            by=C4=87 trzymane na osobnej partycji (np. "D"). <br>
+            <br>
+            Ponadto, na potrzeby wdro=C5=BCenia NFS, potrzebna jest jeszc=
+ze
+            jedna osobna partycja ("E") kt=C3=B3ra w ca=C5=82o=C5=9Bci b=C4=
+=99dzie w=C5=82a=C5=9Bnie
+            dla NFS przeznaczona. <br>
+            <br>
+            Wi=C4=99c co jest potrzebne to wydzielenie osobnych partycji =
+- <o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0<b>a</b>) osobno system operac=
+yjny,
+            programy zainstalowane, itp. ("C"), <o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0<b>b</b>) osobno dane VM'ow,=C2=
+=A0 <o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0<b>c</b>) osobno partycja
+            udost=C4=99pniania przez NFS.</span><o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p>System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej be=
+z
+          ingerencji w system g=C5=82=C3=B3wny. Wcze=C5=9Bniej nie wspomn=
+ia=C5=82e=C5=9B o takich
+          wymaganiach.<o:p></o:p></p>
+        <p><span style=3D"color:red"><br>
+          </span><br>
+          <br>
+          <b><span style=3D"color:red">4</span></b><span style=3D"color:r=
+ed">.
+            Dost=C4=99p do serwera SMTP <br>
+            <br>
+            Na potrzeby przesy=C5=82ania maili - coby nie obci=C4=85=C5=BC=
+a=C4=87
+            niepotrzebnie tego sprz=C4=99tu, poza tym mo=C5=BCliwo=C5=9B=C4=
+=87 zarz=C4=85dzania
+            kontami tam gdzie ju=C5=BC to robicie / jest robione; wi=C4=99=
+c
+            potrzebne jest konto dedykowane / dane do logowania / tak
+            aby wpi=C4=85=C4=87 / skonfigurowa=C4=87 jako zewn=C4=99trzny=
+ serwer SMTP. <br>
+            <br>
+            Nie wiem czy dla Pasji r=C3=B3wnie=C5=BC obs=C5=82ugujecie po=
+czt=C4=99 - je=C5=9Bli
+            nie, chyba nie b=C4=99dzie problemu =C5=BCeby dostarczyli od =
+swojego
+            providera nowe konto dedykowane na potrzeby w=C5=82a=C5=9Bnie=
+
+            powiadomie=C5=84 / komunikacji z us=C5=82ug uruchomionych w t=
+ej nowej
+            infrastrukturze.</span><o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><span style=3D"color:red"><br>
+            <b>5</b>. Serwer DNS, lokalne domeny, certyfikaty SSL <br>
+            <br>
+            Aplikacje ich by=C5=82y dost=C4=99pne dotychczas przez adresy=
+ IP. Nie
+            wygl=C4=85da to za fajnie, z zabezpieczeniem certyfikatami SS=
+L
+            jest troch=C4=99 utrudnione przez to, poza tym nie mo=C5=BCna=
+ =C5=82atwo
+            "podmieni=C4=87" us=C5=82ugi, kt=C3=B3ra stoi pod danym adres=
+em (np.
+            upgrade na now=C4=85 wersj=C4=99, itp.). <o:p></o:p></span></=
+p>
+        <p><span style=3D"color:red">Mo=C5=BCliwo=C5=9B=C4=87 wykorzystan=
+ia domen 3-4
+            poziomu i mapowanie ich na inne adresy IP pozwoli=C5=82oby
+            uruchomi=C4=87 g=C5=82=C3=B3wn=C4=85 aplikacje i aplikacje de=
+dykowane dla ich
+            klient=C3=B3w na tej samej domenie lokalnej ( .pasja ), np. <=
+br>
+            <br>
+            =C2=A0 * <a href=3D"https://produkcja.pasja"
+              moz-do-not-send=3D"true"><span style=3D"color:red">https://=
+produkcja.pasja</span></a>
+            <br>
+            =C2=A0 * <a href=3D"https://magazyn.pasja" moz-do-not-send=3D=
+"true"><span
+                style=3D"color:red">https://magazyn.pasja</span></a> <br>=
+
+            =C2=A0 * <a href=3D"https://biuro.pasja" moz-do-not-send=3D"t=
+rue"><span
+                style=3D"color:red">https://biuro.pasja</span></a> <br>
+            =C2=A0 * <a href=3D"https://nazwa-klienta.klienci.pasja"
+              moz-do-not-send=3D"true"><span style=3D"color:red">https://=
+nazwa-klienta.klienci.pasja</span></a>
+            <o:p></o:p></span></p>
+        <p><span style=3D"color:red">... poza tym w=C5=82a=C5=9Bnie mo=C5=
+=BCliwo=C5=9B=C4=87
+            podmiany na nowsze wersje, kompletnie "przezroczyste" dla
+            u=C5=BCytkownik=C3=B3w ko=C5=84cowych (kt=C3=B3rzy ca=C5=82y =
+czas ta sama domen=C4=99
+            wpisuj=C4=85, tylko co innego otrzymuj=C4=85 po upgradzie w t=
+akim
+            rozwi=C4=85zaniu).<o:p></o:p></span></p>
+        <p><span style=3D"color:red">Do tego oczywi=C5=9Bcie jest potrzeb=
+ny
+            serwer DNS - kt=C3=B3ry akurat jest wbudowany w Windows Serve=
+r; <u>nie
+              jestem pewien czy bez wersji serwerowej Windows'a mo=C5=BCn=
+a
+              sobie z tym poradzi=C4=87</u> (tj. czy jest, czy jest
+            wystarczaj=C4=85co stabilne), ja tylko z serwerowej wersji
+            Windows'a korzysta=C5=82em dotychczas.<br>
+            <br>
+            Certyfikaty SSL generowane s=C4=85 automatycznie - wi=C4=99c =
+z tym nie
+            ma problemu.</span><o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p>S=C5=82uchaj wszystko jest do zrobienia ale nie m=C3=B3wi=C5=82=
+e=C5=9B o tym
+          wcze=C5=9Bniej. Pytania kto poniesie koszty naszej pracy.
+          Rozumieli=C5=9Bmy =C5=BCe zlecamy Tobie zrobieni wszystkiego od=
+ A do Z =E2=80=93
+          a od nas potrzebujesz Maszyny wirtualnej oraz dost=C4=99pu do
+          starego systemu.<o:p></o:p></p>
+        <p>Teraz my mamy si=C4=99 tym wszystkim zaj=C4=85=C4=87 ? gdyby=C5=
+=9Bmy wiedzieli to
+          odpowiednio wyceniliby=C5=9Bmy nasz=C4=85 prace. <o:p></o:p></p=
+>
+        <p><br>
+          <span style=3D"color:red"><br>
+            <br>
+            <b>6</b>. Stabilno=C5=9B=C4=87 systemu operacyjnego <br>
+            <br>
+            Jak widzia=C5=82e=C5=9B ju=C5=BC mo=C5=BCe w logach - wspomin=
+a=C5=82em ju=C5=BC o tym
+            kilka razy - serwer restartowa=C5=82 si=C4=99 samoczynnie ju=C5=
+=BC
+            przynajmniej 3 razy; nie by=C5=82y to na 100% restarty
+            spowodowane update'ami, lecz jakimi=C5=9B b=C5=82=C4=99dami /=
+ problemami. <o:p></o:p></span></p>
+        <p><span style=3D"color:red">Nie wiem dok=C5=82adnie czym jest to=
+
+            spowodowane - nie mia=C5=82em czasu diagnozowa=C4=87 tego dog=
+=C5=82=C4=99bnie,
+            ale zauwa=C5=BCy=C5=82em za ka=C5=BCdym razem; raz nawet by=C5=
+=82o to dos=C5=82ownie
+            w momencie kiedy mia=C5=82em automatyzacje zapuszczon=C4=85 i=
+ dlatego
+            od razu zauwa=C5=BCy=C5=82em (pisa=C5=82em / dzwoni=C5=82em w=
+tedy). <br>
+            <br>
+            Nie wiem czy doszli=C5=9Bcie do tego <u>czym to jest spowodow=
+ane</u>
+            - cokolwiek to jest powinno to by=C4=87 naprawione, bo <u>prz=
+y
+              takich problemach za chwile b=C4=99dzie powt=C3=B3rka probl=
+em=C3=B3w z
+              baz=C4=85 danyc</u>h i innych - jak wiesz, takie nagle
+            "wycinki" to najprostszy spos=C3=B3b na to =C5=BCeby uszkodzi=
+=C4=87 dane. </span><o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p>TAK =E2=80=93 aktualizacje - =C2=A0trzeba je r=C4=99cznie wy=C5=
+=82=C4=85cza=C4=87 obecnie nie
+          b=C4=99d=C4=85 dzia=C5=82a=C5=82y do 28.02.2020r. <o:p></o:p></=
+p>
+        <p><span style=3D"color:red"><br>
+          </span><br>
+          <br>
+          <b><span style=3D"color:red">7</span></b><span style=3D"color:r=
+ed">.
+            Upgrade systemu operacyjnego <br>
+            <br>
+            NFS jest zdecydowanie potrzebny =C5=BCeby dostarczy=C4=87 to =
+co
+            wymieni=C5=82em powy=C5=BCej. Szczerze przyznaje, =C5=BCe ja =
+tylko na
+            wersjach Windows Server pracowa=C5=82em i nie wyobra=C5=BCam =
+sobie
+            =C5=BCeby serwer (sprz=C4=99t / hardware kt=C3=B3ry postawili=
+=C5=9Bcie) mia=C5=82
+            uruchomione cokolwiek innego. Akurat w tej sytuacji gdzie
+            NFS jest konieczny nie wiem jak to za=C5=82atwicie - tj. prze=
+z
+            upgrade czy zewn=C4=99trzne oprogramowanie - ale przej=C5=9Bc=
+ie na
+            wersje serwerow=C4=85 dostarczy=C5=82oby dodatkowych korzy=C5=
+=9Bci, m.in.:=C2=A0
+            <o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0* zintegrowane us=C5=82ugi (ni=
+e tylko NFS
+            czy DNS, ale i inne kt=C3=B3re w miar=C4=99 potrzeby mo=C5=BC=
+na w=C5=82=C4=85czy=C4=87) <o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0* wi=C4=99ksza stabilno=C5=9B=C4=
+=87<o:p></o:p></span></p>
+        <p><span style=3D"color:red">=C2=A0* wg. informacji kt=C3=B3re po=
+siadam
+            (dokumentacja / publikacje Microsoft i zewn=C4=99trznych
+            serwis=C3=B3w) dopiero od wersji Windows Server 2016 (tj. Win=
+dows
+            Server 2016 i Windows Server 2019) stawianie VM-ow 2
+            generacji z wykorzystaniem Secure Boot i kontroler=C3=B3w SCS=
+I
+            przy wykorzystaniu Linux'a jako systemu operacyjnego VM-ow
+            jest dopracowane tak aby moc normalnie z tego korzysta=C4=87.=
+ <br>
+            <br>
+            Jak na razie, poniewa=C5=BC na tej wersji Windows'a kt=C3=B3r=
+=C4=85
+            dostarczyli=C5=9Bcie ca=C5=82y czas b=C5=82=C4=99dy wyskakiwa=
+=C5=82y chc=C4=85c korzysta=C4=87
+            z Generacji 2 i SCSI, ja VMy z Linux'em postawi=C5=82em Gener=
+acji
+            1 i kontrolerami IDE, ale zdecydowanie wola=C5=82bym dostarcz=
+y=C4=87 w
+            tej wersji zoptymalizowanej, tj. Gen 2 i SCSI. Wiec to
+            kolejna korzy=C5=9B=C4=87 p=C5=82yn=C4=85ca z przej=C5=9Bcia =
+na serwerow=C4=85 wersj=C4=99
+            Windows'a. </span><br>
+          <br>
+          <o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><b>System mia=C5=82 by=C4=87 postawiony na maszynie wirtualnej=
+ bez
+            ingerencji w system g=C5=82=C3=B3wny.</b> Wcze=C5=9Bniej nie =
+wspomnia=C5=82e=C5=9B o
+          takich wymaganiach. Od pocz=C4=85tku m=C3=B3wi=C5=82e=C5=9B =C5=
+=BCe stawiamy maszyn=C4=99 i
+          Ty si=C4=99 b=C4=99dzisz tam =C5=82=C4=85czy=C5=82 i dzia=C5=82=
+a=C5=82 z nowym systemem.<o:p></o:p></p>
+        <p>Nie rozumiem dlaczego nagle zmieniamy koncepcj=C4=99 system kt=
+=C3=B3ry
+          jest obecnie mia=C5=82 tylko obs=C5=82ugiwa=C4=87 w=C5=82=C4=85=
+czone maszyny nic
+          wi=C4=99cej. <o:p></o:p></p>
+        <p><b><o:p>=C2=A0</o:p></b></p>
+        <p><b>Koszty: Licencja serwer 2500 z=C5=82 netto <o:p></o:p></b><=
+/p>
+        <p><b>Koszty rzeczy o kt=C3=B3rych piszesz wed=C5=82ug stawki god=
+zinowej
+            120 z=C5=82 netto- min 10 h =E2=80=93 1200 z=C5=82 netto <o:p=
+></o:p></b></p>
+        <p><b>Pan Jacek nie zap=C5=82aci ju=C5=BC ani grosza do momentu a=
+=C5=BC damy mu
+            system =E2=80=93 Ja pierwsze s=C5=82ysz=C4=99 o wymaganiach z=
+ tego maila.
+            Dlatego nie wiem na razie jak ale musimy rozwi=C4=85za=C4=87 =
+t=C4=85
+            sytuacj=C4=99 . <o:p></o:p></b></p>
+        <p><b>Czy pokryjesz koszty tych dodatkowych rzeczy ? <o:p></o:p><=
+/b></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p>Z powa=C5=BCaniem, <o:p></o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><o:p>=C2=A0</o:p></p>
+        <p><br>
+          <br>
+          To tyle - tj. nic wi=C4=99cej nie powinno by=C4=87 potrzebne z =
+mojej
+          strony =C5=BCeby dopi=C4=85=C4=87 to co jest potrzebne do dopi=C4=
+=99cia z tym
+          projektem dla Pasji.<o:p></o:p></p>
+        <p>Z tym co pisa=C5=82e=C5=9B / przes=C5=82a=C5=82e=C5=9B przez w=
+eekend zapoznam si=C4=99 z
+          rana.<br>
+          <br>
+          Pozdrawiam,<o:p></o:p></p>
+        <pre>-- <o:p></o:p></pre>
+        <pre>=C2=A0=C2=A0Michal H. Siemaszko<o:p></o:p></pre>
+        <pre>=C2=A0 Mobile: +48 723 039 978<o:p></o:p></pre>
+        <pre>=C2=A0 Signal IM: +48668566023<o:p></o:p></pre>
+        <pre>=C2=A0 Telegram: mhsiemaszko<o:p></o:p></pre>
+        <pre>=C2=A0 Email: <a href=3D"mailto:mhsiemaszko@7thraylabs.com" =
+moz-do-not-send=3D"true">mhsiemaszko@7thraylabs.com</a>,<o:p></o:p></pre>=
+
+        <pre>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 <a href=3D"=
+mailto:mhs@into.software" moz-do-not-send=3D"true">mhs@into.software</a><=
+o:p></o:p></pre>
+        <pre>=C2=A0 WWW: <a href=3D"http://ideas.into.software/" moz-do-n=
+ot-send=3D"true">http://ideas.into.software/</a><o:p></o:p></pre>
+        <pre>=C2=A0 GitHub: <a href=3D"https://github.com/ideas-into-soft=
+ware/" moz-do-not-send=3D"true">https://github.com/ideas-into-software/</=
+a><o:p></o:p></pre>
+        <pre>=C2=A0 LinkedIn: <a href=3D"http://www.linkedin.com/in/mhsie=
+maszko/" moz-do-not-send=3D"true">http://www.linkedin.com/in/mhsiemaszko/=
+</a><o:p></o:p></pre>
+        <pre>=C2=A0 Twitter: <a href=3D"https://twitter.com/IntoSoftware/=
+" moz-do-not-send=3D"true">https://twitter.com/IntoSoftware/</a><o:p></o:=
+p></pre>
+      </div>
+    </blockquote>
+    <pre class=3D"moz-signature" cols=3D"72">
+</pre>
+  </body>
+</html>
+
+--------------B470B3F41E8DE72892C4F509
+Content-Type: image/png;
+ name="image873696.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.C43C7B35.343454A6@7thraylabs.com>
+Content-Disposition: inline;
+ filename="image873696.png"
+
+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
+--------------B470B3F41E8DE72892C4F509--
+
+--------------4D85F05C7961D5771365F793--
+
+--------------ms070407010503010304050603
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCC
+CmcwggToMIID0KADAgECAg5IG2oJE72AJMpdIvAU8zANBgkqhkiG9w0BAQsFADBMMSAwHgYD
+VQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEG
+A1UEAxMKR2xvYmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxT
+aWduIFBlcnNvbmFsU2lnbiAyIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC2lmiTZf0sAexiow1Uv4vLpEORopqvsYPytW1v2fDq3M8We9cZ44QD
+hfnGH3CPH2xJxWkZHnCRODV+AkhdOWsYRKZqpch09F31hD5jH3FEggg+7cmn9uluJkEpgMlJ
+uv/ZdqCjuxv2ed9LKNNKe5xRwg9lUKGfqEqd5UYEjYNP3LLIPc+YIQmYTMDxj3qpPzcmZUfY
+Zo9JJsLDQL5mPWz/Oq0pRvATnOHy65mni8LTX1Btog5vxwaXOC9OoY5HArSDANik47pBB2Dl
+3Tda8gfBO6ecl2gut++pSDa86WmomapH6cf2UdL5sSy2xUm1mJ5TU9r7cvN8D/hxPtcD+mfD
+AgMBAAGjggG1MIIBsTAOBgNVHQ8BAf8EBAMCAQYwagYDVR0lBGMwYQYIKwYBBQUHAwIGCCsG
+AQUFBwMEBggrBgEFBQcDCQYKKwYBBAGCNxQCAgYKKwYBBAGCNwoDBAYJKwYBBAGCNxUGBgor
+BgEEAYI3CgMMBggrBgEFBQcDBwYIKwYBBQUHAxEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNV
+HQ4EFgQUaXKCYjFnlUSFd5GAxAQ2SZ17C2EwHwYDVR0jBBgwFoAUj/BLf6guRSSuTVD6Y5qL
+3uLdG7wwPgYIKwYBBQUHAQEEMjAwMC4GCCsGAQUFBzABhiJodHRwOi8vb2NzcDIuZ2xvYmFs
+c2lnbi5jb20vcm9vdHIzMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2ln
+bi5jb20vcm9vdC1yMy5jcmwwZwYDVR0gBGAwXjALBgkrBgEEAaAyASgwDAYKKwYBBAGgMgEo
+CjBBBgkrBgEEAaAyAV8wNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAKidzTLMfGfiC1DXpVxwo2biJe/q
+tLZTMG6HEjdcM+LCKFbjk71FlfNY2BVxTPPkgokUvv6lzEe96wZUgj7mv7716oj1ecQoIguM
+evYOC+MqrkmaDpvCJ/JsthtVSgG2GeFoUHRYvBJFGE+u3l4bEzDnVSY0gKL+FIoEqweEYVIR
+olAAtnLgcvQRZ24TogtgCNfoFJdEO0cV5Q911vjp/kd/mvMhMYuyf0Eimg5WuBLzvw7gmd9R
+ZCLb3IF+fvkdqOJ8W88L66qf6txWe+ukuCws5gb/riRZf8VEfz6aFV76ZxJffGxSlzEr2r28
+tNW2uhT/IlSYQLg5wfl1CxscGqMwggV3MIIEX6ADAgECAgxw1k1hZOUTEI3+XG0wDQYJKoZI
+hvcNAQELBQAwXTELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAx
+BgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWduIDIgQ0EgLSBTSEEyNTYgLSBHMzAeFw0x
+OTA2MDcxMzU5MDZaFw0yMDA2MDcxMzU5MDZaMIG3MQswCQYDVQQGEwJQTDEUMBIGA1UECBML
+TWFsb3BvbHNraWUxDzANBgNVBAcTBktyYWtvdzEuMCwGA1UEChMlTWljaGFsIFNpZW1hc3pr
+byBVc2x1Z2kgSW5mb3JtYXR5Y3puZTELMAkGA1UECxMCSVQxGTAXBgNVBAMTEE1pY2hhbCBT
+aWVtYXN6a28xKTAnBgkqhkiG9w0BCQEWGm1oc2llbWFzemtvQDd0aHJheWxhYnMuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfMDV/fjYnGvEwtkeqYUNv1t+yaRitSm
+NhFIs+8MmNVbm2Dxi38u0En2CT8iAwAA9yMfxJ/73If9DwF8Z6LBfPK4cfICG1/K6Xn1RiW7
+R+W+ap4xqkls9o+4yYyGtfNz2HSnfVxiTk/oBgNrIHlE76QXFvyrLLseWWtsmGcy2dPWdml2
+vdrStvChaaFATkEbrHmOFdNN9ERds6qEZgBVnW3FiV1GcPh5joVFxTbR5KxHrch6zWyxm35s
+GeoOIsNSDy1SN7AiO7YHSO1Xw1QPDVOGtCBlOD82YXEsxuSQVvdH/d5hKwaf2rsykE/pQl5e
+Av3v1aBb/BgQEIjVoN9N8QIDAQABo4IB2jCCAdYwDgYDVR0PAQH/BAQDAgWgMIGeBggrBgEF
+BQcBAQSBkTCBjjBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9j
+YWNlcnQvZ3NwZXJzb25hbHNpZ24yc2hhMmczb2NzcC5jcnQwPQYIKwYBBQUHMAGGMWh0dHA6
+Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc3BlcnNvbmFsc2lnbjJzaGEyZzMwTAYDVR0gBEUw
+QzBBBgkrBgEEAaAyASgwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wCQYDVR0TBAIwADBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3Js
+Lmdsb2JhbHNpZ24uY29tL2dzcGVyc29uYWxzaWduMnNoYTJnMy5jcmwwJQYDVR0RBB4wHIEa
+bWhzaWVtYXN6a29AN3RocmF5bGFicy5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMB8GA1UdIwQYMBaAFGlygmIxZ5VEhXeRgMQENkmdewthMB0GA1UdDgQWBBS1X0agigxe
+1CaY1fFiSLjPh7jZBTANBgkqhkiG9w0BAQsFAAOCAQEAnVYqGU3QLOwq+niL9kO8T8SjnNAP
+pQX/zbs7aRicWyV3NWy8HfDIWTzTeUKRjLu4PIb5MGWX1uLnFUMqyKf1SJIa7/gkMDTg9oQX
+7dO2psv/FoE73SLfiVgAWrVfwBdqF+m9j5iYkw9Uq/kqWQrHqnPnialJyk4TnKpgr9Hfd8Y7
+AEFE0vUB0MI5U1xZ9zs1rExckeRS/GC1In9mQjnQTJBdR4TUA3tVm2tL6fMR4ieuNGaGm2LZ
+GJLuiL9zl9R+7MN5SOgCLBheycGrrn386Wmx7Rdd9sjaLlKVPtDsxhV3io/vKAeos4NNyX7O
+w/Qx14CxtRn3prMvw2f6JC94hjGCAnIwggJuAgEBMG0wXTELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAxBgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWdu
+IDIgQ0EgLSBTSEEyNTYgLSBHMwIMcNZNYWTlExCN/lxtMA0GCWCGSAFlAwQCAQUAoIHXMBgG
+CSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDEyODEyNDQzNFow
+LwYJKoZIhvcNAQkEMSIEIEi5ZrZjk0br7kzSVqR3gbhpZxWwLva8nuis4fENdLDtMGwGCSqG
+SIb3DQEJDzFfMF0wCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0DBzAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwDQYJ
+KoZIhvcNAQEBBQAEggEAB6/vC7NOfc/ExuscyltfM6v2vvxo21tZowUM74HwmRO+xw7XMOPW
+q8rCjFr0FR2rNj5JtwfFNNaCI+4YJwxhukOMxPkn7MeZgCP+J7L1O+I0ATCjXkpLtWAet5EO
+VdXDdmvc5YEhj1YdQ5R/iDKZAVSOxPu+7PIZNUhmCQp3BHQTbWmHMU+dg/V6Sr3qHWOTergx
+1jEYKknGMI4BGX9w9v25ME64nUHe+nY7winAMQtSK3jXfctijTaJzb3Zh2X49Suuc9GEz4gQ
+L44cd7hUM7Z1DqK43pssWuwEllqEtEObTzm57Rtb1N4t2+4mwCA1qKJvKGhI8NXMxdCdiTP1
+RgAAAAAAAA==
+--------------ms070407010503010304050603--
