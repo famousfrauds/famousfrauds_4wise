@@ -1,0 +1,86 @@
+To: Magdalena Czylok-Sitko <office@pasja.com.pl>
+Cc: Jacek Stencel <jacek@pasja.com.pl>,
+ Mateusz Paluch <mateusz.paluch@4wise.pl>
+From: Michal Siemaszko <mhsiemaszko@fastmail.net>
+Subject: =?UTF-8?Q?Usprawnienia_aplikacji_Pasjonata_WEB_pod_k=c4=85tem_funkc?=
+ =?UTF-8?Q?jonalno=c5=9bci_potrzebnej_dla_wymiany_danych_z_ksi=c4=99gowo?=
+ =?UTF-8?B?xZtjacSF?=
+Message-ID: <fd9dafda-5e8d-28c0-401f-b32c2915b42e@fastmail.net>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@fastmail.net>
+Date: Mon, 2 Mar 2020 04:35:04 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.3.1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: pl
+
+Witam Pani Magdaleno,
+
+W zeszły czwartek (27.02) p. Jacek polecił mi skontaktować się z Panią w
+celu ustalenia które z funkcjonalności potrzebne są dla wymiany danych z
+księgowością i czy te dotychczas używane przez Państwa ew. nie
+wykluczają się wzajemnie jeśli aplikacja Pasjonata zostałaby głębiej
+zintegrowana z oprogramowaniem Insert (https://www.insert.com.pl/).
+
+Wg. mojej wiedzy dotychczas korzystaliście Państwo z następujących
+funkcjonalności w celu wygenerowania i wymiany danych z księgowością -
+proszę ew. o rozwiniecie / doprecyzowanie:
+
+ a) Eksport do XML / Excel ("wiekowanie") - czyli ta "funkcja ukryta" o
+której poinformowałem Państwa kilka tygodni temu, i przez którą p. Jacek
+wygenerował już własnoręcznie pliki XML
+
+ b) Zestawienia magazynowe - kolejna funkcja / czynność którą dotychczas
+P. Michał D. wykonywał dla Państwa; proszę o przykładowy plik który był
+generowany i dostarczany Państwu przez Pana Michała D. (oryginalny plik,
+z oryginalną nazwą, itd.);
+
+
+Moje pytania:
+ 
+ 1. Czy jakiekolwiek inne raporty / zestawienia były generowane / są
+Państwu potrzebne do wygenerowania na potrzeby obsługi księgowości i jak
+często?
+
+ 2. Czy dostarczając firmie, która zajmuje się obsługą księgowości
+Państwa firmy, dane w formacie EPP (tj. format używany przez
+oprogramowanie do księgowości Insert https://www.insert.com.pl/) taki
+plik zawierałby wszystko co potrzebne aby wykonać wszystkie potrzebne
+miesięczne / kwartalne rozliczenia? Ew. jakie inne dane są potrzebne i w
+jakim formacie?
+
+ 3. Czy firma zajmująca się obsługą księgowości Państwa firmy udostępnia
+API oprogramowania z którego korzysta - w sensie, czy integracja
+bezpośrednia przez API dostępne online jest możliwa? Czy tylko "ręczna"
+(tj. przesyłanie przez maila) wymiana plików / integracja na poziomie
+danych / czy automatycznie tez jest to możliwe i jesli tak w jaki sposob
+(tj. firma udostępnia jakieś narzędzia online / serwer gdzie pliki maja
+być wczytane / itp.) ?
+
+
+Wiem, że temat zestawień magazynowych jest dla Państwa chyba
+najpilniejszy - tj. musi być wykonany przez 10 marca / bieżącego
+miesiąca; czy ew. inne zestawienia również są potrzebne w tym terminie?
+
+Ponieważ ww. to już następne kroki - tj. poza bieżącym zleceniem, które
+dostarczyłem już Państwu, pilnie również należałoby od tej strony
+załatwić formalności (wystawienie zlecenia, zaliczka), tak żebym mógł
+się skupić na tym co Państwo potrzebujecie mieć zrobione i zmieścić się
+w terminie.
+
+
+Pozdrawiam,
+
+-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@fastmail.net, 
+         mhsiemaszko@7thraylabs.com         
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+

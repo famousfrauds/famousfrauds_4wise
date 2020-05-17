@@ -1,0 +1,45 @@
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+From: Michal Siemaszko <mhsiemaszko@fastmail.net>
+Subject: =?UTF-8?Q?Udost=c4=99pnienie_Mac=27a_Mini_pod_innym_adresem_w_sieci?=
+ =?UTF-8?Q?_lokalnej_172=2e17=2e254=2e*?=
+Message-ID: <964fefc5-6ca6-68d0-6439-78a528ee72be@fastmail.net>
+Date: Mon, 2 Mar 2020 04:44:02 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.3.1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: pl
+
+Cześć Mateusz,
+
+Nie wiem czy znajdziesz na to czas dziś - nie powinno to zając dłużej
+niż 10-15 minut - ale Mac'a Mini należałoby jak najszybciej udostępnić w
+sieci lokalnej 172.17.254.*, oczywiście pod innym adresem niż .199, z
+możliwością dostępu przez Teamviewer czy VNC.
+
+Z Pasji zgłosili już chyba 2 problemy, które występowały już wcześniej
+(brak plików / zaimplementowanych funkcjonalności, i jeden inny); musi
+być możliwość pokazania im, że tak już było wcześniej - i od razu będzie
+wiadomo co jest priorytetem jeśli chodzi o brakujące funkcjonalności /
+problemy do rozwiązania w ramach osobnego / osobnych zleceń już. Z tym
+odświeżeniem trzeba się będzie wstrzymać przynajmniej na kilka tygodni -
+mogą cały czas zgłaszać rzeczy o których nie pamiętają że istniały (czy
+nie istniały - tak jak pliki których nie ma) już wcześniej, a nie ma
+takiej możliwości żebym naprawiał te tysiące problemów w ramach zlecenia
+które już przecież dostarczyłem.
+
+Pozdrawiam,
+
+-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@fastmail.net, 
+         mhsiemaszko@7thraylabs.com         
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+

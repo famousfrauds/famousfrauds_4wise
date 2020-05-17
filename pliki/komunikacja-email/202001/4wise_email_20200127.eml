@@ -1,0 +1,646 @@
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Subject: =?UTF-8?Q?Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22Pasjonat?=
+ =?UTF-8?Q?a=22=2c_opcja_=232_-_co_potrzebne?=
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>,
+ =?UTF-8?Q?=c5=81ukasz_Paluch?= <lukasz.paluch@4wise.pl>
+Message-ID: <6de57d41-75cd-b441-836a-a679361b53ad@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Mon, 27 Jan 2020 03:07:31 +0100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101
+ Thunderbird/71.0
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha-256; boundary="------------ms060802060008080207040201"
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms060802060008080207040201
+Content-Type: multipart/alternative;
+ boundary="------------094BF972F0BA85BC16D8A3AA"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------094BF972F0BA85BC16D8A3AA
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Cze=C5=9B=C4=87 Mateusz,
+
+Przepraszam ale nie da=C5=82em rady wcze=C5=9Bniej dostarczy=C4=87 tego c=
+o obieca=C5=82em do=20
+ko=C5=84ca dnia w pi=C4=85tek Ci przekaza=C4=87 -- poni=C5=BCej lista i w=
+ielka pro=C5=9Bba =C5=BCeby=20
+mie=C4=87 te sprawy za=C5=82atwione jak najszybciej; chcia=C5=82em si=C4=99=
+ skupi=C4=87 w=20
+najbli=C5=BCszych dniach na aplikacji, i dopracowaniu tego co pozosta=C5=82=
+o =C5=BCeby=20
+w czasie si=C4=99 zmie=C5=9Bci=C4=87 z tym projektem.
+
+Je=C5=9Bli z czym=C5=9B z tej listy ju=C5=BC uda=C5=82o si=C4=99 za=C5=82=
+atwi=C4=87, po prostu pomi=C5=84 i=20
+przejd=C5=BA do nast=C4=99pnego -- przez maile i wiadomo=C5=9Bci, kt=C3=B3=
+re przes=C5=82a=C5=82e=C5=9B=20
+przez weekend b=C4=99d=C4=99 si=C4=99 "przedziera=C5=82" dopiero z rana.
+
+
+*1*. Dost=C4=99p do komputera na kt=C3=B3rym aplikacja "Pasjonata" jest u=
+ruchomiona
+
+ =C2=A0Tr=C4=85bi=C5=82em od tym od samego pocz=C4=85tku, jeszcze na dzie=
+=C5=84 przed tym jak=20
+zacz=C4=99li=C5=9Bmy oficjalnie projekt 20 grudnia.
+
+ =C2=A0KONIECZNIE potrzebuje mie=C4=87 stabilny dost=C4=99p do tego kompu=
+tera do czasu=20
+przeniesienia aplikacji na nowe =C5=9Brodowisko.
+
+
+*2*. Serwer NFS
+
+Jako funkcja systemu operacyjnego (Windows Server) LUB przez zewn=C4=99tr=
+zne=20
+oprogramowanie; przy wersji serwerowej Windows'a jest to oczywi=C5=9Bcie =
+
+wbudowane / mocno zintegrowane z systemem operacyjnym; nie wiem na ile=20
+zewn=C4=99trzne oprogramowanie jest stabilne, a to bardzo wa=C5=BCne bo t=
+o=20
+kluczowa funkcja.
+
+_Dlaczego jest tak potrzebne_: dyski na dane musz=C4=85 "przetrwa=C4=87" =
+VM-y /=20
+kontenery uruchomione w klastrze - jak wiesz, i VM-y, a przede wszystkim =
+
+kontenery uruchomione w klastrze utworzonym z VM-=C3=B3w, maj=C4=85 swoje=
+ dyski,=20
+gdzie system operacyjny jest zainstalowany i oprogramowanie z kt=C3=B3reg=
+o=20
+korzystaj=C4=85; ale dane takie jak m.in.:
+
+*a*) dane aplikacji (dane zapisywane do bazy danych, artefakty=20
+generowane przez aplikacje takie jak kody QR, itp.)
+*b*) certyfikaty SSL
+*c*) pliki konfiguracyjne
+*d*) repozytoria GIT
+*e*) automatyczne backup'y
+
+ =C2=A0.. MUSZ=C4=84 by=C4=87 trzymane POZA VMami, tak aby zapewni=C4=87 =
+kontynuacje na=20
+wypadek gdyby VM siad=C5=82, lub ugrade'u / wymiany na nowszy / inny syst=
+em=20
+operacyjny / itd., itp. Z automatyzacj=C4=85, kt=C3=B3r=C4=85 przygotowa=C5=
+=82em na potrzeby=20
+tego projektu, takie sytuacje mo=C5=BCna =C5=82atwo ogarn=C4=85=C4=87 - a=
+le nawet bez=20
+automatyzacji, jest konieczne =C5=BCeby tak wa=C5=BCne dane "siedzia=C5=82=
+y poza"=20
+wirtualizacja / klastrem.
+
+
+*3*. Osobne partycje
+
+Aktualne jest tylko jeden dysk ("C").
+
+Wg. dobrych praktyk / zalece=C5=84, pliki VM-ow (dyski wirtualne, pliki=20
+konfiguracyjne, snapshot'y, itd.) zdecydowanie powinny by=C4=87 trzymane =
+na=20
+osobnej partycji (np. "D").
+
+Ponadto, na potrzeby wdro=C5=BCenia NFS, potrzebna jest jeszcze jedna oso=
+bna=20
+partycja ("E") kt=C3=B3ra w ca=C5=82o=C5=9Bci b=C4=99dzie w=C5=82a=C5=9Bn=
+ie dla NFS przeznaczona.
+
+Wi=C4=99c co jest potrzebne to wydzielenie osobnych partycji -
+
+*a*) osobno system operacyjny, programy zainstalowane, itp. ("C"),
+
+*b*) osobno dane VM'ow,
+
+*c*) osobno partycja udost=C4=99pniania przez NFS.
+
+
+*4*. Dost=C4=99p do serwera SMTP
+
+Na potrzeby przesy=C5=82ania maili - coby nie obci=C4=85=C5=BCa=C4=87 nie=
+potrzebnie tego=20
+sprz=C4=99tu, poza tym mo=C5=BCliwo=C5=9B=C4=87 zarz=C4=85dzania kontami =
+tam gdzie ju=C5=BC to robicie=20
+/ jest robione; wi=C4=99c potrzebne jest konto dedykowane / dane do logow=
+ania=20
+/ tak aby wpi=C4=85=C4=87 / skonfigurowa=C4=87 jako zewn=C4=99trzny serwe=
+r SMTP.
+
+Nie wiem czy dla Pasji r=C3=B3wnie=C5=BC obs=C5=82ugujecie poczt=C4=99 - =
+je=C5=9Bli nie, chyba=20
+nie b=C4=99dzie problemu =C5=BCeby dostarczyli od swojego providera nowe =
+konto=20
+dedykowane na potrzeby w=C5=82a=C5=9Bnie powiadomie=C5=84 / komunikacji z=
+ us=C5=82ug=20
+uruchomionych w tej nowej infrastrukturze.
+
+
+*5*. Serwer DNS, lokalne domeny, certyfikaty SSL
+
+Aplikacje ich by=C5=82y dost=C4=99pne dotychczas przez adresy IP. Nie wyg=
+l=C4=85da to=20
+za fajnie, z zabezpieczeniem certyfikatami SSL jest troch=C4=99 utrudnion=
+e=20
+przez to, poza tym nie mo=C5=BCna =C5=82atwo "podmieni=C4=87" us=C5=82ugi=
+, kt=C3=B3ra stoi pod=20
+danym adresem (np. upgrade na now=C4=85 wersj=C4=99, itp.).
+
+Mo=C5=BCliwo=C5=9B=C4=87 wykorzystania domen 3-4 poziomu i mapowanie ich =
+na inne adresy=20
+IP pozwoli=C5=82oby uruchomi=C4=87 g=C5=82=C3=B3wn=C4=85 aplikacje i apli=
+kacje dedykowane dla ich=20
+klient=C3=B3w na tej samej domenie lokalnej ( .pasja ), np.
+
+ =C2=A0 * https://produkcja.pasja
+ =C2=A0 * https://magazyn.pasja
+ =C2=A0 * https://biuro.pasja
+ =C2=A0 * https://nazwa-klienta.klienci.pasja
+
+=2E.. poza tym w=C5=82a=C5=9Bnie mo=C5=BCliwo=C5=9B=C4=87 podmiany na now=
+sze wersje, kompletnie=20
+"przezroczyste" dla u=C5=BCytkownik=C3=B3w ko=C5=84cowych (kt=C3=B3rzy ca=
+=C5=82y czas ta sama=20
+domen=C4=99 wpisuj=C4=85, tylko co innego otrzymuj=C4=85 po upgradzie w t=
+akim rozwi=C4=85zaniu).
+
+Do tego oczywi=C5=9Bcie jest potrzebny serwer DNS - kt=C3=B3ry akurat jes=
+t=20
+wbudowany w Windows Server; _nie jestem pewien czy bez wersji serwerowej =
+
+Windows'a mo=C5=BCna sobie z tym poradzi=C4=87_ (tj. czy jest, czy jest=20
+wystarczaj=C4=85co stabilne), ja tylko z serwerowej wersji Windows'a=20
+korzysta=C5=82em dotychczas.
+
+Certyfikaty SSL generowane s=C4=85 automatycznie - wi=C4=99c z tym nie ma=
+ problemu.
+
+
+*6*. Stabilno=C5=9B=C4=87 systemu operacyjnego
+
+Jak widzia=C5=82e=C5=9B ju=C5=BC mo=C5=BCe w logach - wspomina=C5=82em ju=
+=C5=BC o tym kilka razy -=20
+serwer restartowa=C5=82 si=C4=99 samoczynnie ju=C5=BC przynajmniej 3 razy=
+; nie by=C5=82y to=20
+na 100% restarty spowodowane update'ami, lecz jakimi=C5=9B b=C5=82=C4=99d=
+ami / problemami.
+
+Nie wiem dok=C5=82adnie czym jest to spowodowane - nie mia=C5=82em czasu =
+
+diagnozowa=C4=87 tego dog=C5=82=C4=99bnie, ale zauwa=C5=BCy=C5=82em za ka=
+=C5=BCdym razem; raz nawet=20
+by=C5=82o to dos=C5=82ownie w momencie kiedy mia=C5=82em automatyzacje za=
+puszczon=C4=85 i=20
+dlatego od razu zauwa=C5=BCy=C5=82em (pisa=C5=82em / dzwoni=C5=82em wtedy=
+).
+
+Nie wiem czy doszli=C5=9Bcie do tego _czym to jest spowodowane_ - cokolwi=
+ek=20
+to jest powinno to by=C4=87 naprawione, bo _przy takich problemach za chw=
+ile=20
+b=C4=99dzie powt=C3=B3rka problem=C3=B3w z baz__=C4=85 danyc_h i innych -=
+ jak wiesz, takie=20
+nagle "wycinki" to najprostszy spos=C3=B3b na to =C5=BCeby uszkodzi=C4=87=
+ dane.
+
+
+*7*. Upgrade systemu operacyjnego
+
+NFS jest zdecydowanie potrzebny =C5=BCeby dostarczy=C4=87 to co wymieni=C5=
+=82em=20
+powy=C5=BCej. Szczerze przyznaje, =C5=BCe ja tylko na wersjach Windows Se=
+rver=20
+pracowa=C5=82em i nie wyobra=C5=BCam sobie =C5=BCeby serwer (sprz=C4=99t =
+/ hardware kt=C3=B3ry=20
+postawili=C5=9Bcie) mia=C5=82 uruchomione cokolwiek innego. Akurat w tej =
+sytuacji=20
+gdzie NFS jest konieczny nie wiem jak to za=C5=82atwicie - tj. przez upgr=
+ade=20
+czy zewn=C4=99trzne oprogramowanie - ale przej=C5=9Bcie na wersje serwero=
+w=C4=85=20
+dostarczy=C5=82oby dodatkowych korzy=C5=9Bci, m.in.:
+
+ =C2=A0* zintegrowane us=C5=82ugi (nie tylko NFS czy DNS, ale i inne kt=C3=
+=B3re w miar=C4=99=20
+potrzeby mo=C5=BCna w=C5=82=C4=85czy=C4=87)
+
+ =C2=A0* wi=C4=99ksza stabilno=C5=9B=C4=87
+
+ =C2=A0* wg. informacji kt=C3=B3re posiadam (dokumentacja / publikacje Mi=
+crosoft i=20
+zewn=C4=99trznych serwis=C3=B3w) dopiero od wersji Windows Server 2016 (t=
+j.=20
+Windows Server 2016 i Windows Server 2019) stawianie VM-ow 2 generacji z =
+
+wykorzystaniem Secure Boot i kontroler=C3=B3w SCSI przy wykorzystaniu Lin=
+ux'a=20
+jako systemu operacyjnego VM-ow jest dopracowane tak aby moc normalnie z =
+
+tego korzysta=C4=87.
+
+Jak na razie, poniewa=C5=BC na tej wersji Windows'a kt=C3=B3r=C4=85 dosta=
+rczyli=C5=9Bcie=20
+ca=C5=82y czas b=C5=82=C4=99dy wyskakiwa=C5=82y chc=C4=85c korzysta=C4=87=
+ z Generacji 2 i SCSI, ja VMy=20
+z Linux'em postawi=C5=82em Generacji 1 i kontrolerami IDE, ale zdecydowan=
+ie=20
+wola=C5=82bym dostarczy=C4=87 w tej wersji zoptymalizowanej, tj. Gen 2 i =
+SCSI.=20
+Wiec to kolejna korzy=C5=9B=C4=87 p=C5=82yn=C4=85ca z przej=C5=9Bcia na s=
+erwerow=C4=85 wersj=C4=99 Windows'a.
+
+
+To tyle - tj. nic wi=C4=99cej nie powinno by=C4=87 potrzebne z mojej stro=
+ny =C5=BCeby=20
+dopi=C4=85=C4=87 to co jest potrzebne do dopi=C4=99cia z tym projektem dl=
+a Pasji.
+
+Z tym co pisa=C5=82e=C5=9B / przes=C5=82a=C5=82e=C5=9B przez weekend zapo=
+znam si=C4=99 z rana.
+
+Pozdrawiam,
+
+--=20
+   Michal H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email: mhsiemaszko@7thraylabs.com,
+          mhs@into.software
+   WWW: http://ideas.into.software/
+   GitHub: https://github.com/ideas-into-software/
+   LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+   Twitter: https://twitter.com/IntoSoftware/
+
+
+--------------094BF972F0BA85BC16D8A3AA
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body>
+    <p>Cze=C5=9B=C4=87 Mateusz,<br>
+      <br>
+      Przepraszam ale nie da=C5=82em rady wcze=C5=9Bniej dostarczy=C4=87 =
+tego co
+      obieca=C5=82em do ko=C5=84ca dnia w pi=C4=85tek Ci przekaza=C4=87 -=
+- poni=C5=BCej lista i
+      wielka pro=C5=9Bba =C5=BCeby mie=C4=87 te sprawy za=C5=82atwione ja=
+k najszybciej;
+      chcia=C5=82em si=C4=99 skupi=C4=87 w najbli=C5=BCszych dniach na ap=
+likacji, i
+      dopracowaniu tego co pozosta=C5=82o =C5=BCeby w czasie si=C4=99 zmi=
+e=C5=9Bci=C4=87 z tym
+      projektem.<br>
+      <br>
+      Je=C5=9Bli z czym=C5=9B z tej listy ju=C5=BC uda=C5=82o si=C4=99 za=
+=C5=82atwi=C4=87, po prostu pomi=C5=84
+      i przejd=C5=BA do nast=C4=99pnego -- przez maile i wiadomo=C5=9Bci,=
+ kt=C3=B3re
+      przes=C5=82a=C5=82e=C5=9B przez weekend b=C4=99d=C4=99 si=C4=99 "pr=
+zedziera=C5=82" dopiero z rana. <br>
+    </p>
+    <p><br>
+      <b>1</b>. Dost=C4=99p do komputera na kt=C3=B3rym aplikacja "Pasjon=
+ata" jest
+      uruchomiona <br>
+      <br>
+      =C2=A0Tr=C4=85bi=C5=82em od tym od samego pocz=C4=85tku, jeszcze na=
+ dzie=C5=84 przed tym
+      jak zacz=C4=99li=C5=9Bmy oficjalnie projekt 20 grudnia. <br>
+      <br>
+      =C2=A0KONIECZNIE potrzebuje mie=C4=87 stabilny dost=C4=99p do tego =
+komputera do
+      czasu przeniesienia aplikacji na nowe =C5=9Brodowisko. <br>
+      <br>
+      <br>
+      <b>2</b>. Serwer NFS <br>
+      <br>
+      Jako funkcja systemu operacyjnego (Windows Server) LUB przez
+      zewn=C4=99trzne oprogramowanie; przy wersji serwerowej Windows'a je=
+st
+      to oczywi=C5=9Bcie wbudowane / mocno zintegrowane z systemem
+      operacyjnym; nie wiem na ile zewn=C4=99trzne oprogramowanie jest
+      stabilne, a to bardzo wa=C5=BCne bo to kluczowa funkcja.<br>
+      <br>
+      <u>Dlaczego jest tak potrzebne</u>: dyski na dane musz=C4=85
+      "przetrwa=C4=87" VM-y / kontenery uruchomione w klastrze - jak wies=
+z, i
+      VM-y, a przede wszystkim kontenery uruchomione w klastrze
+      utworzonym z VM-=C3=B3w, maj=C4=85 swoje dyski, gdzie system operac=
+yjny jest
+      zainstalowany i oprogramowanie z kt=C3=B3rego korzystaj=C4=85; ale =
+dane
+      takie jak m.in.: <br>
+      <br>
+      =C2=A0 <b>a</b>) dane aplikacji (dane zapisywane do bazy danych,
+      artefakty generowane przez aplikacje takie jak kody QR, itp.) <br>
+      =C2=A0 <b>b</b>) certyfikaty SSL <br>
+      =C2=A0 <b>c</b>) pliki konfiguracyjne<br>
+      =C2=A0 <b>d</b>) repozytoria GIT<br>
+      =C2=A0 <b>e</b>) automatyczne backup'y <br>
+      =C2=A0<br>
+      =C2=A0.. MUSZ=C4=84 by=C4=87 trzymane POZA VMami, tak aby zapewni=C4=
+=87 kontynuacje na
+      wypadek gdyby VM siad=C5=82, lub ugrade'u / wymiany na nowszy / inn=
+y
+      system operacyjny / itd., itp. Z automatyzacj=C4=85, kt=C3=B3r=C4=85=
+
+      przygotowa=C5=82em na potrzeby tego projektu, takie sytuacje mo=C5=BC=
+na
+      =C5=82atwo ogarn=C4=85=C4=87 - ale nawet bez automatyzacji, jest ko=
+nieczne =C5=BCeby
+      tak wa=C5=BCne dane "siedzia=C5=82y poza" wirtualizacja / klastrem.=
+ <br>
+      <br>
+      <br>
+      <b>3</b>. Osobne partycje <br>
+      <br>
+      Aktualne jest tylko jeden dysk ("C"). <br>
+      <br>
+      Wg. dobrych praktyk / zalece=C5=84, pliki VM-ow (dyski wirtualne, p=
+liki
+      konfiguracyjne, snapshot'y, itd.) zdecydowanie powinny by=C4=87
+      trzymane na osobnej partycji (np. "D"). <br>
+      <br>
+      Ponadto, na potrzeby wdro=C5=BCenia NFS, potrzebna jest jeszcze jed=
+na
+      osobna partycja ("E") kt=C3=B3ra w ca=C5=82o=C5=9Bci b=C4=99dzie w=C5=
+=82a=C5=9Bnie dla NFS
+      przeznaczona. <br>
+      <br>
+      Wi=C4=99c co jest potrzebne to wydzielenie osobnych partycji - <br>=
+
+    </p>
+    <p>=C2=A0<b>a</b>) osobno system operacyjny, programy zainstalowane, =
+itp.
+      ("C"), <br>
+    </p>
+    <p>=C2=A0<b>b</b>) osobno dane VM'ow,=C2=A0 <br>
+    </p>
+    <p>=C2=A0<b>c</b>) osobno partycja udost=C4=99pniania przez NFS.<br>
+      <br>
+      <br>
+      <b>4</b>. Dost=C4=99p do serwera SMTP <br>
+      <br>
+      Na potrzeby przesy=C5=82ania maili - coby nie obci=C4=85=C5=BCa=C4=87=
+ niepotrzebnie
+      tego sprz=C4=99tu, poza tym mo=C5=BCliwo=C5=9B=C4=87 zarz=C4=85dzan=
+ia kontami tam gdzie ju=C5=BC
+      to robicie / jest robione; wi=C4=99c potrzebne jest konto dedykowan=
+e /
+      dane do logowania / tak aby wpi=C4=85=C4=87 / skonfigurowa=C4=87 ja=
+ko zewn=C4=99trzny
+      serwer SMTP. <br>
+      <br>
+      Nie wiem czy dla Pasji r=C3=B3wnie=C5=BC obs=C5=82ugujecie poczt=C4=
+=99 - je=C5=9Bli nie,
+      chyba nie b=C4=99dzie problemu =C5=BCeby dostarczyli od swojego pro=
+videra
+      nowe konto dedykowane na potrzeby w=C5=82a=C5=9Bnie powiadomie=C5=84=
+ /
+      komunikacji z us=C5=82ug uruchomionych w tej nowej infrastrukturze.=
+<br>
+      <br>
+      <br>
+      <b>5</b>. Serwer DNS, lokalne domeny, certyfikaty SSL <br>
+      <br>
+      Aplikacje ich by=C5=82y dost=C4=99pne dotychczas przez adresy IP. N=
+ie
+      wygl=C4=85da to za fajnie, z zabezpieczeniem certyfikatami SSL jest=
+
+      troch=C4=99 utrudnione przez to, poza tym nie mo=C5=BCna =C5=82atwo=
+ "podmieni=C4=87"
+      us=C5=82ugi, kt=C3=B3ra stoi pod danym adresem (np. upgrade na now=C4=
+=85 wersj=C4=99,
+      itp.). <br>
+    </p>
+    <p>Mo=C5=BCliwo=C5=9B=C4=87 wykorzystania domen 3-4 poziomu i mapowan=
+ie ich na inne
+      adresy IP pozwoli=C5=82oby uruchomi=C4=87 g=C5=82=C3=B3wn=C4=85 apl=
+ikacje i aplikacje
+      dedykowane dla ich klient=C3=B3w na tej samej domenie lokalnej ( .p=
+asja
+      ), np. <br>
+      <br>
+      =C2=A0 * <a class=3D"moz-txt-link-freetext"
+        href=3D"https://produkcja.pasja">https://produkcja.pasja</a> <br>=
+
+      =C2=A0 * <a class=3D"moz-txt-link-freetext" href=3D"https://magazyn=
+=2Epasja">https://magazyn.pasja</a>
+      <br>
+      =C2=A0 * <a class=3D"moz-txt-link-freetext" href=3D"https://biuro.p=
+asja">https://biuro.pasja</a>
+      <br>
+      =C2=A0 * <a class=3D"moz-txt-link-freetext"
+        href=3D"https://nazwa-klienta.klienci.pasja">https://nazwa-klient=
+a.klienci.pasja</a>
+      <br>
+    </p>
+    <p>... poza tym w=C5=82a=C5=9Bnie mo=C5=BCliwo=C5=9B=C4=87 podmiany n=
+a nowsze wersje,
+      kompletnie "przezroczyste" dla u=C5=BCytkownik=C3=B3w ko=C5=84cowyc=
+h (kt=C3=B3rzy ca=C5=82y
+      czas ta sama domen=C4=99 wpisuj=C4=85, tylko co innego otrzymuj=C4=85=
+ po
+      upgradzie w takim rozwi=C4=85zaniu).<br>
+    </p>
+    <p>Do tego oczywi=C5=9Bcie jest potrzebny serwer DNS - kt=C3=B3ry aku=
+rat jest
+      wbudowany w Windows Server; <u>nie jestem pewien czy bez wersji
+        serwerowej Windows'a mo=C5=BCna sobie z tym poradzi=C4=87</u> (tj=
+=2E czy
+      jest, czy jest wystarczaj=C4=85co stabilne), ja tylko z serwerowej
+      wersji Windows'a korzysta=C5=82em dotychczas.<br>
+      <br>
+      Certyfikaty SSL generowane s=C4=85 automatycznie - wi=C4=99c z tym =
+nie ma
+      problemu.<br>
+      <br>
+      <br>
+      <b>6</b>. Stabilno=C5=9B=C4=87 systemu operacyjnego <br>
+      <br>
+      Jak widzia=C5=82e=C5=9B ju=C5=BC mo=C5=BCe w logach - wspomina=C5=82=
+em ju=C5=BC o tym kilka razy
+      - serwer restartowa=C5=82 si=C4=99 samoczynnie ju=C5=BC przynajmnie=
+j 3 razy; nie
+      by=C5=82y to na 100% restarty spowodowane update'ami, lecz jakimi=C5=
+=9B
+      b=C5=82=C4=99dami / problemami. <br>
+    </p>
+    <p>Nie wiem dok=C5=82adnie czym jest to spowodowane - nie mia=C5=82em=
+ czasu
+      diagnozowa=C4=87 tego dog=C5=82=C4=99bnie, ale zauwa=C5=BCy=C5=82em=
+ za ka=C5=BCdym razem; raz
+      nawet by=C5=82o to dos=C5=82ownie w momencie kiedy mia=C5=82em auto=
+matyzacje
+      zapuszczon=C4=85 i dlatego od razu zauwa=C5=BCy=C5=82em (pisa=C5=82=
+em / dzwoni=C5=82em
+      wtedy). <br>
+      <br>
+      Nie wiem czy doszli=C5=9Bcie do tego <u>czym to jest spowodowane</u=
+> -
+      cokolwiek to jest powinno to by=C4=87 naprawione, bo <u>przy takich=
+
+        problemach za chwile b=C4=99dzie powt=C3=B3rka problem=C3=B3w z b=
+az</u><u>=C4=85
+        danyc</u>h i innych - jak wiesz, takie nagle "wycinki" to
+      najprostszy spos=C3=B3b na to =C5=BCeby uszkodzi=C4=87 dane. <br>
+      <br>
+      <br>
+      <b>7</b>. Upgrade systemu operacyjnego <br>
+      <br>
+      NFS jest zdecydowanie potrzebny =C5=BCeby dostarczy=C4=87 to co wym=
+ieni=C5=82em
+      powy=C5=BCej. Szczerze przyznaje, =C5=BCe ja tylko na wersjach Wind=
+ows
+      Server pracowa=C5=82em i nie wyobra=C5=BCam sobie =C5=BCeby serwer =
+(sprz=C4=99t /
+      hardware kt=C3=B3ry postawili=C5=9Bcie) mia=C5=82 uruchomione cokol=
+wiek innego.
+      Akurat w tej sytuacji gdzie NFS jest konieczny nie wiem jak to
+      za=C5=82atwicie - tj. przez upgrade czy zewn=C4=99trzne oprogramowa=
+nie - ale
+      przej=C5=9Bcie na wersje serwerow=C4=85 dostarczy=C5=82oby dodatkow=
+ych korzy=C5=9Bci,
+      m.in.:=C2=A0 <br>
+    </p>
+    <p>=C2=A0* zintegrowane us=C5=82ugi (nie tylko NFS czy DNS, ale i inn=
+e kt=C3=B3re w
+      miar=C4=99 potrzeby mo=C5=BCna w=C5=82=C4=85czy=C4=87) <br>
+    </p>
+    <p>=C2=A0* wi=C4=99ksza stabilno=C5=9B=C4=87<br>
+    </p>
+    <p>=C2=A0* wg. informacji kt=C3=B3re posiadam (dokumentacja / publika=
+cje
+      Microsoft i zewn=C4=99trznych serwis=C3=B3w) dopiero od wersji Wind=
+ows
+      Server 2016 (tj. Windows Server 2016 i Windows Server 2019)
+      stawianie VM-ow 2 generacji z wykorzystaniem Secure Boot i
+      kontroler=C3=B3w SCSI przy wykorzystaniu Linux'a jako systemu
+      operacyjnego VM-ow jest dopracowane tak aby moc normalnie z tego
+      korzysta=C4=87. <br>
+      <br>
+      Jak na razie, poniewa=C5=BC na tej wersji Windows'a kt=C3=B3r=C4=85=
+
+      dostarczyli=C5=9Bcie ca=C5=82y czas b=C5=82=C4=99dy wyskakiwa=C5=82=
+y chc=C4=85c korzysta=C4=87 z
+      Generacji 2 i SCSI, ja VMy z Linux'em postawi=C5=82em Generacji 1 i=
+
+      kontrolerami IDE, ale zdecydowanie wola=C5=82bym dostarczy=C4=87 w =
+tej
+      wersji zoptymalizowanej, tj. Gen 2 i SCSI. Wiec to kolejna korzy=C5=
+=9B=C4=87
+      p=C5=82yn=C4=85ca z przej=C5=9Bcia na serwerow=C4=85 wersj=C4=99 Wi=
+ndows'a. <br>
+      <br>
+      <br>
+      To tyle - tj. nic wi=C4=99cej nie powinno by=C4=87 potrzebne z moje=
+j strony
+      =C5=BCeby dopi=C4=85=C4=87 to co jest potrzebne do dopi=C4=99cia z =
+tym projektem dla
+      Pasji.<br>
+    </p>
+    <p>Z tym co pisa=C5=82e=C5=9B / przes=C5=82a=C5=82e=C5=9B przez weeke=
+nd zapoznam si=C4=99 z rana.<br>
+      <br>
+      Pozdrawiam,<br>
+    </p>
+    <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+  </body>
+</html>
+
+--------------094BF972F0BA85BC16D8A3AA--
+
+--------------ms060802060008080207040201
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCC
+CmcwggToMIID0KADAgECAg5IG2oJE72AJMpdIvAU8zANBgkqhkiG9w0BAQsFADBMMSAwHgYD
+VQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEG
+A1UEAxMKR2xvYmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxT
+aWduIFBlcnNvbmFsU2lnbiAyIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC2lmiTZf0sAexiow1Uv4vLpEORopqvsYPytW1v2fDq3M8We9cZ44QD
+hfnGH3CPH2xJxWkZHnCRODV+AkhdOWsYRKZqpch09F31hD5jH3FEggg+7cmn9uluJkEpgMlJ
+uv/ZdqCjuxv2ed9LKNNKe5xRwg9lUKGfqEqd5UYEjYNP3LLIPc+YIQmYTMDxj3qpPzcmZUfY
+Zo9JJsLDQL5mPWz/Oq0pRvATnOHy65mni8LTX1Btog5vxwaXOC9OoY5HArSDANik47pBB2Dl
+3Tda8gfBO6ecl2gut++pSDa86WmomapH6cf2UdL5sSy2xUm1mJ5TU9r7cvN8D/hxPtcD+mfD
+AgMBAAGjggG1MIIBsTAOBgNVHQ8BAf8EBAMCAQYwagYDVR0lBGMwYQYIKwYBBQUHAwIGCCsG
+AQUFBwMEBggrBgEFBQcDCQYKKwYBBAGCNxQCAgYKKwYBBAGCNwoDBAYJKwYBBAGCNxUGBgor
+BgEEAYI3CgMMBggrBgEFBQcDBwYIKwYBBQUHAxEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNV
+HQ4EFgQUaXKCYjFnlUSFd5GAxAQ2SZ17C2EwHwYDVR0jBBgwFoAUj/BLf6guRSSuTVD6Y5qL
+3uLdG7wwPgYIKwYBBQUHAQEEMjAwMC4GCCsGAQUFBzABhiJodHRwOi8vb2NzcDIuZ2xvYmFs
+c2lnbi5jb20vcm9vdHIzMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2ln
+bi5jb20vcm9vdC1yMy5jcmwwZwYDVR0gBGAwXjALBgkrBgEEAaAyASgwDAYKKwYBBAGgMgEo
+CjBBBgkrBgEEAaAyAV8wNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAKidzTLMfGfiC1DXpVxwo2biJe/q
+tLZTMG6HEjdcM+LCKFbjk71FlfNY2BVxTPPkgokUvv6lzEe96wZUgj7mv7716oj1ecQoIguM
+evYOC+MqrkmaDpvCJ/JsthtVSgG2GeFoUHRYvBJFGE+u3l4bEzDnVSY0gKL+FIoEqweEYVIR
+olAAtnLgcvQRZ24TogtgCNfoFJdEO0cV5Q911vjp/kd/mvMhMYuyf0Eimg5WuBLzvw7gmd9R
+ZCLb3IF+fvkdqOJ8W88L66qf6txWe+ukuCws5gb/riRZf8VEfz6aFV76ZxJffGxSlzEr2r28
+tNW2uhT/IlSYQLg5wfl1CxscGqMwggV3MIIEX6ADAgECAgxw1k1hZOUTEI3+XG0wDQYJKoZI
+hvcNAQELBQAwXTELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAx
+BgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWduIDIgQ0EgLSBTSEEyNTYgLSBHMzAeFw0x
+OTA2MDcxMzU5MDZaFw0yMDA2MDcxMzU5MDZaMIG3MQswCQYDVQQGEwJQTDEUMBIGA1UECBML
+TWFsb3BvbHNraWUxDzANBgNVBAcTBktyYWtvdzEuMCwGA1UEChMlTWljaGFsIFNpZW1hc3pr
+byBVc2x1Z2kgSW5mb3JtYXR5Y3puZTELMAkGA1UECxMCSVQxGTAXBgNVBAMTEE1pY2hhbCBT
+aWVtYXN6a28xKTAnBgkqhkiG9w0BCQEWGm1oc2llbWFzemtvQDd0aHJheWxhYnMuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfMDV/fjYnGvEwtkeqYUNv1t+yaRitSm
+NhFIs+8MmNVbm2Dxi38u0En2CT8iAwAA9yMfxJ/73If9DwF8Z6LBfPK4cfICG1/K6Xn1RiW7
+R+W+ap4xqkls9o+4yYyGtfNz2HSnfVxiTk/oBgNrIHlE76QXFvyrLLseWWtsmGcy2dPWdml2
+vdrStvChaaFATkEbrHmOFdNN9ERds6qEZgBVnW3FiV1GcPh5joVFxTbR5KxHrch6zWyxm35s
+GeoOIsNSDy1SN7AiO7YHSO1Xw1QPDVOGtCBlOD82YXEsxuSQVvdH/d5hKwaf2rsykE/pQl5e
+Av3v1aBb/BgQEIjVoN9N8QIDAQABo4IB2jCCAdYwDgYDVR0PAQH/BAQDAgWgMIGeBggrBgEF
+BQcBAQSBkTCBjjBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9j
+YWNlcnQvZ3NwZXJzb25hbHNpZ24yc2hhMmczb2NzcC5jcnQwPQYIKwYBBQUHMAGGMWh0dHA6
+Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc3BlcnNvbmFsc2lnbjJzaGEyZzMwTAYDVR0gBEUw
+QzBBBgkrBgEEAaAyASgwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wCQYDVR0TBAIwADBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3Js
+Lmdsb2JhbHNpZ24uY29tL2dzcGVyc29uYWxzaWduMnNoYTJnMy5jcmwwJQYDVR0RBB4wHIEa
+bWhzaWVtYXN6a29AN3RocmF5bGFicy5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMB8GA1UdIwQYMBaAFGlygmIxZ5VEhXeRgMQENkmdewthMB0GA1UdDgQWBBS1X0agigxe
+1CaY1fFiSLjPh7jZBTANBgkqhkiG9w0BAQsFAAOCAQEAnVYqGU3QLOwq+niL9kO8T8SjnNAP
+pQX/zbs7aRicWyV3NWy8HfDIWTzTeUKRjLu4PIb5MGWX1uLnFUMqyKf1SJIa7/gkMDTg9oQX
+7dO2psv/FoE73SLfiVgAWrVfwBdqF+m9j5iYkw9Uq/kqWQrHqnPnialJyk4TnKpgr9Hfd8Y7
+AEFE0vUB0MI5U1xZ9zs1rExckeRS/GC1In9mQjnQTJBdR4TUA3tVm2tL6fMR4ieuNGaGm2LZ
+GJLuiL9zl9R+7MN5SOgCLBheycGrrn386Wmx7Rdd9sjaLlKVPtDsxhV3io/vKAeos4NNyX7O
+w/Qx14CxtRn3prMvw2f6JC94hjGCAnIwggJuAgEBMG0wXTELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAxBgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWdu
+IDIgQ0EgLSBTSEEyNTYgLSBHMwIMcNZNYWTlExCN/lxtMA0GCWCGSAFlAwQCAQUAoIHXMBgG
+CSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDEyNzAyMDczMVow
+LwYJKoZIhvcNAQkEMSIEIPg56zzFck7n93Bv1t1zGNLdatjRigC8q0WV0+Fj94kUMGwGCSqG
+SIb3DQEJDzFfMF0wCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0DBzAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwDQYJ
+KoZIhvcNAQEBBQAEggEAijRECCJMRrD5jxR37iRyAzzurVaDRWlELi+EmFA/umkZ+yfJsnHa
+EabZmNZIaxZJFn9SJdi5zElXyHOyp99n6kmwTxELXY4UZiaYj60aZbJox3i+rqoTuxwvvKX5
+LDe5XnQ1PfZ6M9ipJJ1EWGtVuKApXBR4xd2vX0F+62tz/WimhvA9a/zzjYjcvIolNBQS658g
+0nEwXa/XKoWUX3VINPkKfdlzzZlwWzlqyCj/YAfrnor2tdJp1TNZQ8/Yf7KWTMka0FYFOlTL
+cIPilQ1QVNxGcKej9WlipaGRGwG7hIErCIAdn154eMD90lIsbAUOZ8zkoSEIBeMugW7VmUYP
+BgAAAAAAAA==
+--------------ms060802060008080207040201--

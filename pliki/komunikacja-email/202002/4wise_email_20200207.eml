@@ -1,0 +1,219 @@
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+Cc: =?UTF-8?Q?=c5=81ukasz_Paluch?= <lukasz.paluch@4wise.pl>
+Subject: =?UTF-8?Q?Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22Pasjonat?=
+ =?UTF-8?Q?a=22=2c_opcja_=232_-_problemy_techniczne?=
+Message-ID: <ec3709cc-899a-d085-2b5f-9cccfb5b2fab@7thraylabs.com>
+Date: Fri, 7 Feb 2020 17:13:36 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.3.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------E7747D58B374948279118D7F"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------E7747D58B374948279118D7F
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Witam,
+
+Przejście na nowy system operacyjny - tj. Windows Server - umożliwiło
+uruchomienie m.in. NFS (który jest już zainstalowany, skonfigurowany i
+przetestowany w klastrze), jednak problemy które występowały wcześniej
+niestety nadal występują, plus pojawiły się "nowe" problemy..
+
+Wgląd w to co i jak jest robione z mojej strony macie już - dzięki
+dostępowi do GitLab Pasji (wcześniejszy email ode mnie, plus ten z
+linkiem do ustawienia hasła wysłany z GitLab Pasji). Problemy o których
+pisze możecie sprawdzic bezpośrednio na Windows Serwer (S 01),
+korzystając chociażby z komend PowerShell które zebrane są w skrypcie
+"EventLogFacts.ps1" (URL:
+https://172.17.254.33/infrastructure/windows-server/facts-powershell/blob/master/EventLogFacts.ps1)
+udostępnionym w projekcie "Zbieranie informacji o systemie" (URL:
+https://172.17.254.33/infrastructure/windows-server/facts-powershell), w
+tym m.in.:
+
+ a) Lista wszystkich błędów systemowych
+
+    Get-EventLog -LogName system | Where-Object { $_.EntryType -eq "Error" } 
+
+
+ b) Lista wszystkich samoczynnych wyłączeń się systemu - nie wiadomo z
+jakich przyczyn ponieważ automatyczne aktualizacje wyłączyłem
+
+    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 2147489656 }
+
+
+ c) Lista wszystkich wydarzeń przejścia usług w stan zastopowanych - nie
+wiadomo z jakich przyczyn
+
+    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 1073748860 }
+
+
+ d) Lista wszystkich błędów dotyczących interfejsów sieciowych - nie
+wiadomo z jakich przyczyn; interfejsy wydaja się działać (komunikacja do
+i na zewnątrz VMow działa), ale błędy te mogą mieć wpływ m.in. na ich
+stabilność i szybkość przesyłu danych, co da się odczuć
+
+    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 236 }
+
+
+
+Więc problemy to m.in.:
+
+ a) Samoczynne wyłączanie się systemu operacyjnego - pomimo tego, że
+automatyczne aktualizacje wyłączyłem już wcześniej; miało to miejsce już
+przynajmniej dwa razy od czasu przeinstalowania, również w trakcie gdy
+miałem zapuszczona automatyzacje / pracowałem na klastrze; komenda do
+sprawdzenia w logu wydarzeń powyżej;
+
+    Dzieje się tak pomimo tego, że już na drugi dzień jak
+przeinstalowaliście system operacyjny wyłączyłem automatyczne
+aktualizacje - zob. skrypt "AutomaticWindowsUpdatesReconfigure.ps1"
+(URL:
+https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell/blob/master/AutomaticWindowsUpdatesReconfigure.ps1)
+udostępniony w projekcie "Automatyczne uaktualnienia" (URL:
+https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell)
+
+ b) Przechodzenie w stan zatrzymania usług systemowych - dosłownie co
+chwile; komenda do sprawdzenia w logu wydarzeń powyżej;
+
+ c) Problemy z tworzonymi na Hyper-V interfejsami sieciowymi VMow -
+interfejsy wydaja się działać, ale błędy te mogą mieć wpływ m.in. na ich
+stabilność i szybkość przesyłu danych; komenda do sprawdzenia w logu
+wydarzeń powyżej;
+
+
+Jak wiecie na pewno, stabilność sprzętu (hardware) i systemu
+operacyjnego jest kluczowa dla właściwego działania aplikacji
+uruchomionych na nim. Błędy / problemy, które dotyczą tego za co ja
+jestem odpowiedzialny rozwiązuje - jednak stabilność sprzętu i systemu
+operacyjnego ma bezpośredni wpływ na to co ja muszę dostarczyć. Dlatego
+proszę żebyście w/w naprawili, ew. wskazali w czym jest problem - mając
+wgląd w cały kod, który wykorzystuje do stawiania infrastruktury przez
+GitLab Pasji - tj. jeśli problem jest w tym co ja stawiam, ale nie
+wygląda to w zupełności na problem po tej stronie.
+
+Pozdrawiam,
+
+-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@7thraylabs.com,
+         mhs@into.software
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+
+
+--------------E7747D58B374948279118D7F
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p>Witam,<br>
+      <br>
+      Przejście na nowy system operacyjny - tj. Windows Server -
+      umożliwiło uruchomienie m.in. NFS (który jest już zainstalowany,
+      skonfigurowany i przetestowany w klastrze), jednak problemy które
+      występowały wcześniej niestety nadal występują, plus pojawiły się
+      "nowe" problemy..<br>
+      <br>
+      Wgląd w to co i jak jest robione z mojej strony macie już - dzięki
+      dostępowi do GitLab Pasji (wcześniejszy email ode mnie, plus ten z
+      linkiem do ustawienia hasła wysłany z GitLab Pasji). Problemy o
+      których pisze możecie sprawdzic bezpośrednio na Windows Serwer (S
+      01), korzystając chociażby z komend PowerShell które zebrane są w
+      skrypcie "EventLogFacts.ps1" (URL:
+<a class="moz-txt-link-freetext" href="https://172.17.254.33/infrastructure/windows-server/facts-powershell/blob/master/EventLogFacts.ps1">https://172.17.254.33/infrastructure/windows-server/facts-powershell/blob/master/EventLogFacts.ps1</a>)
+      udostępnionym w projekcie "Zbieranie informacji o systemie" (URL:
+<a class="moz-txt-link-freetext" href="https://172.17.254.33/infrastructure/windows-server/facts-powershell">https://172.17.254.33/infrastructure/windows-server/facts-powershell</a>), w
+      tym m.in.: <br>
+      <br>
+       a) Lista wszystkich błędów systemowych<br>
+    </p>
+    <pre>    Get-EventLog -LogName system | Where-Object { $_.EntryType -eq "Error" } </pre>
+    <p><br>
+       b) Lista wszystkich samoczynnych wyłączeń się systemu - nie
+      wiadomo z jakich przyczyn ponieważ automatyczne aktualizacje
+      wyłączyłem <br>
+    </p>
+    <pre>    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 2147489656 }</pre>
+    <p><br>
+       c) Lista wszystkich wydarzeń przejścia usług w stan zastopowanych
+      - nie wiadomo z jakich przyczyn<br>
+    </p>
+    <pre>    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 1073748860 }</pre>
+    <p><br>
+       d) Lista wszystkich błędów dotyczących interfejsów sieciowych -
+      nie wiadomo z jakich przyczyn; interfejsy wydaja się działać
+      (komunikacja do i na zewnątrz VMow działa), ale błędy te mogą mieć
+      wpływ m.in. na ich stabilność i szybkość przesyłu danych, co da
+      się odczuć<br>
+    </p>
+    <pre>    Get-EventLog -LogName system | Where-Object { $_.InstanceId -eq 236 }</pre>
+    <p><br>
+      <br>
+      Więc problemy to m.in.: <br>
+      <br>
+       a) Samoczynne wyłączanie się systemu operacyjnego - pomimo tego,
+      że automatyczne aktualizacje wyłączyłem już wcześniej; miało to
+      miejsce już przynajmniej dwa razy od czasu przeinstalowania,
+      również w trakcie gdy miałem zapuszczona automatyzacje /
+      pracowałem na klastrze; komenda do sprawdzenia w logu wydarzeń
+      powyżej;<br>
+      <br>
+          Dzieje się tak pomimo tego, że już na drugi dzień jak
+      przeinstalowaliście system operacyjny wyłączyłem automatyczne
+      aktualizacje - zob. skrypt
+      "AutomaticWindowsUpdatesReconfigure.ps1" (URL:
+<a class="moz-txt-link-freetext" href="https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell/blob/master/AutomaticWindowsUpdatesReconfigure.ps1">https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell/blob/master/AutomaticWindowsUpdatesReconfigure.ps1</a>)
+      udostępniony w projekcie "Automatyczne uaktualnienia" (URL:
+<a class="moz-txt-link-freetext" href="https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell">https://172.17.254.33/infrastructure/windows-server/automatic-updates-powershell</a>)<br>
+      <br>
+       b) Przechodzenie w stan zatrzymania usług systemowych - dosłownie
+      co chwile; komenda do sprawdzenia w logu wydarzeń powyżej;<br>
+      <br>
+       c) Problemy z tworzonymi na Hyper-V interfejsami sieciowymi VMow
+      - interfejsy wydaja się działać, ale błędy te mogą mieć wpływ
+      m.in. na ich stabilność i szybkość przesyłu danych; komenda do
+      sprawdzenia w logu wydarzeń powyżej;<br>
+      <br>
+      <br>
+      Jak wiecie na pewno, stabilność sprzętu (hardware) i systemu
+      operacyjnego jest kluczowa dla właściwego działania aplikacji
+      uruchomionych na nim. Błędy / problemy, które dotyczą tego za co
+      ja jestem odpowiedzialny rozwiązuje - jednak stabilność sprzętu i
+      systemu operacyjnego ma bezpośredni wpływ na to co ja muszę
+      dostarczyć. Dlatego proszę żebyście w/w naprawili, ew. wskazali w
+      czym jest problem - mając wgląd w cały kod, który wykorzystuje do
+      stawiania infrastruktury przez GitLab Pasji - tj. jeśli problem
+      jest w tym co ja stawiam, ale nie wygląda to w zupełności na
+      problem po tej stronie.</p>
+    <p>Pozdrawiam,<br>
+    </p>
+    <pre class="moz-signature" cols="72">-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class="moz-txt-link-abbreviated" href="mailto:mhsiemaszko@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class="moz-txt-link-abbreviated" href="mailto:mhs@into.software">mhs@into.software</a>
+  WWW: <a class="moz-txt-link-freetext" href="http://ideas.into.software/">http://ideas.into.software/</a>
+  GitHub: <a class="moz-txt-link-freetext" href="https://github.com/ideas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class="moz-txt-link-freetext" href="http://www.linkedin.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class="moz-txt-link-freetext" href="https://twitter.com/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+  </body>
+</html>
+
+--------------E7747D58B374948279118D7F--

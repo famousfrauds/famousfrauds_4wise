@@ -1,0 +1,1071 @@
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Subject: Zlecenie dla "Pasja" - nastepne kroki
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+Cc: =?UTF-8?Q?=c5=81ukasz_Paluch?= <lukasz.paluch@4wise.pl>
+References: <VI1PR10MB18877CD183B8B45BE69BFBEFB8770@VI1PR10MB1887.EURPRD10.PROD.OUTLOOK.COM>
+Message-ID: <6e0fb4e5-3975-7782-70a6-5564eef5068a@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Wed, 13 Nov 2019 02:46:05 +0100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101
+ Thunderbird/71.0
+MIME-Version: 1.0
+In-Reply-To: <VI1PR10MB18877CD183B8B45BE69BFBEFB8770@VI1PR10MB1887.EURPRD10.PROD.OUTLOOK.COM>
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha-256; boundary="------------ms060508060604090509010109"
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms060508060604090509010109
+Content-Type: multipart/alternative;
+ boundary="------------360F2C7C33E7BD2E77F12B56"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------360F2C7C33E7BD2E77F12B56
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Witaj Mateusz,
+
+Zapozna=C5=82em si=C4=99 wst=C4=99pnie z plikami, kt=C3=B3re podczas nasz=
+ego wczorajszego=20
+spotkania zosta=C5=82y zgrane na dysk zewn=C4=99trzny Pana Jacka.
+
+Poniewa=C5=BC nie chce si=C4=99 opiera=C4=87 jedynie na analizie kodu, a =
+*przeprowadzi=C4=87=20
+cho=C4=87by dwa "eksperymenty"* (tj. (a) postawienie aplikacji w innym=20
+=C5=9Brodowisku oraz (b) kroki potrzebne do zaimplementowania "raportowan=
+ia /=20
+zestawie=C5=84" - funkcjonalno=C5=9Bci o kt=C3=B3rej i Ty i p. Jacek wspo=
+minali=C5=9Bcie),=20
+*potrzebuje postawi=C4=87 =C5=9Brodowisko testowe*. Mam kod, brakuje mi b=
+azy - z=20
+plik=C3=B3w kodu =C5=BAr=C3=B3d=C5=82owego wynika, =C5=BCe bie=C5=BC=C4=85=
+ca wersja aplikacji korzysta z=20
+MySQL; ja "na szybko" przy naszym spotkaniu zauwa=C5=BCy=C5=82em folder P=
+ostgreSQL=20
+oraz plik dBase i tymi informacjami si=C4=99 sugerowa=C5=82em, ale z kodu=
+ wynika=20
+co innego.
+
+Poniewa=C5=BC nie chc=C4=99 Tobie czasu zajmowa=C4=87, a te=C5=BC du=C5=BC=
+o lepiej by=C5=82oby "ze=20
+=C5=BAr=C3=B3d=C5=82a" zebra=C4=87 te informacje, pytanie czy maj=C4=85c =
+kontakt do p. Micha=C5=82a=20
+Drzewieckiego m=C3=B3g=C5=82by=C5=9B go poprosi=C4=87 o *udost=C4=99pnien=
+ie kontaktu=20
+telefonicznego* do siebie dla mnie i *mo=C5=BCliwo=C5=9B=C4=87 przeprowad=
+zenia z nim=20
+ok. 15 minutowej rozmowy w dniu dzisiejszym* (=C5=9Broda, 13 listopad)?=20
+Najlepiej jak najszybciej, =C5=BCeby nie czeka=C4=87 do wieczora.
+
+Do wgl=C4=85du dla Ciebie: aby postawi=C4=87 =C5=9Brodowisko testowe i pr=
+zeprowadzi=C4=87 te=20
+eksperymenty, potrzebuje od p. Micha=C5=82a Drzewieckiego dowiedzie=C4=87=
+ si=C4=99=20
+m.in. co jest potrzebne =C5=BCeby uruchomi=C4=87 aplikacje lokalnie, tj.:=
+
+
+*a*) Baza danych, tj. model danych + dane "domy=C5=9Blne", ew. ca=C5=82a =
+baza z=20
+produkcji przekopiowana (SQL dump)
+
+*b*) PHP
+
+*c*) Inne wymagania? Jakie?
+
+
+Mam r=C3=B3wnie=C5=BC *pytanie do p. Jacka*, a mianowicie: dla funkcjonal=
+no=C5=9Bci=20
+"Raporty / Zestawienia" - o kt=C3=B3rej i Ty i p. Jacek wspominali=C5=9Bc=
+ie, =C5=BCe=20
+potrzeba zaimplementowa=C4=87 - jakie dane mia=C5=82yby si=C4=99 znale=C5=
+=BA=C4=87 w takim=20
+raporcie dla wersji eksportowanej do Excel'a ? (nie w formacie EPP / dla =
+
+"Insert", bo to tylko format, dane pozosta=C5=82yby te same) i w jakiej s=
+kali=20
+(miesi=C4=99cznej czy innej / definiowalnej przez u=C5=BCytkownika?), np.=
+ sprzeda=C5=BC=20
+w danym miesi=C4=85cu (wszystkie pozycje) + warto=C5=9B=C4=87 zsumowana, =
+czy inne?
+
+Jeszcze odno=C5=9Bnie GitLab i GitHub - sprawdzi=C5=82em dane do kont, kt=
+=C3=B3re=20
+przes=C5=82a=C5=82e=C5=9B i mam nast=C4=99puj=C4=85ce uwagi:
+
+*a*) konto @ GitLab -
+ =C2=A0=C2=A0=C2=A0 * prosi o potwierdzenie adresu email (powiniene=C5=9B=
+ otrzyma=C4=87 maila na=20
+skrzynk=C4=99 obs=C5=82ugiwan=C4=85 przez tego aliasa),
+ =C2=A0=C2=A0=C2=A0 * *dost=C4=99py do repozytorium M. Drzewieckiego nie =
+zosta=C5=82y przypisane=20
+jeszcze*
+
+*b*) konto @ GitHub - nie mo=C5=BCna si=C4=99 zalogowa=C4=87, wyskakuje b=
+=C5=82=C4=85d "*invalid=20
+username or password*" (u=C5=BCywa=C5=82em tego samego co dla GitLab, tj.=
+=20
+'projektpasja@4wise.pl' i has=C5=82o, kt=C3=B3re przes=C5=82a=C5=82e=C5=9B=
+ przez Signal).
+
+
+Pozdrawiam,
+
+--=20
+   Michael H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email: mhsiemaszko@7thraylabs.com,
+          mhs@into.software
+   WWW: http://ideas.into.software/
+   GitHub: https://github.com/ideas-into-software/
+   LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+   Twitter: https://twitter.com/IntoSoftware/
+
+
+On 11/12/19 5:34 PM, Mateusz Paluch wrote:
+>
+> Dzie=C5=84 dobry,
+>
+> Zgodnie z informacj=C4=85 od Pana Jacka Stencla prosz=C4=99 o dost=C4=99=
+p do=20
+> wszystkich niezb=C4=99dnych danych zwi=C4=85zanych z Pasjonat=C4=85.
+>
+> Github mail: projektpasja@4wise.pl <mailto:projektpasja@4wise.pl>
+>
+> Gitlab mail: projektpasja@4wise.pl <mailto:projektpasja@4wise.pl>
+>
+> Prosz=C4=99 o informacj=C4=99 zwrotn=C4=85.
+>
+> =09
+>
+> *Mateusz=C2=A0Paluch**=E2=80=8B***
+>
+> *Chief=C2=A0Operating=C2=A0Officer*
+>
+> E: mateusz.paluch@4wise.pl <mailto:mateusz.paluch@4wise.pl>
+>
+> M: +48=C2=A0883=C2=A0631=C2=A0911 <tel:+48%20883%20631%20911>
+>
+> 4WISE GROUP Sp. z o.o. | Wieniawskiego 18 | 41-506 Chorz=C3=B3w.
+> Sp=C3=B3=C5=82ka zarejestrowana w S=C4=85dzie Rejonowym Katowice =E2=80=
+=93 Wsch=C3=B3d Wydzia=C5=82=20
+> VIII Gospodarczy Krajowego Rejestru S=C4=85dowego =E2=80=8Bpod numerem =
+KRS=20
+> 0000728932 | NIP 6272757341 | REGON 380380318
+>
+> =E2=80=8BAdministratorem Pa=C5=84stwa danych jest 4WISE GROUP Sp. z o.o=
+=2E
+> =E2=80=8BPa=C5=84stwa dane przetwarzamy w celu podtrzymania kontaktu z =
+Pa=C5=84stwem=20
+> i=C2=A0prowadzenia korespondencji. Szczeg=C3=B3=C5=82owe informacje dot=
+ycz=C4=85ce=20
+> przetwarzania zawarli=C5=9Bmy w polityce prywatno=C5=9Bci=20
+> <https://mamrodo.pl/index.php/ochrona-danych-osobowy/>
+>
+
+--------------360F2C7C33E7BD2E77F12B56
+Content-Type: multipart/related;
+ boundary="------------6D327F3D98F93ECCF8D8118A"
+
+
+--------------6D327F3D98F93ECCF8D8118A
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body text=3D"#000000" bgcolor=3D"#FFFFFF">
+    <p>Witaj Mateusz, <br>
+      <br>
+      Zapozna=C5=82em si=C4=99 wst=C4=99pnie z plikami, kt=C3=B3re podcza=
+s naszego
+      wczorajszego spotkania zosta=C5=82y zgrane na dysk zewn=C4=99trzny =
+Pana
+      Jacka. <br>
+      <br>
+      Poniewa=C5=BC nie chce si=C4=99 opiera=C4=87 jedynie na analizie ko=
+du, a
+      <b> przeprowadzi=C4=87 cho=C4=87by dwa "eksperymenty"</b> (tj. (a)
+      postawienie aplikacji w innym =C5=9Brodowisku oraz (b) kroki potrze=
+bne
+      do zaimplementowania "raportowania / zestawie=C5=84" - funkcjonalno=
+=C5=9Bci
+      o kt=C3=B3rej i Ty i p. Jacek wspominali=C5=9Bcie), <b>potrzebuje p=
+ostawi=C4=87
+        =C5=9Brodowisko testowe</b>. Mam kod, brakuje mi bazy - z plik=C3=
+=B3w kodu
+      =C5=BAr=C3=B3d=C5=82owego wynika, =C5=BCe bie=C5=BC=C4=85ca wersja =
+aplikacji korzysta z MySQL;
+      ja "na szybko" przy naszym spotkaniu zauwa=C5=BCy=C5=82em folder Po=
+stgreSQL
+      oraz plik dBase i tymi informacjami si=C4=99 sugerowa=C5=82em, ale =
+z kodu
+      wynika co innego.<br>
+      <br>
+      Poniewa=C5=BC nie chc=C4=99 Tobie czasu zajmowa=C4=87, a te=C5=BC d=
+u=C5=BCo lepiej by=C5=82oby
+      "ze =C5=BAr=C3=B3d=C5=82a" zebra=C4=87 te informacje, pytanie czy m=
+aj=C4=85c kontakt do p.
+      Micha=C5=82a Drzewieckiego m=C3=B3g=C5=82by=C5=9B go poprosi=C4=87 =
+o <b>udost=C4=99pnienie
+        kontaktu telefonicznego</b> do siebie dla mnie i <b>mo=C5=BCliwo=C5=
+=9B=C4=87
+        przeprowadzenia z nim ok. 15 minutowej rozmowy w dniu
+        dzisiejszym</b> (=C5=9Broda, 13 listopad)? Najlepiej jak najszybc=
+iej,
+      =C5=BCeby nie czeka=C4=87 do wieczora.<br>
+      <br>
+      Do wgl=C4=85du dla Ciebie: aby postawi=C4=87 =C5=9Brodowisko testow=
+e i
+      przeprowadzi=C4=87 te eksperymenty, potrzebuje od p. Micha=C5=82a
+      Drzewieckiego dowiedzie=C4=87 si=C4=99 m.in. co jest potrzebne =C5=BC=
+eby
+      uruchomi=C4=87 aplikacje lokalnie, tj.:<br>
+      <br>
+      =C2=A0=C2=A0 <b>a</b>) Baza danych, tj. model danych + dane "domy=C5=
+=9Blne", ew.
+      ca=C5=82a baza z produkcji przekopiowana (SQL dump)<br>
+      <br>
+      =C2=A0=C2=A0 <b>b</b>) PHP <br>
+      <br>
+      =C2=A0=C2=A0 <b>c</b>) Inne wymagania? Jakie? <br>
+      <br>
+      <br>
+      Mam r=C3=B3wnie=C5=BC <b>pytanie do p. Jacka</b>, a mianowicie: dla=
+
+      funkcjonalno=C5=9Bci "Raporty / Zestawienia" - o kt=C3=B3rej i Ty i=
+ p. Jacek
+      wspominali=C5=9Bcie, =C5=BCe potrzeba zaimplementowa=C4=87 - jakie =
+dane mia=C5=82yby
+      si=C4=99 znale=C5=BA=C4=87 w takim raporcie dla wersji eksportowane=
+j do Excel'a ?
+      (nie w formacie EPP / dla "Insert", bo to tylko format, dane
+      pozosta=C5=82yby te same) i w jakiej skali (miesi=C4=99cznej czy in=
+nej /
+      definiowalnej przez u=C5=BCytkownika?), np. sprzeda=C5=BC w danym m=
+iesi=C4=85cu
+      (wszystkie pozycje) + warto=C5=9B=C4=87 zsumowana, czy inne? <br>
+      <br>
+      Jeszcze odno=C5=9Bnie GitLab i GitHub - sprawdzi=C5=82em dane do ko=
+nt, kt=C3=B3re
+      przes=C5=82a=C5=82e=C5=9B i mam nast=C4=99puj=C4=85ce uwagi: <br>
+      <br>
+      =C2=A0<b>a</b>) konto @ GitLab - <br>
+      =C2=A0=C2=A0=C2=A0 * prosi o potwierdzenie adresu email (powiniene=C5=
+=9B otrzyma=C4=87
+      maila na skrzynk=C4=99 obs=C5=82ugiwan=C4=85 przez tego aliasa), <b=
+r>
+      =C2=A0=C2=A0=C2=A0 * <b>dost=C4=99py do repozytorium M. Drzewieckie=
+go nie zosta=C5=82y
+        przypisane jeszcze</b><br>
+      <br>
+      =C2=A0<b>b</b>) konto @ GitHub - nie mo=C5=BCna si=C4=99 zalogowa=C4=
+=87, wyskakuje
+      b=C5=82=C4=85d "<b>invalid username or password</b>" (u=C5=BCywa=C5=
+=82em tego samego
+      co dla GitLab, tj. '<a class=3D"moz-txt-link-abbreviated"
+        href=3D"mailto:projektpasja@4wise.pl">projektpasja@4wise.pl</a>' =
+i
+      has=C5=82o, kt=C3=B3re przes=C5=82a=C5=82e=C5=9B przez Signal). <br=
+>
+      <br>
+      <br>
+      Pozdrawiam,<br>
+    </p>
+    <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michael H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+    <p><br>
+    </p>
+    <div class=3D"moz-cite-prefix">On 11/12/19 5:34 PM, Mateusz Paluch
+      wrote:<br>
+    </div>
+    <blockquote type=3D"cite"
+cite=3D"mid:VI1PR10MB18877CD183B8B45BE69BFBEFB8770@VI1PR10MB1887.EURPRD10=
+=2EPROD.OUTLOOK.COM">
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+      <meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered
+        medium)">
+      <!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+=2Eshape {behavior:url(#default#VML);}
+</style><![endif]-->
+      <style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:remialcxesans;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.Stylwiadomocie-mail17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+      <div class=3D"WordSection1">
+        <p class=3D"MsoNormal">Dzie=C5=84 dobry,<o:p></o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p class=3D"MsoNormal">Zgodnie z informacj=C4=85 od Pana Jacka St=
+encla
+          prosz=C4=99 o dost=C4=99p do wszystkich niezb=C4=99dnych danych=
+ zwi=C4=85zanych z
+          Pasjonat=C4=85.<o:p></o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p class=3D"MsoNormal">Github mail:=C2=A0 <a
+            href=3D"mailto:projektpasja@4wise.pl" moz-do-not-send=3D"true=
+">projektpasja@4wise.pl</a><o:p></o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p class=3D"MsoNormal">Gitlab mail:=C2=A0 <a
+            href=3D"mailto:projektpasja@4wise.pl" moz-do-not-send=3D"true=
+">projektpasja@4wise.pl</a>
+          <o:p></o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p class=3D"MsoNormal">Prosz=C4=99 o informacj=C4=99 zwrotn=C4=85=
+=2E <o:p></o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+        <table class=3D"MsoNormalTable" style=3D"width:100.0%" width=3D"1=
+00%"
+          cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+          <tbody>
+            <tr>
+              <td style=3D"padding:0cm 0cm 0cm 0cm" valign=3D"top">
+                <table class=3D"MsoNormalTable" cellspacing=3D"0"
+                  cellpadding=3D"0" border=3D"0">
+                  <tbody>
+                    <tr>
+                      <td style=3D"padding:15.0pt 0cm 0cm 0cm"
+                        valign=3D"top">
+                        <table class=3D"MsoNormalTable" cellspacing=3D"0"=
+
+                          cellpadding=3D"0" border=3D"0">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding:0cm 0cm 0cm 0cm"
+                                valign=3D"top">
+                                <table class=3D"MsoNormalTable"
+                                  style=3D"width:375.0pt" width=3D"500"
+                                  cellspacing=3D"0" cellpadding=3D"0"
+                                  border=3D"0">
+                                  <tbody>
+                                    <tr>
+                                      <td style=3D"padding:0cm 0cm 0cm
+                                        0cm">
+                                        <table class=3D"MsoNormalTable"
+                                          cellspacing=3D"0"
+                                          cellpadding=3D"0" border=3D"0">=
+
+                                          <tbody>
+                                            <tr>
+                                              <td style=3D"padding:0cm
+                                                4.5pt 0cm 0cm">
+                                                <p class=3D"MsoNormal"><s=
+pan
+style=3D"font-size:1.0pt;mso-fareast-language:PL"><img
+                                                      style=3D"width:2.08=
+33in;height:.8541in"
+                                                      id=3D"_x0000_i1025"=
+
+src=3D"cid:part4.2D91C05C.F117A331@7thraylabs.com" class=3D"" width=3D"20=
+0"
+                                                      height=3D"82"
+                                                      border=3D"0"></span=
+><span
+style=3D"font-size:1.0pt;mso-fareast-language:PL"><o:p></o:p></span></p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                      <td
+                                        style=3D"border:none;border-left:=
+solid
+                                        #000001 1.0pt;padding:0cm 0cm
+                                        0cm 0cm" valign=3D"top">
+                                        <table class=3D"MsoNormalTable"
+                                          style=3D"width:100.0%"
+                                          width=3D"100%" cellspacing=3D"0=
+"
+                                          cellpadding=3D"0" border=3D"0">=
+
+                                          <tbody>
+                                            <tr>
+                                              <td style=3D"padding:0cm 0c=
+m
+                                                0cm 11.25pt"
+                                                valign=3D"top">
+                                                <table
+                                                  class=3D"MsoNormalTable=
+"
+                                                  style=3D"width:100.0%"
+                                                  width=3D"100%"
+                                                  cellspacing=3D"0"
+                                                  cellpadding=3D"0"
+                                                  border=3D"0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm"
+                                                        valign=3D"top">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><b><span
+style=3D"font-size:14.0pt;color:#000001;mso-fareast-language:PL">Mateusz=C2=
+=A0Paluch</span></b><b><span
+style=3D"font-size:1.0pt;font-family:remialcxesans;color:white;mso-fareas=
+t-language:PL">=E2=80=8B</span></b><b><span
+style=3D"font-size:14.0pt;color:#000001;mso-fareast-language:PL"><o:p></o=
+:p></span></b></p>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm"
+                                                        valign=3D"top">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><b><span
+style=3D"font-size:12.0pt;color:#0D84FD;mso-fareast-language:PL">Chief=C2=
+=A0Operating=C2=A0Officer<o:p></o:p></span></b></p>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm"
+                                                        valign=3D"top">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><span
+style=3D"font-size:12.0pt;color:#000001;mso-fareast-language:PL">E:=C2=A0=
+<a
+                                                          href=3D"mailto:=
+mateusz.paluch@4wise.pl"
+target=3D"_blank" moz-do-not-send=3D"true"><span
+                                                          style=3D"color:=
+#000001;text-decoration:none">mateusz.paluch@4wise.pl</span></a><o:p></o:=
+p></span></p>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm"
+                                                        valign=3D"top">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><span
+style=3D"font-size:12.0pt;color:#000001;mso-fareast-language:PL">M:=C2=A0=
+<a
+                                                          href=3D"tel:+48=
+%20883%20631%20911"
+target=3D"_blank" moz-do-not-send=3D"true"><span
+                                                          style=3D"color:=
+#000001;text-decoration:none">+48=C2=A0883=C2=A0631=C2=A0911</span></a><o=
+:p></o:p></span></p>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style=3D"padding:0cm 0cm 0cm 0cm"
+                                valign=3D"top">
+                                <table class=3D"MsoNormalTable"
+                                  cellspacing=3D"0" cellpadding=3D"0"
+                                  border=3D"0">
+                                  <tbody>
+                                    <tr>
+                                      <td style=3D"padding:0cm 0cm 0cm
+                                        0cm" valign=3D"top">
+                                        <table class=3D"MsoNormalTable"
+                                          cellspacing=3D"0"
+                                          cellpadding=3D"0" border=3D"0">=
+
+                                          <tbody>
+                                            <tr>
+                                              <td style=3D"padding:15.0pt=
+
+                                                0cm 0cm 0cm"
+                                                valign=3D"top">
+                                                <table
+                                                  class=3D"MsoNormalTable=
+"
+                                                  style=3D"width:375.0pt"=
+
+                                                  width=3D"500"
+                                                  cellspacing=3D"0"
+                                                  cellpadding=3D"0"
+                                                  border=3D"0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><span
+style=3D"font-size:9.0pt;color:#000001;mso-fareast-language:PL">4WISE
+                                                          GROUP Sp. z
+                                                          o.o. |
+                                                          Wieniawskiego
+                                                          18 | 41-506
+                                                          Chorz=C3=B3w. <=
+br>
+                                                          Sp=C3=B3=C5=82k=
+a
+                                                          zarejestrowana
+                                                          w S=C4=85dzie
+                                                          Rejonowym
+                                                          Katowice =E2=80=
+=93
+                                                          Wsch=C3=B3d Wyd=
+zia=C5=82
+                                                          VIII
+                                                          Gospodarczy
+                                                          Krajowego
+                                                          Rejestru
+                                                          S=C4=85dowego =E2=
+=80=8Bpod
+                                                          numerem KRS
+                                                          0000728932 |
+                                                          NIP 6272757341
+                                                          | REGON
+                                                          380380318<o:p><=
+/o:p></span></p>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style=3D"padding:0cm 0cm 0cm
+                                        0cm" valign=3D"top">
+                                        <table class=3D"MsoNormalTable"
+                                          cellspacing=3D"0"
+                                          cellpadding=3D"0" border=3D"0">=
+
+                                          <tbody>
+                                            <tr>
+                                              <td style=3D"padding:7.5pt
+                                                0cm 0cm 0cm"
+                                                valign=3D"top">
+                                                <table
+                                                  class=3D"MsoNormalTable=
+"
+                                                  style=3D"width:375.0pt"=
+
+                                                  width=3D"500"
+                                                  cellspacing=3D"0"
+                                                  cellpadding=3D"0"
+                                                  border=3D"0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        style=3D"padding:=
+0cm
+                                                        0cm 0cm 0cm">
+                                                        <p
+                                                          class=3D"MsoNor=
+mal"><span
+style=3D"font-size:9.0pt;color:#000001;mso-fareast-language:PL">=E2=80=8B=
+Administratorem
+                                                          Pa=C5=84stwa da=
+nych
+                                                          jest 4WISE
+                                                          GROUP Sp. z
+                                                          o.o. <br>
+                                                          =E2=80=8BPa=C5=84=
+stwa dane
+                                                          przetwarzamy w
+                                                          celu
+                                                          podtrzymania
+                                                          kontaktu z
+                                                          Pa=C5=84stwem
+                                                          i=C2=A0prowadze=
+nia
+korespondencji. Szczeg=C3=B3=C5=82owe informacje dotycz=C4=85ce przetwarz=
+ania
+                                                          zawarli=C5=9Bmy=
+ w=C2=A0<a
+href=3D"https://mamrodo.pl/index.php/ochrona-danych-osobowy/"
+                                                          target=3D"_blan=
+k"
+moz-do-not-send=3D"true"><span style=3D"color:#000001;text-decoration:non=
+e">polityce
+                                                          prywatno=C5=9Bc=
+i</span></a><o:p></o:p></span></p>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class=3D"MsoNormal"><o:p>=C2=A0</o:p></p>
+      </div>
+    </blockquote>
+    <pre class=3D"moz-signature" cols=3D"72">
+</pre>
+  </body>
+</html>
+
+--------------6D327F3D98F93ECCF8D8118A
+Content-Type: image/png;
+ name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part4.2D91C05C.F117A331@7thraylabs.com>
+Content-Disposition: inline;
+ filename="image001.png"
+
+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
+AAAAAElFTkSuQmCC
+--------------6D327F3D98F93ECCF8D8118A--
+
+--------------360F2C7C33E7BD2E77F12B56--
+
+--------------ms060508060604090509010109
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCC
+CmcwggToMIID0KADAgECAg5IG2oJE72AJMpdIvAU8zANBgkqhkiG9w0BAQsFADBMMSAwHgYD
+VQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEG
+A1UEAxMKR2xvYmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxT
+aWduIFBlcnNvbmFsU2lnbiAyIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC2lmiTZf0sAexiow1Uv4vLpEORopqvsYPytW1v2fDq3M8We9cZ44QD
+hfnGH3CPH2xJxWkZHnCRODV+AkhdOWsYRKZqpch09F31hD5jH3FEggg+7cmn9uluJkEpgMlJ
+uv/ZdqCjuxv2ed9LKNNKe5xRwg9lUKGfqEqd5UYEjYNP3LLIPc+YIQmYTMDxj3qpPzcmZUfY
+Zo9JJsLDQL5mPWz/Oq0pRvATnOHy65mni8LTX1Btog5vxwaXOC9OoY5HArSDANik47pBB2Dl
+3Tda8gfBO6ecl2gut++pSDa86WmomapH6cf2UdL5sSy2xUm1mJ5TU9r7cvN8D/hxPtcD+mfD
+AgMBAAGjggG1MIIBsTAOBgNVHQ8BAf8EBAMCAQYwagYDVR0lBGMwYQYIKwYBBQUHAwIGCCsG
+AQUFBwMEBggrBgEFBQcDCQYKKwYBBAGCNxQCAgYKKwYBBAGCNwoDBAYJKwYBBAGCNxUGBgor
+BgEEAYI3CgMMBggrBgEFBQcDBwYIKwYBBQUHAxEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNV
+HQ4EFgQUaXKCYjFnlUSFd5GAxAQ2SZ17C2EwHwYDVR0jBBgwFoAUj/BLf6guRSSuTVD6Y5qL
+3uLdG7wwPgYIKwYBBQUHAQEEMjAwMC4GCCsGAQUFBzABhiJodHRwOi8vb2NzcDIuZ2xvYmFs
+c2lnbi5jb20vcm9vdHIzMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2ln
+bi5jb20vcm9vdC1yMy5jcmwwZwYDVR0gBGAwXjALBgkrBgEEAaAyASgwDAYKKwYBBAGgMgEo
+CjBBBgkrBgEEAaAyAV8wNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAKidzTLMfGfiC1DXpVxwo2biJe/q
+tLZTMG6HEjdcM+LCKFbjk71FlfNY2BVxTPPkgokUvv6lzEe96wZUgj7mv7716oj1ecQoIguM
+evYOC+MqrkmaDpvCJ/JsthtVSgG2GeFoUHRYvBJFGE+u3l4bEzDnVSY0gKL+FIoEqweEYVIR
+olAAtnLgcvQRZ24TogtgCNfoFJdEO0cV5Q911vjp/kd/mvMhMYuyf0Eimg5WuBLzvw7gmd9R
+ZCLb3IF+fvkdqOJ8W88L66qf6txWe+ukuCws5gb/riRZf8VEfz6aFV76ZxJffGxSlzEr2r28
+tNW2uhT/IlSYQLg5wfl1CxscGqMwggV3MIIEX6ADAgECAgxw1k1hZOUTEI3+XG0wDQYJKoZI
+hvcNAQELBQAwXTELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAx
+BgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWduIDIgQ0EgLSBTSEEyNTYgLSBHMzAeFw0x
+OTA2MDcxMzU5MDZaFw0yMDA2MDcxMzU5MDZaMIG3MQswCQYDVQQGEwJQTDEUMBIGA1UECBML
+TWFsb3BvbHNraWUxDzANBgNVBAcTBktyYWtvdzEuMCwGA1UEChMlTWljaGFsIFNpZW1hc3pr
+byBVc2x1Z2kgSW5mb3JtYXR5Y3puZTELMAkGA1UECxMCSVQxGTAXBgNVBAMTEE1pY2hhbCBT
+aWVtYXN6a28xKTAnBgkqhkiG9w0BCQEWGm1oc2llbWFzemtvQDd0aHJheWxhYnMuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfMDV/fjYnGvEwtkeqYUNv1t+yaRitSm
+NhFIs+8MmNVbm2Dxi38u0En2CT8iAwAA9yMfxJ/73If9DwF8Z6LBfPK4cfICG1/K6Xn1RiW7
+R+W+ap4xqkls9o+4yYyGtfNz2HSnfVxiTk/oBgNrIHlE76QXFvyrLLseWWtsmGcy2dPWdml2
+vdrStvChaaFATkEbrHmOFdNN9ERds6qEZgBVnW3FiV1GcPh5joVFxTbR5KxHrch6zWyxm35s
+GeoOIsNSDy1SN7AiO7YHSO1Xw1QPDVOGtCBlOD82YXEsxuSQVvdH/d5hKwaf2rsykE/pQl5e
+Av3v1aBb/BgQEIjVoN9N8QIDAQABo4IB2jCCAdYwDgYDVR0PAQH/BAQDAgWgMIGeBggrBgEF
+BQcBAQSBkTCBjjBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9j
+YWNlcnQvZ3NwZXJzb25hbHNpZ24yc2hhMmczb2NzcC5jcnQwPQYIKwYBBQUHMAGGMWh0dHA6
+Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc3BlcnNvbmFsc2lnbjJzaGEyZzMwTAYDVR0gBEUw
+QzBBBgkrBgEEAaAyASgwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wCQYDVR0TBAIwADBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3Js
+Lmdsb2JhbHNpZ24uY29tL2dzcGVyc29uYWxzaWduMnNoYTJnMy5jcmwwJQYDVR0RBB4wHIEa
+bWhzaWVtYXN6a29AN3RocmF5bGFicy5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMB8GA1UdIwQYMBaAFGlygmIxZ5VEhXeRgMQENkmdewthMB0GA1UdDgQWBBS1X0agigxe
+1CaY1fFiSLjPh7jZBTANBgkqhkiG9w0BAQsFAAOCAQEAnVYqGU3QLOwq+niL9kO8T8SjnNAP
+pQX/zbs7aRicWyV3NWy8HfDIWTzTeUKRjLu4PIb5MGWX1uLnFUMqyKf1SJIa7/gkMDTg9oQX
+7dO2psv/FoE73SLfiVgAWrVfwBdqF+m9j5iYkw9Uq/kqWQrHqnPnialJyk4TnKpgr9Hfd8Y7
+AEFE0vUB0MI5U1xZ9zs1rExckeRS/GC1In9mQjnQTJBdR4TUA3tVm2tL6fMR4ieuNGaGm2LZ
+GJLuiL9zl9R+7MN5SOgCLBheycGrrn386Wmx7Rdd9sjaLlKVPtDsxhV3io/vKAeos4NNyX7O
+w/Qx14CxtRn3prMvw2f6JC94hjGCAnIwggJuAgEBMG0wXTELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAxBgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWdu
+IDIgQ0EgLSBTSEEyNTYgLSBHMwIMcNZNYWTlExCN/lxtMA0GCWCGSAFlAwQCAQUAoIHXMBgG
+CSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTExMzAxNDYwNVow
+LwYJKoZIhvcNAQkEMSIEILkXdrO6C2hf+spEjzdpGkpRp4Q/MDXuHeQEdYy99id3MGwGCSqG
+SIb3DQEJDzFfMF0wCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0DBzAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwDQYJ
+KoZIhvcNAQEBBQAEggEAQEcyp8+/kPPXNE5vaxwNcq960DLq1t6uV9eEAjbAmDvTzvHAAKJO
+3M3etuvuCTyBcai19QQC7WU/+mb1aw+Nq//a8bN8eX8VtLhHkWBY5JXP/Zz/Nmc5yL91Kgka
+1V5vNjbeq/QJJUcKWyW9iCN18orQCBcH6E3QcSDW7WkA/KfFDpfQIsD4hZJMc41XCWpCVYVA
+HscDdZ86ry5hFP0HSRAhuQxeh/nzMiEhmhoX3ccxkkzIFJQ3+rtiuEc3SY8ZhyEvuYezNgei
+2S0x9FWs+F/Hs7aNymiD3V7opXDNWzKuzr9LqhtH6rrT8oCmGlotTAp7lg4mxa60Op+ZmVK8
+MAAAAAAAAA==
+--------------ms060508060604090509010109--

@@ -1,0 +1,695 @@
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Subject: =?UTF-8?Q?Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22Pasjonat?=
+ =?UTF-8?Q?a=22_-_model_rozlicze=c5=84_miesi=c4=99cznych_i_lista_tego_co_b?=
+ =?UTF-8?Q?=c4=99dzie_po_kolei_robione?=
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+Message-ID: <68c4f4f6-b58f-a140-3ea9-5dbb9560ad1e@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Fri, 10 Apr 2020 15:55:51 +0200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101
+ Thunderbird/71.0
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha-256; boundary="------------ms050603000208010000010109"
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms050603000208010000010109
+Content-Type: multipart/alternative;
+ boundary="------------A70E226DA4F46DC0F272148A"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------A70E226DA4F46DC0F272148A
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Cze=C5=9B=C4=87 Mateusz,
+
+Oko=C5=82o p=C3=B3=C5=82tora miesi=C4=85ca temu, przy okazji spotkania 27=
+=2E02 w Miko=C5=82owie, p.=20
+Jacek wspomina=C5=82, =C5=BCe chce i=C5=9B=C4=87 dalej ale nie mo=C5=BCe =
+"na raz" zap=C5=82aci=C4=87 pe=C5=82nej=20
+kwoty i dlatego preferuje rozliczenia miesi=C4=99czne.
+
+W miedzy czasie kilka razy ju=C5=BC o tym wspomina=C5=82em - wychodz=C4=85=
+c naprzeciw=20
+oczekiwaniom, i chc=C4=85c rozwi=C4=85za=C4=87 problem tego, =C5=BCe to P=
+asja nie przekaza=C5=82a=20
+/ nie przekazuje kompletnych informacji, tak aby nie musieli si=C4=99 o t=
+o=20
+martwic. Ja nie mog=C4=99 bra=C4=87 na siebie takich sytuacji w modelu "f=
+ixed=20
+price", bior=C4=85c pod uwag=C4=99 =C5=BCe ju=C5=BC kilka razy mia=C5=82o=
+ miejsce co=C5=9B takiego..=20
+Tylko w modelu "time & material", przy kontrakcie min. 6 miesi=C4=99cznym=
+,=20
+takie sytuacje przestaj=C4=85 by=C4=87 problemem. Je=C5=9Bli o czym=C5=9B=
+ nie powiedzieli,=20
+b=C4=99d=C4=85c o to pytani 5+ krotnie, a okazuje si=C4=99 ze nak=C5=82ad=
+ pracy jest ok.=20
+100% wi=C4=99kszy, po prostu nie dzia=C5=82a to w ten spos=C3=B3b w "fixe=
+d price". W=20
+modelu rozlicze=C5=84 miesi=C4=99cznych maja ten problem z g=C5=82owy - a=
+le tu tez=20
+oczywi=C5=9Bcie racjonalnie musi to wygl=C4=85da=C4=87, czyli to co w dan=
+ym okresie=20
+miesi=C4=99cznym mo=C5=BCna rzeczywi=C5=9Bcie wykona=C4=87, czyli z g=C3=B3=
+ry ustalone, wystarczy=20
+"lu=C5=BAno" doprecyzowane wymagania, spriorytetyzowane, i po kolei robio=
+ne.
+
+Bior=C4=85c pod uwag=C4=99 wszystko to co mia=C5=82o miejsce dotychczas i=
+ powtarza si=C4=99,=20
+oraz i przede wszystkim ilo=C5=9B=C4=87 temat=C3=B3w kt=C3=B3re zalegaj=C4=
+=85 / chc=C4=85 mi=C4=99=C4=87=20
+zrobione, proponuje w modelu rozlicze=C5=84 miesi=C4=99cznych, przy kontr=
+akcie na=20
+min. 6 miesi=C4=99cy, przy kwocie 12 500 PLN / miesi=C4=85c, przy dost=C4=
+=99pno=C5=9Bci min.=20
+13 dni roboczych w miesi=C4=85cu, po kolei lecie=C4=87 z tym co chc=C4=85=
+ mie=C4=87 robione,=20
+tj.:
+
+
+*I*. Usprawnienia aplikacji Pasjonata WEB pod k=C4=85tem funkcjonalno=C5=9B=
+ci=20
+potrzebnej dla wymiany danych z ksi=C4=99gowo=C5=9Bci=C4=85 (AUTOMATYZACJ=
+A &=20
+INTEGRACJA) (c.d.)
+
+*1*) "Zestawienia Magazynowe" (instrukcja_zestawienia_sprzedazy.pdf) (c.d=
+=2E)
+
+ =C2=A0=C2=A0=C2=A0 a) "Zestawienie MFM, BFM" (punkt #1 z=20
+'instrukcja_zestawienia_sprzedazy.pdf') + "Mieszanki" (punkt #2 z=20
+instrukcja_zestawienia_sprzedazy.pdf)
+ =C2=A0=C2=A0=C2=A0 Jest to ok. 1,5 dnia pracy, wiec ok. 1440 PLN gdyby c=
+hcieli=20
+rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete=20
+juz / wliczone.
+
+*2*) "Zestawienia Sprzedazy" (instrukcja_zestawienia_magazyny.pdf)
+
+ =C2=A0=C2=A0=C2=A0 a) "Zestawienie MPX - M05, MFS, MFE, MFK" (punkt #1 z=
+=20
+'instrukcja_zestawienia_magazyny.pdf') + "Zestawienie MFS" (punkt #3 z=20
+'instrukcja_zestawienia_magazyny.pdf')
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 2 dni pracy, wiec ok. 1=
+920 PLN gdyby chcieli=20
+rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete=20
+juz / wliczone.
+
+ =C2=A0=C2=A0=C2=A0 b) "Zestawienie us=C5=82ug" (punkt #2 z=20
+'instrukcja_zestawienia_magazyny.pdf')
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 1 dzien pracy, wiec ok.=
+ 960 PLN gdyby chcieli=20
+rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete=20
+juz / wliczone.
+
+*3*) "Rozliczenia zaliczek"
+ =C2=A0=C2=A0=C2=A0=C2=A0 Jest to miedzy 0,5 a 2 dni pracy, czyli miedzy =
+480 a 1920 PLN=20
+gdyby chcieli rozliczyc osobno; w modelu rozliczen miesiecznych beda=20
+mieli to ujete juz / wliczone.
+ =C2=A0=C2=A0=C2=A0=C2=A0 Rozpietosc wynika z braku doprecyzowania wymaga=
+n - do wyjasnienia=20
+jest czy maja byc generowane dokumenty PDF automatycznie, tj. dla=20
+wszystkich rozliczen zaliczek w danym okresie czasu - czy calosc tych=20
+danych ma byc przekazana w jednym pliku, w formie dokumentu Excel lub EPP=
+?
+
+*4*) "Rozliczenia VAT"
+ =C2=A0=C2=A0=C2=A0=C2=A0 Brak wystarczajacych informacji / specyfikacje =
+do uzupelnienia. W=20
+rozliczeniu miesiecznym te informacje uzupelnie juz w trakcie, przekaze=20
+informacje ile to zajmie, nastepnie wykonam co potrzebne - tym samym=20
+sytuacja jak obecnie, pracujac w modelu "fixed price" (gdzie wymagania=20
+sa najpierw zbierane i jest to punkt wejscia do przedstawienia wyceny)=20
+nie bedzie miala miejsce.
+
+*5*) "Integracja / komunikacja z bankiem"
+ =C2=A0=C2=A0=C2=A0=C2=A0 Brak wystarczajacych informacji / specyfikacje =
+do uzupelnienia. W=20
+rozliczeniu miesiecznym te informacje uzupelnie juz w trakcie, przekaze=20
+informacje ile to zajmie, nastepnie wykonam co potrzebne - tym samym=20
+sytuacja jak obecnie, pracujac w modelu "fixed price" (gdzie wymagania=20
+sa najpierw zbierane i jest to punkt wejscia do przedstawienia wyceny)=20
+nie bedzie miala miejsce.
+
+*6*) "Integracja generatora EPP / rozliczen kas / z poziomu aplikacji=20
+Pasjonata WEB"
+ =C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 1 dzien pracy, wiec ok. 960 PLN gdy=
+by chcieli=20
+rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete=20
+juz / wliczone.
+
+
+*II*. Uruchomienie dodatkowych wersji dedykowanych Pasjonata WEB B2B
+
+ =C2=A0 Wdro=C5=BCenie na nowym =C5=9Brodowisku dw=C3=B3ch dodatkowych we=
+rsji dedykowanych=20
+(B2B) aplikacji Pasjonata WEB =E2=80=93 poza pierwszymi 4 ju=C5=BC wdro=C5=
+=BConymi w=20
+ramach opcji #2 =E2=80=93 tj. 91.201.122.25:40000/tolek/ i=20
+91.201.122.25:40000/aaprint/
+
+ =C2=A0 Wycene w modelu "fixed price" przedstawialem wielokrotnie. W mode=
+lu=20
+rozliczen miesiecznych jest to juz "wliczone" i zajmie ok. 1,5 dnia=20
+roboczego.
+
+
+*III*. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB i Pasjonata Android -=20
+Wykorzystanie GitLab Pasja dla =C5=9Bledzenia problem=C3=B3w / zbierania =
+wymaga=C5=84 -=20
+b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=82=C3=B3w
+
+ =C2=A0 Kilka tygodni temu przekazalem juz jako kolejny "gratis" komplet =
+
+informacji potrzebny pracownikom Pasji zeby dodawac zgloszenia (bledy,=20
+zadania, pomysly) do GitLab, zalozylem im konta, przygotowalem i=20
+przeslalem screencasty. Zaproponowalem wtedy ze jesli po zapoznaniu sie=20
+z tym dalej nie wiedza jak korzystac, moge im pomoc w ramach szkolenia.=20
+Oprocz szkolenia, na biezaco dodawane przez nich zgloszenia (b=C5=82=C4=99=
+d=C3=B3w,=20
+zada=C5=84, pomys=C5=82=C3=B3w) trzeba bedzie uzupelniac / konsolidowac /=
+ merdzowac /=20
+priorytetyzowac, itp. - czynnosci, ktorymi zazwyczaj zajmuje sie=20
+analityk czy product owner, ale akurat wystarczajaco wiem na ten temat=20
+ze tez moge im z tym pomoc i bedzie to wliczone w ramach rozliczen=20
+miesiecznych.
+
+
+*IV*. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB - Zarzadzanie uprawnieni=
+ami=20
+- Zdefiniowanie roli super-admina i modyfikacje wybranych uprawnien=20
+tylko z tego poziomu, ew. uruchomienie osobnej mini-aplikacji (jesli=20
+ingenerencja w kod PHP okaze sie byc niemozliwa przed jego=20
+posprzataniem) do przydzielania wybranych uprawnien. s
+
+
+*V*. Dalszy rozw=C3=B3j aplikacji na Androida=C2=A0 - Aplikacje na Androi=
+da=20
+kompatybilne z najnowszymi wersjami Android OS i mozliwosc "samo-obslugi"=
+
+
+ =C2=A0 To kolejny temat, ktory p. Jacek wspominal juz kilka razy, rownie=
+z=20
+przy spotkaniu 27.02, ze jest dla niego pilny. Wiec idac po kolei, w=20
+ramach tego zostaloby wykonane:
+
+ =C2=A0=C2=A0 * podciagniecie aplikacji tak aby mogly byc kompilowane dla=
+ i=20
+instalowane na najnowszych wersjach systemu operacyjnego Android
+
+ =C2=A0=C2=A0 * mozliwosc "samo-obslugi" - tj. umozliwienie instalacji i =
+
+uaktualniania wszystkich 14 aplikacji na Androida poprzez jedna=20
+aplikacje - w miare mozliwosci wykorzystanie do tego celu istniejacej=20
+aplikacji "Updater" lub napisanie od nowa
+
+
+*VI*. Przygotowanie aplikacji Pasjonata WEB i Pasjonata Android do=20
+dalszego rozwoju / splata dlugu technicznego
+
+ =C2=A01) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w ap=
+likacji Pasjonata WEB -=20
+wg. analizy statycznej kodu PHP aplikacji zostalo zostalo=20
+zidentyfikowanych ponad 10 tysi=C4=99cy powa=C5=BCnych i krytycznych prob=
+lem=C3=B3w,=20
+ktore sa przyczyna wiekszosci jesli nie wszystkich problemow, z ktorymi=20
+spotykaja sie na codzien uzytkownicy aplikacji. Problemy wynikajace z=20
+NIEDOKONCZONYCH funkcjonalnosci wymagaja DOKONCZENIA tych=20
+funkcjonalnosci, i bedzie to wykonane w nastepnym etapach.
+
+ =C2=A02) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w ap=
+likacjach Pasjonata Android
+
+ =C2=A03) Naprawa powa=C5=BCnych i krytycznych problem=C3=B3w z modelem d=
+anych=20
+wykorzystywanym w aplikacjiach Pasonata WEB i Pasjonata Android
+
+ =C2=A03) Optymalizacja zapytan SQL powodujacych zawieszanie sie / wolne =
+
+dzialanie czesci widokow aplikacji Pasjonata WEB i Pasjonata Android
+
+ =C2=A04) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie PHP aplik=
+acji Pasjonata WEB
+
+ =C2=A05) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie Java apli=
+kacji=20
+Pasjonata Android
+
+ =C2=A06) Opracowanie dokumentacji technicznej / wysokopoziomowej=20
+architektury aplikacji
+
+
+
+Aby zaj=C4=85=C4=87 si=C4=99 tematami takimi jak (nazwy z oferty z listop=
+ada 2019):
+
+ =C2=A0* "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i nowy=
+ch funkcjonalno=C5=9Bci=20
+w aplikacji Pasjonata WEB"
+
+ =C2=A0* "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i nowy=
+ch funkcjonalno=C5=9Bci=20
+w aplikacjach Pasjonata Android"
+
+ =C2=A0* "Aplikacja zintegrowana ze sklepami internetowymi firmy =E2=80=9E=
+Pasja=E2=80=9D"
+
+ =C2=A0* "Aplikacja zintegrowana z zewn=C4=99trznym systemem firmy kurier=
+skiej"
+
+ =C2=A0* "Aplikacja zintegrowana z programem do CRM"
+
+ =C2=A0* "Aplikacja gotowa do odsprzeda=C5=BCy i wdra=C5=BCania w innych =
+firmach=20
+=C5=9Bwiadcz=C4=85cych us=C5=82ugi uszlachetniania druku w Polsce i zagra=
+nic=C4=85"
+
+=2E.. aplikacja musi zosta=C4=87 najpierw przygotowana do dalszego rozwoj=
+u /=20
+d=C5=82ug techniczny sp=C5=82acony przynajmniej dla krytycznych i powa=C5=
+=BCnych=20
+b=C5=82=C4=99d=C3=B3w. Je=C5=9Bli prace wymienione w punktach I-VI powy=C5=
+=BCej zajm=C4=85 mniej ni=C5=BC 6=20
+miesi=C4=99cy, wtedy mo=C5=BCna od razu p=C5=82ynnie przej=C5=9B=C4=87 do=
+ tych temat=C3=B3w i r=C3=B3wnie=C5=BC=20
+w rozliczeniach miesi=C4=99cznych je za=C5=82atwia=C4=87 po kolei.
+
+Podsumowuj=C4=85c - =C5=BCeby to mia=C5=82o "r=C4=99ce i nogi", jedna i d=
+ruga strona=20
+transakcji musi by=C4=87 zadowolona; odno=C5=9Bnie model=C3=B3w i stawek =
+ju=C5=BC kilka=20
+tygodni wyja=C5=9Bnia=C5=82em; je=C5=9Bli nie s=C4=85 w stanie doprecyzow=
+a=C4=87 czego=C5=9B przed=20
+akceptacja, model rozlicze=C5=84 miesi=C4=99cznych to jest jedyny spos=C3=
+=B3b na to=20
+=C5=BCeby takie sytuacje nie stawa=C5=82y si=C4=99 problemami i moc p=C5=82=
+ynnie i=C5=9B=C4=87 dalej.
+
+Pozdrawiam,
+
+--=20
+   Michal H. Siemaszko
+   Mobile: +48 723 039 978
+   Signal IM: +48668566023
+   Telegram: mhsiemaszko
+   Email: mhsiemaszko@7thraylabs.com,
+          mhs@into.software
+   WWW: http://ideas.into.software/
+   GitHub: https://github.com/ideas-into-software/
+   LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+   Twitter: https://twitter.com/IntoSoftware/
+
+
+--------------A70E226DA4F46DC0F272148A
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body>
+    <p>Cze=C5=9B=C4=87 Mateusz, <br>
+      <br>
+      Oko=C5=82o p=C3=B3=C5=82tora miesi=C4=85ca temu, przy okazji spotka=
+nia 27.02 w
+      Miko=C5=82owie, p. Jacek wspomina=C5=82, =C5=BCe chce i=C5=9B=C4=87=
+ dalej ale nie mo=C5=BCe "na
+      raz" zap=C5=82aci=C4=87 pe=C5=82nej kwoty i dlatego preferuje rozli=
+czenia
+      miesi=C4=99czne. <br>
+      <br>
+      W miedzy czasie kilka razy ju=C5=BC o tym wspomina=C5=82em - wychod=
+z=C4=85c
+      naprzeciw oczekiwaniom, i chc=C4=85c rozwi=C4=85za=C4=87 problem te=
+go, =C5=BCe to
+      Pasja nie przekaza=C5=82a / nie przekazuje kompletnych informacji, =
+tak
+      aby nie musieli si=C4=99 o to martwic. Ja nie mog=C4=99 bra=C4=87 n=
+a siebie
+      takich sytuacji w modelu "fixed price", bior=C4=85c pod uwag=C4=99 =
+=C5=BCe ju=C5=BC
+      kilka razy mia=C5=82o miejsce co=C5=9B takiego.. Tylko w modelu "ti=
+me &amp;
+      material", przy kontrakcie min. 6 miesi=C4=99cznym, takie sytuacje
+      przestaj=C4=85 by=C4=87 problemem. Je=C5=9Bli o czym=C5=9B nie powi=
+edzieli, b=C4=99d=C4=85c o to
+      pytani 5+ krotnie, a okazuje si=C4=99 ze nak=C5=82ad pracy jest ok.=
+ 100%
+      wi=C4=99kszy, po prostu nie dzia=C5=82a to w ten spos=C3=B3b w "fix=
+ed price". W
+      modelu rozlicze=C5=84 miesi=C4=99cznych maja ten problem z g=C5=82o=
+wy - ale tu
+      tez oczywi=C5=9Bcie racjonalnie musi to wygl=C4=85da=C4=87, czyli t=
+o co w danym
+      okresie miesi=C4=99cznym mo=C5=BCna rzeczywi=C5=9Bcie wykona=C4=87,=
+ czyli z g=C3=B3ry
+      ustalone, wystarczy "lu=C5=BAno" doprecyzowane wymagania,
+      spriorytetyzowane, i po kolei robione. <br>
+      <br>
+      Bior=C4=85c pod uwag=C4=99 wszystko to co mia=C5=82o miejsce dotych=
+czas i
+      powtarza si=C4=99, oraz i przede wszystkim ilo=C5=9B=C4=87 temat=C3=
+=B3w kt=C3=B3re zalegaj=C4=85
+      / chc=C4=85 mi=C4=99=C4=87 zrobione, proponuje w modelu rozlicze=C5=
+=84 miesi=C4=99cznych,
+      przy kontrakcie na min. 6 miesi=C4=99cy, przy kwocie 12 500 PLN /
+      miesi=C4=85c, przy dost=C4=99pno=C5=9Bci min. 13 dni roboczych w mi=
+esi=C4=85cu, po
+      kolei lecie=C4=87 z tym co chc=C4=85 mie=C4=87 robione, tj.: <br>
+      <br>
+      <br>
+      <b>I</b>. Usprawnienia aplikacji Pasjonata WEB pod k=C4=85tem
+      funkcjonalno=C5=9Bci potrzebnej dla wymiany danych z ksi=C4=99gowo=C5=
+=9Bci=C4=85
+      (AUTOMATYZACJA &amp; INTEGRACJA) (c.d.) <br>
+      =C2=A0=C2=A0=C2=A0 <br>
+      =C2=A0<b>1</b>) "Zestawienia Magazynowe"
+      (instrukcja_zestawienia_sprzedazy.pdf) (c.d.)<br>
+      =C2=A0=C2=A0=C2=A0 <br>
+      =C2=A0=C2=A0=C2=A0 a) "Zestawienie MFM, BFM" (punkt #1 z
+      'instrukcja_zestawienia_sprzedazy.pdf') + "Mieszanki" (punkt #2 z
+      instrukcja_zestawienia_sprzedazy.pdf) <br>
+      =C2=A0=C2=A0=C2=A0 Jest to ok. 1,5 dnia pracy, wiec ok. 1440 PLN gd=
+yby chcieli
+      rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to
+      ujete juz / wliczone. <br>
+      <br>
+      =C2=A0<b>2</b>) "Zestawienia Sprzedazy"
+      (instrukcja_zestawienia_magazyny.pdf)<br>
+      <br>
+      =C2=A0=C2=A0=C2=A0 a) "Zestawienie MPX - M05, MFS, MFE, MFK" (punkt=
+ #1 z
+      'instrukcja_zestawienia_magazyny.pdf') + "Zestawienie MFS" (punkt
+      #3 z 'instrukcja_zestawienia_magazyny.pdf') <br>
+      =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 2 dni pracy, wiec =
+ok. 1920 PLN gdyby chcieli
+      rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to
+      ujete juz / wliczone.<br>
+      <br>
+      =C2=A0=C2=A0=C2=A0 b) "Zestawienie us=C5=82ug" (punkt #2 z
+      'instrukcja_zestawienia_magazyny.pdf')<br>
+      =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 1 dzien pracy, wie=
+c ok. 960 PLN gdyby chcieli
+      rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to
+      ujete juz / wliczone.<br>
+      <br>
+      =C2=A0<b>3</b>) "Rozliczenia zaliczek" <br>
+      =C2=A0=C2=A0=C2=A0=C2=A0 Jest to miedzy 0,5 a 2 dni pracy, czyli mi=
+edzy 480 a 1920 PLN
+      gdyby chcieli rozliczyc osobno; w modelu rozliczen miesiecznych
+      beda mieli to ujete juz / wliczone.<br>
+      =C2=A0=C2=A0=C2=A0=C2=A0 Rozpietosc wynika z braku doprecyzowania w=
+ymagan - do
+      wyjasnienia jest czy maja byc generowane dokumenty PDF
+      automatycznie, tj. dla wszystkich rozliczen zaliczek w danym
+      okresie czasu - czy calosc tych danych ma byc przekazana w jednym
+      pliku, w formie dokumentu Excel lub EPP?<br>
+      <br>
+      =C2=A0<b>4</b>) "Rozliczenia VAT" <br>
+      =C2=A0=C2=A0=C2=A0=C2=A0 Brak wystarczajacych informacji / specyfik=
+acje do
+      uzupelnienia. W rozliczeniu miesiecznym te informacje uzupelnie
+      juz w trakcie, przekaze informacje ile to zajmie, nastepnie
+      wykonam co potrzebne - tym samym sytuacja jak obecnie, pracujac w
+      modelu "fixed price" (gdzie wymagania sa najpierw zbierane i jest
+      to punkt wejscia do przedstawienia wyceny) nie bedzie miala
+      miejsce.<br>
+      <br>
+      =C2=A0<b>5</b>) "Integracja / komunikacja z bankiem"<br>
+      =C2=A0=C2=A0=C2=A0=C2=A0 Brak wystarczajacych informacji / specyfik=
+acje do
+      uzupelnienia. W rozliczeniu miesiecznym te informacje uzupelnie
+      juz w trakcie, przekaze informacje ile to zajmie, nastepnie
+      wykonam co potrzebne - tym samym sytuacja jak obecnie, pracujac w
+      modelu "fixed price" (gdzie wymagania sa najpierw zbierane i jest
+      to punkt wejscia do przedstawienia wyceny) nie bedzie miala
+      miejsce.<br>
+      <br>
+      =C2=A0<b>6</b>) "Integracja generatora EPP / rozliczen kas / z pozi=
+omu
+      aplikacji Pasjonata WEB"<br>
+      =C2=A0=C2=A0=C2=A0=C2=A0 Jest to ok. 1 dzien pracy, wiec ok. 960 PL=
+N gdyby chcieli
+      rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to
+      ujete juz / wliczone.<br>
+      <br>
+      <br>
+      <b>II</b>. Uruchomienie dodatkowych wersji dedykowanych Pasjonata
+      WEB B2B<br>
+      <br>
+      =C2=A0 Wdro=C5=BCenie na nowym =C5=9Brodowisku dw=C3=B3ch dodatkowy=
+ch wersji
+      dedykowanych (B2B) aplikacji Pasjonata WEB =E2=80=93 poza pierwszym=
+i 4 ju=C5=BC
+      wdro=C5=BConymi w ramach opcji #2 =E2=80=93 tj. 91.201.122.25:40000=
+/tolek/ i
+      91.201.122.25:40000/aaprint/<br>
+      <br>
+      =C2=A0 Wycene w modelu "fixed price" przedstawialem wielokrotnie. W=
+
+      modelu rozliczen miesiecznych jest to juz "wliczone" i zajmie ok.
+      1,5 dnia roboczego. <br>
+      <br>
+      <br>
+      <b>III</b>. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB i Pasjonata
+      Android - Wykorzystanie GitLab Pasja dla =C5=9Bledzenia problem=C3=B3=
+w /
+      zbierania wymaga=C5=84 - b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=
+=82=C3=B3w<br>
+      <br>
+      =C2=A0 Kilka tygodni temu przekazalem juz jako kolejny "gratis" kom=
+plet
+      informacji potrzebny pracownikom Pasji zeby dodawac zgloszenia
+      (bledy, zadania, pomysly) do GitLab, zalozylem im konta,
+      przygotowalem i przeslalem screencasty. Zaproponowalem wtedy ze
+      jesli po zapoznaniu sie z tym dalej nie wiedza jak korzystac, moge
+      im pomoc w ramach szkolenia. Oprocz szkolenia, na biezaco dodawane
+      przez nich zgloszenia (b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=82=
+=C3=B3w) trzeba bedzie
+      uzupelniac / konsolidowac / merdzowac / priorytetyzowac, itp. -
+      czynnosci, ktorymi zazwyczaj zajmuje sie analityk czy product
+      owner, ale akurat wystarczajaco wiem na ten temat ze tez moge im z
+      tym pomoc i bedzie to wliczone w ramach rozliczen miesiecznych.<br>=
+
+      <br>
+      <br>
+      <b>IV</b>. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB - Zarzadzanie=
+
+      uprawnieniami - Zdefiniowanie roli super-admina i modyfikacje
+      wybranych uprawnien tylko z tego poziomu, ew. uruchomienie osobnej
+      mini-aplikacji (jesli ingenerencja w kod PHP okaze sie byc
+      niemozliwa przed jego posprzataniem) do przydzielania wybranych
+      uprawnien. s<br>
+      <br>
+      <br>
+      <b>V</b>. Dalszy rozw=C3=B3j aplikacji na Androida=C2=A0 - Aplikacj=
+e na
+      Androida kompatybilne z najnowszymi wersjami Android OS i
+      mozliwosc "samo-obslugi"<br>
+      <br>
+      =C2=A0 To kolejny temat, ktory p. Jacek wspominal juz kilka razy,
+      rowniez przy spotkaniu 27.02, ze jest dla niego pilny. Wiec idac
+      po kolei, w ramach tego zostaloby wykonane: <br>
+      <br>
+      =C2=A0=C2=A0 * podciagniecie aplikacji tak aby mogly byc kompilowan=
+e dla i
+      instalowane na najnowszych wersjach systemu operacyjnego Android <b=
+r>
+      <br>
+      =C2=A0=C2=A0 * mozliwosc "samo-obslugi" - tj. umozliwienie instalac=
+ji i
+      uaktualniania wszystkich 14 aplikacji na Androida poprzez jedna
+      aplikacje - w miare mozliwosci wykorzystanie do tego celu
+      istniejacej aplikacji "Updater" lub napisanie od nowa<br>
+      <br>
+      <br>
+      <b>VI</b>. Przygotowanie aplikacji Pasjonata WEB i Pasjonata
+      Android do dalszego rozwoju / splata dlugu technicznego<br>
+      <br>
+      =C2=A01) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w=
+ w aplikacji Pasjonata
+      WEB - wg. analizy statycznej kodu PHP aplikacji zostalo zostalo
+      zidentyfikowanych ponad 10 tysi=C4=99cy powa=C5=BCnych i krytycznyc=
+h
+      problem=C3=B3w, ktore sa przyczyna wiekszosci jesli nie wszystkich
+      problemow, z ktorymi spotykaja sie na codzien uzytkownicy
+      aplikacji. Problemy wynikajace z NIEDOKONCZONYCH funkcjonalnosci
+      wymagaja DOKONCZENIA tych funkcjonalnosci, i bedzie to wykonane w
+      nastepnym etapach.<br>
+      <br>
+      =C2=A02) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w=
+ w aplikacjach Pasjonata
+      Android<br>
+      <br>
+      =C2=A03) Naprawa powa=C5=BCnych i krytycznych problem=C3=B3w z mode=
+lem danych
+      wykorzystywanym w aplikacjiach Pasonata WEB i Pasjonata Android<br>=
+
+      <br>
+      =C2=A03) Optymalizacja zapytan SQL powodujacych zawieszanie sie / w=
+olne
+      dzialanie czesci widokow aplikacji Pasjonata WEB i Pasjonata
+      Android<br>
+      <br>
+      =C2=A04) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie PHP =
+aplikacji
+      Pasjonata WEB<br>
+      <br>
+      =C2=A05) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie Java=
+ aplikacji
+      Pasjonata Android<br>
+      =C2=A0<br>
+      =C2=A06) Opracowanie dokumentacji technicznej / wysokopoziomowej
+      architektury aplikacji<br>
+      <br>
+      <br>
+      <br>
+      Aby zaj=C4=85=C4=87 si=C4=99 tematami takimi jak (nazwy z oferty z =
+listopada
+      2019): <br>
+      <br>
+      =C2=A0* "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i=
+ nowych
+      funkcjonalno=C5=9Bci w aplikacji Pasjonata WEB"<br>
+      <br>
+      =C2=A0* "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i=
+ nowych
+      funkcjonalno=C5=9Bci w aplikacjach Pasjonata Android"<br>
+      <br>
+      =C2=A0* "Aplikacja zintegrowana ze sklepami internetowymi firmy
+      =E2=80=9EPasja=E2=80=9D"<br>
+      <br>
+      =C2=A0* "Aplikacja zintegrowana z zewn=C4=99trznym systemem firmy
+      kurierskiej"<br>
+      <br>
+      =C2=A0* "Aplikacja zintegrowana z programem do CRM"<br>
+      <br>
+      =C2=A0* "Aplikacja gotowa do odsprzeda=C5=BCy i wdra=C5=BCania w in=
+nych firmach
+      =C5=9Bwiadcz=C4=85cych us=C5=82ugi uszlachetniania druku w Polsce i=
+ zagranic=C4=85"<br>
+      <br>
+      ... aplikacja musi zosta=C4=87 najpierw przygotowana do dalszego
+      rozwoju / d=C5=82ug techniczny sp=C5=82acony przynajmniej dla kryty=
+cznych i
+      powa=C5=BCnych b=C5=82=C4=99d=C3=B3w. Je=C5=9Bli prace wymienione w=
+ punktach I-VI powy=C5=BCej
+      zajm=C4=85 mniej ni=C5=BC 6 miesi=C4=99cy, wtedy mo=C5=BCna od razu=
+ p=C5=82ynnie przej=C5=9B=C4=87 do
+      tych temat=C3=B3w i r=C3=B3wnie=C5=BC w rozliczeniach miesi=C4=99cz=
+nych je za=C5=82atwia=C4=87
+      po kolei.<br>
+      <br>
+      Podsumowuj=C4=85c - =C5=BCeby to mia=C5=82o "r=C4=99ce i nogi", jed=
+na i druga strona
+      transakcji musi by=C4=87 zadowolona; odno=C5=9Bnie model=C3=B3w i s=
+tawek ju=C5=BC
+      kilka tygodni wyja=C5=9Bnia=C5=82em; je=C5=9Bli nie s=C4=85 w stani=
+e doprecyzowa=C4=87
+      czego=C5=9B przed akceptacja, model rozlicze=C5=84 miesi=C4=99cznyc=
+h to jest
+      jedyny spos=C3=B3b na to =C5=BCeby takie sytuacje nie stawa=C5=82y =
+si=C4=99 problemami
+      i moc p=C5=82ynnie i=C5=9B=C4=87 dalej.<br>
+    </p>
+    <p>Pozdrawiam,<br>
+    </p>
+    <pre class=3D"moz-signature" cols=3D"72">--=20
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+  </body>
+</html>
+
+--------------A70E226DA4F46DC0F272148A--
+
+--------------ms050603000208010000010109
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCC
+CmcwggToMIID0KADAgECAg5IG2oJE72AJMpdIvAU8zANBgkqhkiG9w0BAQsFADBMMSAwHgYD
+VQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEG
+A1UEAxMKR2xvYmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxT
+aWduIFBlcnNvbmFsU2lnbiAyIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC2lmiTZf0sAexiow1Uv4vLpEORopqvsYPytW1v2fDq3M8We9cZ44QD
+hfnGH3CPH2xJxWkZHnCRODV+AkhdOWsYRKZqpch09F31hD5jH3FEggg+7cmn9uluJkEpgMlJ
+uv/ZdqCjuxv2ed9LKNNKe5xRwg9lUKGfqEqd5UYEjYNP3LLIPc+YIQmYTMDxj3qpPzcmZUfY
+Zo9JJsLDQL5mPWz/Oq0pRvATnOHy65mni8LTX1Btog5vxwaXOC9OoY5HArSDANik47pBB2Dl
+3Tda8gfBO6ecl2gut++pSDa86WmomapH6cf2UdL5sSy2xUm1mJ5TU9r7cvN8D/hxPtcD+mfD
+AgMBAAGjggG1MIIBsTAOBgNVHQ8BAf8EBAMCAQYwagYDVR0lBGMwYQYIKwYBBQUHAwIGCCsG
+AQUFBwMEBggrBgEFBQcDCQYKKwYBBAGCNxQCAgYKKwYBBAGCNwoDBAYJKwYBBAGCNxUGBgor
+BgEEAYI3CgMMBggrBgEFBQcDBwYIKwYBBQUHAxEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNV
+HQ4EFgQUaXKCYjFnlUSFd5GAxAQ2SZ17C2EwHwYDVR0jBBgwFoAUj/BLf6guRSSuTVD6Y5qL
+3uLdG7wwPgYIKwYBBQUHAQEEMjAwMC4GCCsGAQUFBzABhiJodHRwOi8vb2NzcDIuZ2xvYmFs
+c2lnbi5jb20vcm9vdHIzMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2ln
+bi5jb20vcm9vdC1yMy5jcmwwZwYDVR0gBGAwXjALBgkrBgEEAaAyASgwDAYKKwYBBAGgMgEo
+CjBBBgkrBgEEAaAyAV8wNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAKidzTLMfGfiC1DXpVxwo2biJe/q
+tLZTMG6HEjdcM+LCKFbjk71FlfNY2BVxTPPkgokUvv6lzEe96wZUgj7mv7716oj1ecQoIguM
+evYOC+MqrkmaDpvCJ/JsthtVSgG2GeFoUHRYvBJFGE+u3l4bEzDnVSY0gKL+FIoEqweEYVIR
+olAAtnLgcvQRZ24TogtgCNfoFJdEO0cV5Q911vjp/kd/mvMhMYuyf0Eimg5WuBLzvw7gmd9R
+ZCLb3IF+fvkdqOJ8W88L66qf6txWe+ukuCws5gb/riRZf8VEfz6aFV76ZxJffGxSlzEr2r28
+tNW2uhT/IlSYQLg5wfl1CxscGqMwggV3MIIEX6ADAgECAgxw1k1hZOUTEI3+XG0wDQYJKoZI
+hvcNAQELBQAwXTELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAx
+BgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWduIDIgQ0EgLSBTSEEyNTYgLSBHMzAeFw0x
+OTA2MDcxMzU5MDZaFw0yMDA2MDcxMzU5MDZaMIG3MQswCQYDVQQGEwJQTDEUMBIGA1UECBML
+TWFsb3BvbHNraWUxDzANBgNVBAcTBktyYWtvdzEuMCwGA1UEChMlTWljaGFsIFNpZW1hc3pr
+byBVc2x1Z2kgSW5mb3JtYXR5Y3puZTELMAkGA1UECxMCSVQxGTAXBgNVBAMTEE1pY2hhbCBT
+aWVtYXN6a28xKTAnBgkqhkiG9w0BCQEWGm1oc2llbWFzemtvQDd0aHJheWxhYnMuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfMDV/fjYnGvEwtkeqYUNv1t+yaRitSm
+NhFIs+8MmNVbm2Dxi38u0En2CT8iAwAA9yMfxJ/73If9DwF8Z6LBfPK4cfICG1/K6Xn1RiW7
+R+W+ap4xqkls9o+4yYyGtfNz2HSnfVxiTk/oBgNrIHlE76QXFvyrLLseWWtsmGcy2dPWdml2
+vdrStvChaaFATkEbrHmOFdNN9ERds6qEZgBVnW3FiV1GcPh5joVFxTbR5KxHrch6zWyxm35s
+GeoOIsNSDy1SN7AiO7YHSO1Xw1QPDVOGtCBlOD82YXEsxuSQVvdH/d5hKwaf2rsykE/pQl5e
+Av3v1aBb/BgQEIjVoN9N8QIDAQABo4IB2jCCAdYwDgYDVR0PAQH/BAQDAgWgMIGeBggrBgEF
+BQcBAQSBkTCBjjBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9j
+YWNlcnQvZ3NwZXJzb25hbHNpZ24yc2hhMmczb2NzcC5jcnQwPQYIKwYBBQUHMAGGMWh0dHA6
+Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc3BlcnNvbmFsc2lnbjJzaGEyZzMwTAYDVR0gBEUw
+QzBBBgkrBgEEAaAyASgwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j
+b20vcmVwb3NpdG9yeS8wCQYDVR0TBAIwADBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3Js
+Lmdsb2JhbHNpZ24uY29tL2dzcGVyc29uYWxzaWduMnNoYTJnMy5jcmwwJQYDVR0RBB4wHIEa
+bWhzaWVtYXN6a29AN3RocmF5bGFicy5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMB8GA1UdIwQYMBaAFGlygmIxZ5VEhXeRgMQENkmdewthMB0GA1UdDgQWBBS1X0agigxe
+1CaY1fFiSLjPh7jZBTANBgkqhkiG9w0BAQsFAAOCAQEAnVYqGU3QLOwq+niL9kO8T8SjnNAP
+pQX/zbs7aRicWyV3NWy8HfDIWTzTeUKRjLu4PIb5MGWX1uLnFUMqyKf1SJIa7/gkMDTg9oQX
+7dO2psv/FoE73SLfiVgAWrVfwBdqF+m9j5iYkw9Uq/kqWQrHqnPnialJyk4TnKpgr9Hfd8Y7
+AEFE0vUB0MI5U1xZ9zs1rExckeRS/GC1In9mQjnQTJBdR4TUA3tVm2tL6fMR4ieuNGaGm2LZ
+GJLuiL9zl9R+7MN5SOgCLBheycGrrn386Wmx7Rdd9sjaLlKVPtDsxhV3io/vKAeos4NNyX7O
+w/Qx14CxtRn3prMvw2f6JC94hjGCAnIwggJuAgEBMG0wXTELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExMzAxBgNVBAMTKkdsb2JhbFNpZ24gUGVyc29uYWxTaWdu
+IDIgQ0EgLSBTSEEyNTYgLSBHMwIMcNZNYWTlExCN/lxtMA0GCWCGSAFlAwQCAQUAoIHXMBgG
+CSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDQxMDEzNTU1MVow
+LwYJKoZIhvcNAQkEMSIEIGp2JpO4ZwMtYghDYpIBvJU/qyUN+0OCTHcBtIw2PNkEMGwGCSqG
+SIb3DQEJDzFfMF0wCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0DBzAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwDQYJ
+KoZIhvcNAQEBBQAEggEAbmPB9skgodzTsZs8F8xXCF4W56BpTfUMYOrpADpjAb3utOoEj8Kc
+qt0ZPXnSsjvzFWq9aEZsMpTlnIxqojHOwGoK00BBX480jMW/mmX3yq/N1mzAYSIuvb9S/7y1
+xsxXPWokzwZHq5vCCtXMT9fRXHKWpOSxKyPmLYKozm3qojdP0FDjjhzQuaNJG7vF5nmt7oOs
+EsQrQFEhUybvcY+sWMn9CAsc/Zzj6ZC18F+xZTVw/JavojY4+6lTkL21UMT269ADtgNYS2QQ
+qFBpThrbv/xyz95f4Ms9Ze2IQqVeGorjX0TYlB0rZmKSnaT2vK75Njgkm3nhGZy8vkYtdPTf
+EwAAAAAAAA==
+--------------ms050603000208010000010109--

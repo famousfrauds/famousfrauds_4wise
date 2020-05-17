@@ -1,0 +1,101 @@
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+Cc: =?UTF-8?Q?=c5=81ukasz_Paluch?= <lukasz.paluch@4wise.pl>
+From: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Subject: =?UTF-8?Q?Re=3a_Rozw=c3=b3j_i_komercjalizacja_aplikacji_=22Pasjonat?=
+ =?UTF-8?Q?a=22=2c_opcja_=232_-_dost=c4=99p_do_Pasja_Mini?=
+Message-ID: <ac74bfdb-d72b-2b6f-f318-41c3dd748fe2@7thraylabs.com>
+Disposition-Notification-To: Michal Siemaszko <mhsiemaszko@7thraylabs.com>
+Date: Fri, 31 Jan 2020 23:42:42 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.3.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------5C0A10D4B914129DCA87E544"
+Content-Language: pl
+
+This is a multi-part message in MIME format.
+--------------5C0A10D4B914129DCA87E544
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Cześć,
+
+Na Win2019 zainstalowałem Hyper-V i serwer NFS. Serwer musiał być
+restartowany po tych instalacjach - nowe hasło do Teamviewer przesłałem
+przez Signal (ja akurat z RDP protokołu korzystam i https://remmina.org/
+- wystarczy funkcje "Remote Desktop" włączyć w serwerze i przez VPN się
+podłączyć najpierw, później kontem systemowym zalogować normalnie).
+
+Nie ma jednak konfiguracji dla połączenia z "Pasja Mini" (.199) - z tego
+co widzę jest tylko TeamViewer host zainstalowany.
+
+Nie znam się na TeamViewer i nie chce czegoś spieprzyć, więc _proszę o
+skonfigurowanie dostępu do "Pasja Mini" (.199) przez Win2019_.
+
+Jak będziecie na miejscu w Pasji jeszcze dostęp do tego drugiego "Pasja
+Mini" (.198) też trzeba będzie załatwić - zob. mój mail sprzed godziny
+odnośnie dedykowanych wersji "Pasjonaty" i gdzie są trzymane.
+
+Pozdrawiam,
+
+-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@7thraylabs.com,
+         mhs@into.software
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+
+
+--------------5C0A10D4B914129DCA87E544
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p>Cześć, <br>
+      <br>
+      Na Win2019 zainstalowałem Hyper-V i serwer NFS. Serwer musiał być
+      restartowany po tych instalacjach - nowe hasło do Teamviewer
+      przesłałem przez Signal (ja akurat z RDP protokołu korzystam i
+      <a class="moz-txt-link-freetext" href="https://remmina.org/">https://remmina.org/</a> - wystarczy funkcje "Remote Desktop" włączyć
+      w serwerze i przez VPN się podłączyć najpierw, później kontem
+      systemowym zalogować normalnie).<br>
+      <br>
+      Nie ma jednak konfiguracji dla połączenia z "Pasja Mini" (.199) -
+      z tego co widzę jest tylko TeamViewer host zainstalowany. <br>
+      <br>
+      Nie znam się na TeamViewer i nie chce czegoś spieprzyć, więc <u>proszę
+        o skonfigurowanie dostępu do "Pasja Mini" (.199) przez Win2019</u>.
+      <br>
+      <br>
+      Jak będziecie na miejscu w Pasji jeszcze dostęp do tego drugiego
+      "Pasja Mini" (.198) też trzeba będzie załatwić - zob. mój mail
+      sprzed godziny odnośnie dedykowanych wersji "Pasjonaty" i gdzie są
+      trzymane.<br>
+      <br>
+      Pozdrawiam,<br>
+    </p>
+    <pre class="moz-signature" cols="72">-- 
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: <a class="moz-txt-link-abbreviated" href="mailto:mhsiemaszko@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class="moz-txt-link-abbreviated" href="mailto:mhs@into.software">mhs@into.software</a>
+  WWW: <a class="moz-txt-link-freetext" href="http://ideas.into.software/">http://ideas.into.software/</a>
+  GitHub: <a class="moz-txt-link-freetext" href="https://github.com/ideas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class="moz-txt-link-freetext" href="http://www.linkedin.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class="moz-txt-link-freetext" href="https://twitter.com/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+  </body>
+</html>
+
+--------------5C0A10D4B914129DCA87E544--
