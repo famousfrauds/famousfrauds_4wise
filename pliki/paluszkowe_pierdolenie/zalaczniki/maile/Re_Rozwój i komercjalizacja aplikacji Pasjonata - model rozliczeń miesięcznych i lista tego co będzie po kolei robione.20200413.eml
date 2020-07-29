@@ -1,0 +1,1867 @@
+Return-Path: <mateusz.paluch@4wise.pl>
+Received: from compute2.internal (compute2.nyi.internal [10.202.2.42])
+	 by sloti21d2t15 (Cyrus 3.1.7-1104-g203475c-fmstable-20200408v2) with LMTPA;
+	 Mon, 13 Apr 2020 09:44:15 -0400
+X-Cyrus-Session-Id: sloti21d2t15-1586785455-2686125-2-8226308459005110444
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: no
+X-Spam-sender-reputation: 500 (none)
+X-Spam-score: 0.0
+X-Spam-hits: BAYES_00 -1.9, HTML_FONT_LOW_CONTRAST 0.001, HTML_MESSAGE 0.001,
+  ME_SENDERREP_NEUTRAL 0.001, RCVD_IN_DNSWL_NONE -0.0001,
+  SPF_HELO_PASS -0.001, SPF_PASS -0.001, LANGUAGES pl, BAYES_USED user,
+  SA_VERSION 3.4.2
+X-Spam-source: IP='40.107.6.99', Host='mail-eopbgr60099.outbound.protection.outlook.com',
+  Country='IE', FromHeader='pl', MailFrom='pl', XOriginatingCountry='PL'
+X-Spam-charsets: subject='windows-1250', plain='utf-8', html='utf-8'
+X-Attached: image458242.png
+X-Resolved-to: mhsiemaszko@fastmail.net
+X-Delivered-to: mhsiemaszko@fastmail.net
+X-Mail-from: mateusz.paluch@4wise.pl
+Received: from mx3 ([10.202.2.202])
+  by compute2.internal (LMTPProxy); Mon, 13 Apr 2020 09:44:15 -0400
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id F3ACA19600B7
+	for <mhsiemaszko@fastmail.net>; Mon, 13 Apr 2020 09:44:14 -0400 (EDT)
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+    by mx3.messagingengine.com (Authentication Milter) with ESMTP
+    id A13987B46C2;
+    Mon, 13 Apr 2020 09:44:14 -0400
+Authentication-Results: mx3.messagingengine.com;
+    arc=pass (as.1.microsoft.com=pass, ams.1.microsoft.com=pass)
+      smtp.remote-ip=40.107.6.99;
+    bimi=skipped (DMARC none);
+    dkim=pass (1024-bit rsa key sha256) header.d=4wisegroup.onmicrosoft.com
+      header.i=@4wisegroup.onmicrosoft.com header.b=bjDmpmRH
+      header.a=rsa-sha256 header.s=selector2-4wisegroup-onmicrosoft-com
+      x-bits=1024;
+    dmarc=none policy.published-domain-policy=none
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=none,d=none,d.eval=none) policy.policy-from=p header.from=4wise.pl;
+    iprev=pass smtp.remote-ip=40.107.6.99
+      (mail-eopbgr60099.outbound.protection.outlook.com);
+    spf=pass smtp.mailfrom=mateusz.paluch@4wise.pl
+      smtp.helo=EUR04-DB3-obe.outbound.protection.outlook.com;
+    x-aligned-from=pass (Address match);
+    x-ptr=fail smtp.helo=EUR04-DB3-obe.outbound.protection.outlook.com
+      policy.ptr=mail-eopbgr60099.outbound.protection.outlook.com;
+    x-return-mx=pass header.domain=4wise.pl policy.is_org=yes
+      (MX Records found: 4wise-pl.mail.protection.outlook.com);
+    x-return-mx=pass smtp.domain=4wise.pl policy.is_org=yes
+      (MX Records found: 4wise-pl.mail.protection.outlook.com);
+    x-tls=pass smtp.version=TLSv1.2 smtp.cipher=ECDHE-RSA-AES128-GCM-SHA256
+      smtp.bits=128/128;
+    x-vs=clean score=-100 state=0
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgeduhedrvdelgdejtdcutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenucfjughrpefhvffuthffkfhfjghiggesrhdttdertddtjeenucfh
+    rhhomhepofgrthgvuhhsiicurfgrlhhutghhuceomhgrthgvuhhsiidrphgrlhhutghhse
+    egfihishgvrdhplheqnecuffhomhgrihhnpehmrghmrhhoughordhplhdpihhnthhordhs
+    ohhfthifrghrvgdpghhithhhuhgsrdgtohhmpdhlihhnkhgvughinhdrtghomhdpthifih
+    htthgvrhdrtghomhenucfkphepgedtrddutdejrdeirdelledpkedtrdeihedrvddufedr
+    vdegvddpvdeitdefmedutdgrieemvddtkeemgeejmeemudegnecuvehluhhsthgvrhfuih
+    iivgeptdenucfrrghrrghmpehinhgvthepgedtrddutdejrdeirdelledphhgvlhhopefg
+    fgfttdegqdffueefqdhosggvrdhouhhtsghouhhnugdrphhrohhtvggtthhiohhnrdhouh
+    htlhhoohhkrdgtohhmpdhmrghilhhfrhhomhepoehmrghtvghushiirdhprghluhgthhes
+    geifihhsvgdrphhlqecuuffkkgfgpedugeduheduje
+X-ME-VSScore: -100
+X-ME-VSCategory: clean
+Received-SPF: pass
+    (4wise.pl: Sender is authorized to use 'mateusz.paluch@4wise.pl' in 'mfrom' identity (mechanism 'include:spf.protection.outlook.com' matched))
+    receiver=mx3.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="mateusz.paluch@4wise.pl";
+    helo=EUR04-DB3-obe.outbound.protection.outlook.com;
+    client-ip=40.107.6.99
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com (mail-eopbgr60099.outbound.protection.outlook.com [40.107.6.99])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mx3.messagingengine.com (Postfix) with ESMTPS
+	for <mhsiemaszko@fastmail.net>; Mon, 13 Apr 2020 09:44:14 -0400 (EDT)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ZBVykyER4Gp7uPiNcjuDI+cQqZJzOEL1BTpdxnRkWuA9iqiRz9M3RF7WGp79ZE/7anLDFbdXwDdEwYk1PDGFfOpNGXLsBwkFD/czqzhQ1/P5+gpFTFcj3fTkeKIXdcMazJC79fCP4PKIIaHqH93axLcnAOGue0fqz/5OH9zxetP29HO3sYA9JZ3WUV91omjBxfRgF72cfy+h2LeZ4dB9kvEOoEwS39HMOGxywn7r+3gyKvhEBp7wRTosvC0aNlUFgfb1qENtoWm4q38n0mHQYENHg6B4Op1fl3s3pYEjnX7T0DqYgIDidXEqSGV9+HYF66QRvUKwtkMCNs+7ouSZEA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=goyW3pNN4asvl7S6C2ELERZ2rmbCHL2EGJWE6xccSPU=;
+ b=FC9IaGPyZwLfzx/MsFXmiunFQzG5qFP2Q9w+1g/8GNKuCDAoO9G5DTA8yi5riCX64QjmnuM6+mSKtza34q76pgGjTHdat/toYEnt7PLnpz3hRLfiuIBbUA6+HVAcR7oRLG8/BsNXRTHPXJa2uktPXwvpdsoq/rW3owgDjy+Hn0eJZ1wdzkH+ysMaWHzoJMOHO2Vck/dSCfdBAD2l9DpeitklmxGgKT7hTv9eUf85SHnqJGBS+qMhGtC6juq2n6a1Rp3vLsbcEnrSl3a41m+bKDLwOsykaLQZWwSES73Lv+6wSmZwdOi1G1Yz9grqPFd5sS5IPnRfcixFS5L/yLKRMA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 104.40.229.156) smtp.rcpttodomain=fastmail.net smtp.mailfrom=4wise.pl;
+ dmarc=none action=none header.from=4wise.pl; dkim=none (message not signed);
+ arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=4wisegroup.onmicrosoft.com; s=selector2-4wisegroup-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=goyW3pNN4asvl7S6C2ELERZ2rmbCHL2EGJWE6xccSPU=;
+ b=bjDmpmRHAzcMLKjedms1vOmqkWf5xARTMKFattiNQQ9TjmBw8jNGe79ohXZIDtln1yeWgn/vlkBoVIUSbeVR0Gqu+iV0Usxg/4PbKT50tHFbLLY7gaXGiiKxNpC89fwn19nIECP+i9/oqXIr1aZuU+jr3tskXhOnRmyJRwBk458=
+Received: from DB6PR0201CA0033.eurprd02.prod.outlook.com (2603:10a6:4:3f::43)
+ by DB8PR10MB2954.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:10:ef::29) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2900.26; Mon, 13 Apr
+ 2020 13:44:11 +0000
+Received: from DB5EUR01FT039.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:4:3f:cafe::48) by DB6PR0201CA0033.outlook.office365.com
+ (2603:10a6:4:3f::43) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2900.15 via Frontend
+ Transport; Mon, 13 Apr 2020 13:44:11 +0000
+Authentication-Results: spf=fail (sender IP is 104.40.229.156)
+ smtp.mailfrom=4wise.pl; fastmail.net; dkim=none (message not signed)
+ header.d=none;fastmail.net; dmarc=none action=none header.from=4wise.pl;
+Received-SPF: Fail (protection.outlook.com: domain of 4wise.pl does not
+ designate 104.40.229.156 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.40.229.156;
+ helo=eu1.smtp.exclaimer.net;
+Received: from eu1.smtp.exclaimer.net (104.40.229.156) by
+ DB5EUR01FT039.mail.protection.outlook.com (10.152.5.18) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2900.15 via Frontend Transport; Mon, 13 Apr 2020 13:44:10 +0000
+Received: from EUR05-VI1-obe.outbound.protection.outlook.com (104.47.17.168)
+	 by eu1.smtp.exclaimer.net (104.40.229.156) with Exclaimer Signature Manager
+	 ESMTP Proxy eu1.smtp.exclaimer.net (tlsversion=TLS12,
+	 tlscipher=TLS_ECDHE_WITH_AES256_SHA384); Mon, 13 Apr 2020 13:44:10 +0000
+X-ExclaimerHostedSignatures-MessageProcessed: true
+X-ExclaimerProxyLatency: 10682346
+X-ExclaimerImprintLatency: 3178345
+X-ExclaimerImprintAction: ea2586e1e76d4950b5a7b7c5a2c7eca8
+Content-Type: multipart/related;
+	boundary="----_=_NextPart_313d7baa-a554-4d30-b321-ed817643d7ab"
+Received: from AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:208:47::14)
+ by AM0PR10MB2804.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:208:129::31) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2900.26; Mon, 13 Apr
+ 2020 13:44:07 +0000
+Received: from AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM
+ ([fe80::e198:f38c:a22d:de1]) by AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM
+ ([fe80::e198:f38c:a22d:de1%6]) with mapi id 15.20.2900.028; Mon, 13 Apr 2020
+ 13:44:07 +0000
+From: Mateusz Paluch <mateusz.paluch@4wise.pl>
+To: Michal Siemaszko <mhsiemaszko@fastmail.net>
+Subject:
+ =?windows-1250?Q?Re:_Rozw=F3j_i_komercjalizacja_aplikacji_"Pasjonata"_-_m?=
+ =?windows-1250?Q?odel_rozlicze=F1_miesi=EAcznych_i_lista_tego_co_b=EAdzie?=
+ =?windows-1250?Q?_po_kolei_robione?=
+Thread-Topic:
+ =?windows-1250?Q?Rozw=F3j_i_komercjalizacja_aplikacji_"Pasjonata"_-_model?=
+ =?windows-1250?Q?_rozlicze=F1_miesi=EAcznych_i_lista_tego_co_b=EAdzie_po_?=
+ =?windows-1250?Q?kolei_robione?=
+Thread-Index: AQHWDz/EyV/vePpPiEmORVi9VTM58ah3EJuAgAACg9w=
+Date: Mon, 13 Apr 2020 13:44:07 +0000
+Message-ID:
+ <AM0PR10MB1860B66169B408216A4DF10BB8DD0@AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM>
+References:
+ <68c4f4f6-b58f-a140-3ea9-5dbb9560ad1e@7thraylabs.com>,<f9f7a149-2aa6-eea9-150b-7eca35d1c17e@7thraylabs.com>
+In-Reply-To: <f9f7a149-2aa6-eea9-150b-7eca35d1c17e@7thraylabs.com>
+Accept-Language: pl-PL, en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=mateusz.paluch@4wise.pl; 
+x-originating-ip: [80.65.213.242]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 7ddb3d14-8c4a-45f7-fbd3-08d7dfb0bee8
+x-ms-traffictypediagnostic: AM0PR10MB2804:|DB8PR10MB2954:
+X-Microsoft-Antispam-PRVS:
+	<DB8PR10MB295455E258D003F3BE7F2A21B8DD0@DB8PR10MB2954.EURPRD10.PROD.OUTLOOK.COM>
+x-ms-oob-tlc-oobclassifiers: OLM:1775;OLM:1775;
+x-forefront-prvs: 037291602B
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:255.255.255.255;CTRY:;LANG:pl;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0PR10MB1860.EURPRD10.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFTY:;SFS:(10019020)(376002)(346002)(396003)(136003)(366004)(39830400003)(81156014)(71200400001)(33656002)(7696005)(53546011)(6506007)(2906002)(45080400002)(8936002)(91956017)(508600001)(76116006)(66946007)(64756008)(66476007)(66556008)(66446008)(316002)(5660300002)(966005)(26005)(44832011)(86362001)(30864003)(52536014)(224303003)(9686003)(55016002)(6916009)(186003);DIR:OUT;SFP:1102;
+received-spf: None (protection.outlook.com: 4wise.pl does not designate
+ permitted sender hosts)
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ 3qMH6rDUDaciAkQgZK2leevDb5KAj2hLvU4FYaxPhzqcSlgCobGmOCDch/Bh47Tk55VLWovp0tg1BgkOkrio7z3mjaSyNmcy27IoDs75xgat8/1Wa/s8SwQVWIt5x0cPsOtKiGABPkKTwxMWdxxIY5AkRE2JYbnkaDYTtlKUVOPyS5j5EX+azWnVliEz3ToOZUqk1GV3PhH06+PqqvcC0m2d5udpfxPkuztjeNzbRhzjg7i2mXN5XbHOLVbF6fEsypke+bExEnCzlQTv+OgYHlTk7IsAVAq5FxwVrgpJ2Z1tMfuuOp2OIyHCTcBfxooJHDijysFdcyDhBwuykrKKyGuGI1+9qrO+Dj3ygF7AR6Kw3JpxH7oAN/2H44iyvuGVXVybZPhOTk8qr+mQoqzwvL5YYRErAAt2fxmjo+JL4T2pzHyuqFb+mGGNr+eCY++Ub9m7msx9/fUKwuWtxS3uY0xdMKpZNQhcd2lxuPm0ZDKvoa7Rni7RrveFNTsA7BLCvAiPMMQ4q5+YiuegwaqXBg==
+x-ms-exchange-antispam-messagedata:
+ v8itBGvz44hAECvXBqEuOCdAOZEn9fz3Ct831upiD/F7NDZxaS8zSCegazRonaj5qo/C25hSjuy6HXWme+EDbDqtlse9MvPkL07gxvaM2GzGRxq33LEDkAMTFQ65kNXJuvxcbF0BcCUZlg/zWTJJKA==
+x-ms-exchange-transport-forked: True
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR10MB2804
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ DB5EUR01FT039.eop-EUR01.prod.protection.outlook.com
+X-Forefront-Antispam-Report:
+	CIP:104.40.229.156;CTRY:NL;LANG:pl;SCL:1;SRV:;IPV:CAL;SFV:NSPM;H:eu1.smtp.exclaimer.net;PTR:eu1.smtp.exclaimer.net;CAT:NONE;SFTY:;SFS:(10019020)(39830400003)(346002)(396003)(136003)(376002)(1110001)(339900001)(46966005)(53546011)(26826003)(356005)(2906002)(6506007)(33964004)(7696005)(30864003)(508600001)(52536014)(55016002)(224303003)(45080400002)(44832011)(5660300002)(47076004)(6916009)(16799955002)(33656002)(966005)(8936002)(246002)(186003)(316002)(7636003)(7596003)(70586007)(70206006)(66616009)(26005)(9686003)(336012)(86362001);DIR:OUT;SFP:1102;
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	28a55610-1f45-42f7-18b3-08d7dfb0bd4c
+X-Forefront-PRVS: 037291602B
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	HQBlzT7GCksKTVzusghFFF0jpGnMQBwaKTtu77Vd/+OaIMlIJr4KoFsLEWVK0c9fmmEJ30f6AvIOAthIF4I5IiGg2pkJ0fmRxfrSb4570olqC1hIRrGh+LuUTTBVcTtIqCXoCp+su33+3uvo3Su3O8rE5zcYP9faNJ6cl67E/KpOPPJ7jzC4in/UdAE3JpKSnRdCJU08I5XzqhCvor3okFvSUgvU+CwMxMvOvUbuqs4tztmntXUpO3HSQ5skmNxJQe5V2ruWnCj8xyeVUaNofbc8s+fe5A/YWuVhjnBcPNTVx4e5QQeoP/MSj5l+MrrH0pE+i9I28cf2fabJbwBTIYF9tILvCaUw4h/MrO6OczOGKpIHwCS82eJTET+FmZwbw1fxFWAslslCK0XrdDlyjrLkSy4iQ85h5KbIps9JxV2B/RG3tmkNI8PIJkubjDJeeS9H51Ro0lDSnmVecVv5uiN3jur/s+ixz+G4IEB0/3HzvDtC3B92ZTwyoHI/bLPvqqVIb7rwIHe7AAKiGxoTa7meZT6U000cboINhOQzLcJqo0wu1TxJaZOXlkE21caSCZPoVbowzjY68UCnCqSxyQ==
+X-OriginatorOrg: 4wise.pl
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Apr 2020 13:44:10.1504
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7ddb3d14-8c4a-45f7-fbd3-08d7dfb0bee8
+X-MS-Exchange-CrossTenant-Id: 50599b63-82bf-4d36-831a-6c3a9feb9b05
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=50599b63-82bf-4d36-831a-6c3a9feb9b05;Ip=[104.40.229.156];Helo=[eu1.smtp.exclaimer.net]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8PR10MB2954
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_313d7baa-a554-4d30-b321-ed817643d7ab
+Content-Language: pl-PL
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR10MB1860B66169B408216A4DF10BB8DD0AM0PR10MB1860EURP_"
+
+--_000_AM0PR10MB1860B66169B408216A4DF10BB8DD0AM0PR10MB1860EURP_
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Cze=C5=9B=C4=87,
+
+Z powodu tego =C5=BCe obecnie s=C4=85 =C5=9Awi=C4=99ta Wielkanocne dopiero =
+dzisiaj wieczorem b=C4=99d=C4=99 przysy=C5=82a=C5=82 napisane przez Ciebie =
+wiadmosci w tym tez przedstawione przez Ciebie wyja=C5=9Bnienia i argumenty=
+=2E Nast=C4=99pnie przedstawi=C4=99 Twoja propozycje. Mam nadziej=C4=99 =
+=C5=BCe to wystarczy aby zamkn=C4=85=C4=87 temat tamtego zlecenia. Rozumiem=
+ Twoje stanowisko i punkt widzenia.
+
+Co do kolejnego zlecenia  to musz=C4=99 to rozwa=C5=BCy=C4=87 czy takie zle=
+cenie nie powinno zosta=C4=87 zawarte bezpo=C5=9Brednio z Toba i Panem Jack=
+iem. To zbyt powa=C5=BCna kwestia aby w tym po=C5=9Bredniczy=C5=82 i w przy=
+padku kolejnych nie jasno=C5=9Bci pe=C5=82ni=C5=82 role s=C4=99dziego nie m=
+=C3=B3wi=C4=85c ju=C5=BC o kwestiach rozliczeniowych.
+
+Pozdrawiam,
+
+
+Mateusz Paluch
+Chief Operating Officer
+E: mateusz.paluch@4wise.pl
+M: +48 883 631 911
+ 4WISE GROUP Sp. z o.o. | Wieniawskiego 18 | 41-506 Chorz=C3=B3w. 
+Sp=C3=B3=C5=82ka zarejestrowana w S=C4=85dzie Rejonowym Katowice =E2=80=93 =
+Wsch=C3=B3d Wydzia=C5=82 VIII Gospodarczy Krajowego Rejestru S=C4=85dowego =
+=E2=80=8Bpod numerem KRS 0000728932 | NIP 6272757341 | REGON 380380318
+=E2=80=8BAdministratorem Pa=C5=84stwa danych jest 4WISE GROUP Sp. z o.o. 
+=E2=80=8BPa=C5=84stwa dane przetwarzamy w celu podtrzymania kontaktu z Pa=
+=C5=84stwem i prowadzenia korespondencji. Szczeg=C3=B3=C5=82owe informacje =
+dotycz=C4=85ce przetwarzania zawarli=C5=9Bmy w polityce prywatno=C5=9Bci
+________________________________
+From: Michal Siemaszko <mhsiemaszko@fastmail.net>
+Sent: Monday, April 13, 2020 3:29:27 PM
+To: Mateusz Paluch <mateusz.paluch@4wise.pl>
+Subject: Re: Rozw=C3=B3j i komercjalizacja aplikacji "Pasjonata" - model ro=
+zlicze=C5=84 miesi=C4=99cznych i lista tego co b=C4=99dzie po kolei robione
+
+
+Cze=C5=9B=C4=87 Mateusz,
+
+Chcia=C5=82em zd=C4=85=C5=BCy=C4=87 do 20tego w=C5=82=C4=85cznie dostarczy=
+=C4=87 im automatyzacje generowania tych pozosta=C5=82ych format=C3=B3w, o =
+kt=C3=B3rych informacje i kt=C3=B3rych przyk=C5=82ady dostarczyli dopiero p=
+o akceptacji - ja zlecenie #5 wykona=C5=82em w ca=C5=82o=C5=9Bci wg. inform=
+acji mi przekazanych do akceptacji, przy 5+ kontaktach z nimi, jak wykaza=
+=C5=82em w dokumentacji przes=C5=82anej Tobie kilka dni temu. Tak wiec pozo=
+sta=C5=82e formaty, tak samo jak te dodatkowe funkcjonalno=C5=9Bci o kt=C3=
+=B3rych sobie "przypomnieli" po akceptacji, s=C4=85 traktowane jako osobne =
+zlecenia - co nie zmienia faktu, =C5=BCe trzeba z tym dopi=C4=85=C4=87 tak =
+=C5=BCeby mieli to zrobione.
+
+W za=C5=82=C4=85czniku przesy=C5=82am zlecenie wykonania prac #6 w modelu "=
+Time&Material" - dok=C5=82adnie to, o czym wspomina=C5=82em ju=C5=BC kilka =
+razy, i o co p. Jacek prosi=C5=82 ju=C5=BC jaki=C5=9B czas temu.
+
+Chc=C4=85c zd=C4=85=C5=BCy=C4=87 do 20tego z automatyzacj=C4=85 generowania=
+ tych pozosta=C5=82ych format=C3=B3w zestawie=C5=84, musz=C4=99 mie=C4=87 z=
+ap=C5=82acone za zlecenie #5 pozosta=C5=82=C4=85 cz=C4=99=C5=9B=C4=87 kwoty=
+ i zlecenie #6 podpisane; rozliczenia za zlecenie #6 b=C4=99d=C4=85 p=C5=
+=82atne "z do=C5=82u" - wszelkie informacje zawar=C5=82em w definicji zlece=
+nia.
+
+Je=C5=9Bli p=C5=82atno=C5=9B=C4=87 i akceptacja b=C4=99dzie w dacie wskazan=
+ej na za=C5=82=C4=85czonym zleceniu, w bie=C5=BC=C4=85cym okresie rozliczen=
+iowym, tj. do 30 kwietnia w=C5=82=C4=85cznie, wykonam dla nich nast=C4=99pu=
+j=C4=85ce pozycje z listy, kt=C3=B3r=C4=85 dostarczy=C5=82em kilka dni temu=
+ (lista jeszcze raz poni=C5=BCej):
+
+ I. (1) (a) (tj. "Zestawienie MFM, BFM" + "Mieszanki")
+
+ I. (2) (a) (tj. "Zestawienie MPX - M05, MFS, MFE, MFK" + "Zestawienie MFS"=
+)
+
+ I. (2) (b) (tj. "Zestawienie us=C5=82ug")
+
+ II. ("Uruchomienie dodatkowych wersji dedykowanych Pasjonata WEB B2B")
+
+ III. Zdalne szkolenie w ramach "Dalszy rozw=C3=B3j aplikacji Pasjonata WEB=
+ i Pasjonata Android - Wykorzystanie GitLab Pasja dla =C5=9Bledzenia proble=
+m=C3=B3w / zbierania wymaga=C5=84 - b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomy=
+s=C5=82=C3=B3w"
+
+
+I jeszcze raz LISTA / BACKLOG - zob. mail z pi=C4=85tku, 10 kwietnia (poni=
+=C5=BCej); mam nadzieje, =C5=BCe ju=C5=BC nied=C5=82ugo do tych cel=C3=B3w =
+b=C4=99dzie wykorzystywany GitLab, jak tylko oni zaczn=C4=85 z niego korzys=
+ta=C4=87 (czyli pewnie jaki=C5=9B czas od szkolenia).
+
+Pozdrawiam,
+
+--
+  Michael H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@7thraylabs.com<mailto:mhsiemaszko@7thraylabs.com>,
+         mhs@into.software<mailto:mhs@into.software>
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+
+
+On 4/10/20 3:55 PM, Michal Siemaszko wrote:
+
+Cze=C5=9B=C4=87 Mateusz,
+
+Oko=C5=82o p=C3=B3=C5=82tora miesi=C4=85ca temu, przy okazji spotkania 27.0=
+2 w Miko=C5=82owie, p. Jacek wspomina=C5=82, =C5=BCe chce i=C5=9B=C4=87 dal=
+ej ale nie mo=C5=BCe "na raz" zap=C5=82aci=C4=87 pe=C5=82nej kwoty i dlateg=
+o preferuje rozliczenia miesi=C4=99czne.
+
+W miedzy czasie kilka razy ju=C5=BC o tym wspomina=C5=82em - wychodz=C4=85c=
+ naprzeciw oczekiwaniom, i chc=C4=85c rozwi=C4=85za=C4=87 problem tego, =
+=C5=BCe to Pasja nie przekaza=C5=82a / nie przekazuje kompletnych informacj=
+i, tak aby nie musieli si=C4=99 o to martwic. Ja nie mog=C4=99 bra=C4=87 na=
+ siebie takich sytuacji w modelu "fixed price", bior=C4=85c pod uwag=C4=99 =
+=C5=BCe ju=C5=BC kilka razy mia=C5=82o miejsce co=C5=9B takiego.. Tylko w m=
+odelu "time & material", przy kontrakcie min. 6 miesi=C4=99cznym, takie syt=
+uacje przestaj=C4=85 by=C4=87 problemem. Je=C5=9Bli o czym=C5=9B nie powied=
+zieli, b=C4=99d=C4=85c o to pytani 5+ krotnie, a okazuje si=C4=99 ze nak=
+=C5=82ad pracy jest ok. 100% wi=C4=99kszy, po prostu nie dzia=C5=82a to w t=
+en spos=C3=B3b w "fixed price". W modelu rozlicze=C5=84 miesi=C4=99cznych m=
+aja ten problem z g=C5=82owy - ale tu tez oczywi=C5=9Bcie racjonalnie musi =
+to wygl=C4=85da=C4=87, czyli to co w danym okresie miesi=C4=99cznym mo=C5=
+=BCna rzeczywi=C5=9Bcie wykona=C4=87, czyli z g=C3=B3ry ustalone, wystarczy=
+ "lu=C5=BAno" doprecyzowane wymagania, spriorytetyzowane, i po kolei robion=
+e.
+
+Bior=C4=85c pod uwag=C4=99 wszystko to co mia=C5=82o miejsce dotychczas i p=
+owtarza si=C4=99, oraz i przede wszystkim ilo=C5=9B=C4=87 temat=C3=B3w kt=
+=C3=B3re zalegaj=C4=85 / chc=C4=85 mi=C4=99=C4=87 zrobione, proponuje w mod=
+elu rozlicze=C5=84 miesi=C4=99cznych, przy kontrakcie na min. 6 miesi=C4=
+=99cy, przy kwocie 12 500 PLN / miesi=C4=85c, przy dost=C4=99pno=C5=9Bci mi=
+n. 13 dni roboczych w miesi=C4=85cu, po kolei lecie=C4=87 z tym co chc=C4=
+=85 mie=C4=87 robione, tj.:
+
+
+I. Usprawnienia aplikacji Pasjonata WEB pod k=C4=85tem funkcjonalno=C5=9Bci=
+ potrzebnej dla wymiany danych z ksi=C4=99gowo=C5=9Bci=C4=85 (AUTOMATYZACJA=
+ & INTEGRACJA) (c.d.)
+
+ 1) "Zestawienia Magazynowe" (instrukcja_zestawienia_sprzedazy.pdf) (c.d.)
+
+    a) "Zestawienie MFM, BFM" (punkt #1 z 'instrukcja_zestawienia_sprzedazy=
+=2Epdf') + "Mieszanki" (punkt #2 z instrukcja_zestawienia_sprzedazy.pdf)
+    Jest to ok. 1,5 dnia pracy, wiec ok. 1440 PLN gdyby chcieli rozliczyc o=
+sobno; w modelu rozliczen miesiecznych beda mieli to ujete juz / wliczone.
+
+ 2) "Zestawienia Sprzedazy" (instrukcja_zestawienia_magazyny.pdf)
+
+    a) "Zestawienie MPX - M05, MFS, MFE, MFK" (punkt #1 z 'instrukcja_zesta=
+wienia_magazyny.pdf') + "Zestawienie MFS" (punkt #3 z 'instrukcja_zestawien=
+ia_magazyny.pdf')
+       Jest to ok. 2 dni pracy, wiec ok. 1920 PLN gdyby chcieli rozliczyc o=
+sobno; w modelu rozliczen miesiecznych beda mieli to ujete juz / wliczone.
+
+    b) "Zestawienie us=C5=82ug" (punkt #2 z 'instrukcja_zestawienia_magazyn=
+y.pdf')
+       Jest to ok. 1 dzien pracy, wiec ok. 960 PLN gdyby chcieli rozliczyc =
+osobno; w modelu rozliczen miesiecznych beda mieli to ujete juz / wliczone.
+
+ 3) "Rozliczenia zaliczek"
+     Jest to miedzy 0,5 a 2 dni pracy, czyli miedzy 480 a 1920 PLN gdyby ch=
+cieli rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete=
+ juz / wliczone.
+     Rozpietosc wynika z braku doprecyzowania wymagan - do wyjasnienia jest=
+ czy maja byc generowane dokumenty PDF automatycznie, tj. dla wszystkich ro=
+zliczen zaliczek w danym okresie czasu - czy calosc tych danych ma byc prze=
+kazana w jednym pliku, w formie dokumentu Excel lub EPP?
+
+ 4) "Rozliczenia VAT"
+     Brak wystarczajacych informacji / specyfikacje do uzupelnienia. W rozl=
+iczeniu miesiecznym te informacje uzupelnie juz w trakcie, przekaze informa=
+cje ile to zajmie, nastepnie wykonam co potrzebne - tym samym sytuacja jak =
+obecnie, pracujac w modelu "fixed price" (gdzie wymagania sa najpierw zbier=
+ane i jest to punkt wejscia do przedstawienia wyceny) nie bedzie miala miej=
+sce.
+
+ 5) "Integracja / komunikacja z bankiem"
+     Brak wystarczajacych informacji / specyfikacje do uzupelnienia. W rozl=
+iczeniu miesiecznym te informacje uzupelnie juz w trakcie, przekaze informa=
+cje ile to zajmie, nastepnie wykonam co potrzebne - tym samym sytuacja jak =
+obecnie, pracujac w modelu "fixed price" (gdzie wymagania sa najpierw zbier=
+ane i jest to punkt wejscia do przedstawienia wyceny) nie bedzie miala miej=
+sce.
+
+ 6) "Integracja generatora EPP / rozliczen kas / z poziomu aplikacji Pasjon=
+ata WEB"
+     Jest to ok. 1 dzien pracy, wiec ok. 960 PLN gdyby chcieli rozliczyc os=
+obno; w modelu rozliczen miesiecznych beda mieli to ujete juz / wliczone.
+
+
+II. Uruchomienie dodatkowych wersji dedykowanych Pasjonata WEB B2B
+
+  Wdro=C5=BCenie na nowym =C5=9Brodowisku dw=C3=B3ch dodatkowych wersji ded=
+ykowanych (B2B) aplikacji Pasjonata WEB =E2=80=93 poza pierwszymi 4 ju=C5=
+=BC wdro=C5=BConymi w ramach opcji #2 =E2=80=93 tj. 91.201.122.25:40000/tol=
+ek/ i 91.201.122.25:40000/aaprint/
+
+  Wycene w modelu "fixed price" przedstawialem wielokrotnie. W modelu rozli=
+czen miesiecznych jest to juz "wliczone" i zajmie ok. 1,5 dnia roboczego.
+
+
+III. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB i Pasjonata Android - Wykor=
+zystanie GitLab Pasja dla =C5=9Bledzenia problem=C3=B3w / zbierania wymaga=
+=C5=84 - b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=82=C3=B3w
+
+  Kilka tygodni temu przekazalem juz jako kolejny "gratis" komplet informac=
+ji potrzebny pracownikom Pasji zeby dodawac zgloszenia (bledy, zadania, pom=
+ysly) do GitLab, zalozylem im konta, przygotowalem i przeslalem screencasty=
+=2E Zaproponowalem wtedy ze jesli po zapoznaniu sie z tym dalej nie wiedza =
+jak korzystac, moge im pomoc w ramach szkolenia. Oprocz szkolenia, na bieza=
+co dodawane przez nich zgloszenia (b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=
+=C5=82=C3=B3w) trzeba bedzie uzupelniac / konsolidowac / merdzowac / priory=
+tetyzowac, itp. - czynnosci, ktorymi zazwyczaj zajmuje sie analityk czy pro=
+duct owner, ale akurat wystarczajaco wiem na ten temat ze tez moge im z tym=
+ pomoc i bedzie to wliczone w ramach rozliczen miesiecznych.
+
+
+IV. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB - Zarzadzanie uprawnieniami =
+- Zdefiniowanie roli super-admina i modyfikacje wybranych uprawnien tylko z=
+ tego poziomu, ew. uruchomienie osobnej mini-aplikacji (jesli ingenerencja =
+w kod PHP okaze sie byc niemozliwa przed jego posprzataniem) do przydzielan=
+ia wybranych uprawnien. s
+
+
+V. Dalszy rozw=C3=B3j aplikacji na Androida  - Aplikacje na Androida kompat=
+ybilne z najnowszymi wersjami Android OS i mozliwosc "samo-obslugi"
+
+  To kolejny temat, ktory p. Jacek wspominal juz kilka razy, rowniez przy s=
+potkaniu 27.02, ze jest dla niego pilny. Wiec idac po kolei, w ramach tego =
+zostaloby wykonane:
+
+   * podciagniecie aplikacji tak aby mogly byc kompilowane dla i instalowan=
+e na najnowszych wersjach systemu operacyjnego Android
+
+   * mozliwosc "samo-obslugi" - tj. umozliwienie instalacji i uaktualniania=
+ wszystkich 14 aplikacji na Androida poprzez jedna aplikacje - w miare mozl=
+iwosci wykorzystanie do tego celu istniejacej aplikacji "Updater" lub napis=
+anie od nowa
+
+
+VI. Przygotowanie aplikacji Pasjonata WEB i Pasjonata Android do dalszego r=
+ozwoju / splata dlugu technicznego
+
+ 1) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w aplikacji =
+Pasjonata WEB - wg. analizy statycznej kodu PHP aplikacji zostalo zostalo z=
+identyfikowanych ponad 10 tysi=C4=99cy powa=C5=BCnych i krytycznych problem=
+=C3=B3w, ktore sa przyczyna wiekszosci jesli nie wszystkich problemow, z kt=
+orymi spotykaja sie na codzien uzytkownicy aplikacji. Problemy wynikajace z=
+ NIEDOKONCZONYCH funkcjonalnosci wymagaja DOKONCZENIA tych funkcjonalnosci,=
+ i bedzie to wykonane w nastepnym etapach.
+
+ 2) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w aplikacjac=
+h Pasjonata Android
+
+ 3) Naprawa powa=C5=BCnych i krytycznych problem=C3=B3w z modelem danych wy=
+korzystywanym w aplikacjiach Pasonata WEB i Pasjonata Android
+
+ 3) Optymalizacja zapytan SQL powodujacych zawieszanie sie / wolne dzialani=
+e czesci widokow aplikacji Pasjonata WEB i Pasjonata Android
+
+ 4) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie PHP aplikacji Pas=
+jonata WEB
+
+ 5) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie Java aplikacji Pa=
+sjonata Android
+
+ 6) Opracowanie dokumentacji technicznej / wysokopoziomowej architektury ap=
+likacji
+
+
+
+Aby zaj=C4=85=C4=87 si=C4=99 tematami takimi jak (nazwy z oferty z listopad=
+a 2019):
+
+ * "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i nowych funkc=
+jonalno=C5=9Bci w aplikacji Pasjonata WEB"
+
+ * "Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i nowych funkc=
+jonalno=C5=9Bci w aplikacjach Pasjonata Android"
+
+ * "Aplikacja zintegrowana ze sklepami internetowymi firmy =E2=80=9EPasja=
+=E2=80=9D"
+
+ * "Aplikacja zintegrowana z zewn=C4=99trznym systemem firmy kurierskiej"
+
+ * "Aplikacja zintegrowana z programem do CRM"
+
+ * "Aplikacja gotowa do odsprzeda=C5=BCy i wdra=C5=BCania w innych firmach =
+=C5=9Bwiadcz=C4=85cych us=C5=82ugi uszlachetniania druku w Polsce i zagrani=
+c=C4=85"
+
+=2E.. aplikacja musi zosta=C4=87 najpierw przygotowana do dalszego rozwoju =
+/ d=C5=82ug techniczny sp=C5=82acony przynajmniej dla krytycznych i powa=
+=C5=BCnych b=C5=82=C4=99d=C3=B3w. Je=C5=9Bli prace wymienione w punktach I-=
+VI powy=C5=BCej zajm=C4=85 mniej ni=C5=BC 6 miesi=C4=99cy, wtedy mo=C5=BCna=
+ od razu p=C5=82ynnie przej=C5=9B=C4=87 do tych temat=C3=B3w i r=C3=B3wnie=
+=C5=BC w rozliczeniach miesi=C4=99cznych je za=C5=82atwia=C4=87 po kolei.
+
+Podsumowuj=C4=85c - =C5=BCeby to mia=C5=82o "r=C4=99ce i nogi", jedna i dru=
+ga strona transakcji musi by=C4=87 zadowolona; odno=C5=9Bnie model=C3=B3w i=
+ stawek ju=C5=BC kilka tygodni wyja=C5=9Bnia=C5=82em; je=C5=9Bli nie s=C4=
+=85 w stanie doprecyzowa=C4=87 czego=C5=9B przed akceptacja, model rozlicze=
+=C5=84 miesi=C4=99cznych to jest jedyny spos=C3=B3b na to =C5=BCeby takie s=
+ytuacje nie stawa=C5=82y si=C4=99 problemami i moc p=C5=82ynnie i=C5=9B=C4=
+=87 dalej.
+
+Pozdrawiam,
+
+--
+  Michal H. Siemaszko
+  Mobile: +48 723 039 978
+  Signal IM: +48668566023
+  Telegram: mhsiemaszko
+  Email: mhsiemaszko@7thraylabs.com<mailto:mhsiemaszko@7thraylabs.com>,
+         mhs@into.software<mailto:mhs@into.software>
+  WWW: http://ideas.into.software/
+  GitHub: https://github.com/ideas-into-software/
+  LinkedIn: http://www.linkedin.com/in/mhsiemaszko/
+  Twitter: https://twitter.com/IntoSoftware/
+
+
+
+
+--_000_AM0PR10MB1860B66169B408216A4DF10BB8DD0AM0PR10MB1860EURP_
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<div dir=3D"auto" style=3D"direction: ltr; margin: 0; padding: 0; font-fami=
+ly: sans-serif; font-size: 11pt; color: black; ">
+Cze=C5=9B=C4=87,<br>
+<br>
+</div>
+<div dir=3D"auto" style=3D"direction: ltr; margin: 0; padding: 0; font-fami=
+ly: sans-serif; font-size: 11pt; color: black; ">
+Z powodu tego =C5=BCe obecnie s=C4=85 =C5=9Awi=C4=99ta Wielkanocne dopiero =
+dzisiaj wieczorem b=C4=99d=C4=99 przysy=C5=82a=C5=82 napisane przez Ciebie =
+wiadmosci w tym tez przedstawione przez Ciebie wyja=C5=9Bnienia i argumenty=
+=2E Nast=C4=99pnie przedstawi=C4=99 Twoja propozycje. Mam nadziej=C4=99 =
+=C5=BCe to wystarczy aby zamkn=C4=85=C4=87
+ temat tamtego zlecenia. Rozumiem Twoje stanowisko i punkt widzenia. <br>
+<br>
+</div>
+<div dir=3D"auto" style=3D"direction: ltr; margin: 0; padding: 0; font-fami=
+ly: sans-serif; font-size: 11pt; color: black; ">
+Co do kolejnego zlecenia&nbsp; to musz=C4=99 to rozwa=C5=BCy=C4=87 czy taki=
+e zlecenie nie powinno zosta=C4=87 zawarte bezpo=C5=9Brednio z Toba i Panem=
+ Jackiem. To zbyt powa=C5=BCna kwestia aby w tym po=C5=9Bredniczy=C5=82 i w=
+ przypadku kolejnych nie jasno=C5=9Bci pe=C5=82ni=C5=82 role s=C4=99dziego =
+nie m=C3=B3wi=C4=85c ju=C5=BC o kwestiach
+ rozliczeniowych. <br>
+<br>
+</div>
+<div dir=3D"auto" style=3D"direction: ltr; margin: 0; padding: 0; font-fami=
+ly: sans-serif; font-size: 11pt; color: black; ">
+Pozdrawiam, <br>
+<br>
+</div>
+<div style=3D"mso-line-height-rule:exactly;-webkit-text-size-adjust:100%;">=
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:100%=
+;"><tr style=3D"font-size:0;"><td align=3D"left" style=3D"vertical-align:to=
+p;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"font-s=
+ize:0;"><tr style=3D"font-size:0;"><td colspan=3D"2" align=3D"left" style=
+=3D"padding:20px 0 0;vertical-align:top;"><table cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" style=3D"font-size:0;"><tr style=3D"font-size:0;"><t=
+d align=3D"left" style=3D"vertical-align:top;"><table cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" style=3D"width:500px;font-size:0;"><tr style=
+=3D"font-size:0;"><td align=3D"left" style=3D"padding:0;vertical-align:midd=
+le;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"font-=
+size:0;line-height:normal;"><tr style=3D"font-size:0;"><td align=3D"left" s=
+tyle=3D"padding:0 6px 0 0;vertical-align:middle;"><img src=3D"cid:image4582=
+42.png@A5AAAF2A.4304929E" width=3D"200" border=3D"0" alt=3D"" style=3D"widt=
+h:200px;min-width:200px;max-width:200px;font-size:0;" /></td></tr></table><=
+/td><td align=3D"left" style=3D"padding:0;border-top:none;border-right:none=
+;border-bottom:none;border-left:solid 1px #000001;vertical-align:top;"><tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:100%;fon=
+t-size:0;"><tr style=3D"font-size:0;"><td align=3D"left" style=3D"padding:0=
+ 0 0 15px;vertical-align:top;"><table cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" style=3D"width:100%;font-size:0;color:#000001;font-style:normal=
+;font-weight:700;white-space:nowrap;"><tr style=3D"font-size:18.67px;"><td =
+align=3D"left" style=3D"vertical-align:top;font-family:Calibri;">Mateusz&nb=
+sp;Paluch<span style=3D"font-family:remialcxesans;font-size:1px;color:#FFFF=
+FF;line-height:1px;">&#8203;</span></td></tr><tr style=3D"font-size:16px;co=
+lor:#0D84FD;"><td align=3D"left" style=3D"vertical-align:top;font-family:Ca=
+libri;">Chief&nbsp;Operating&nbsp;Officer</td></tr><tr style=3D"font-size:1=
+6px;font-weight:400;"><td align=3D"left" style=3D"vertical-align:top;font-f=
+amily:Calibri;">E:&nbsp;<a href=3D"mailto:mateusz.paluch@4wise.pl" target=
+=3D"_blank" id=3D"LPlnk689713" style=3D"text-decoration:none;color:#000001;=
+"><strong style=3D"font-weight:400;">mateusz.paluch@4wise.pl</strong></a></=
+td></tr><tr style=3D"font-size:16px;font-weight:400;"><td align=3D"left" st=
+yle=3D"vertical-align:top;font-family:Calibri;">M:&nbsp;<a href=3D"tel:+48%=
+20883%20631%20911" target=3D"_blank" id=3D"LPlnk689713" style=3D"text-decor=
+ation:none;color:#000001;"><strong style=3D"font-weight:400;">+48&nbsp;883&=
+nbsp;631&nbsp;911</strong></a></td></tr></table></td></tr></table></td></tr=
+></table></td></tr><tr style=3D"font-size:0;"><td align=3D"left" style=3D"v=
+ertical-align:top;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ style=3D"font-size:0;"><tr style=3D"font-size:0;"><td align=3D"left" style=
+=3D"vertical-align:top;"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"font-size:0;"><tr style=3D"font-size:0;"><td align=3D"left"=
+ style=3D"padding:20px 0 0;vertical-align:top;"><table cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"white-space:normal;color:#000001;font=
+-size:18.67px;font-family:Calibri;font-weight:400;font-style:normal;text-al=
+ign:left;width:500px;"><tr style=3D"font-size:12px;"><td style=3D"font-fami=
+ly:Calibri;"> 4WISE GROUP Sp. z o.o. | Wieniawskiego 18 | 41-506 Chorz&#243=
+;w. <br />Sp&#243;=C5=82ka zarejestrowana w S=C4=85dzie Rejonowym Katowice =
+=E2=80=93 Wsch&#243;d Wydzia=C5=82 VIII Gospodarczy Krajowego Rejestru S=
+=C4=85dowego &#8203;pod numerem KRS 0000728932 | NIP 6272757341 | REGON 380=
+380318<br /></td></tr></table></td></tr></table></td></tr><tr style=3D"font=
+-size:0;"><td align=3D"left" style=3D"vertical-align:top;"><table cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"font-size:0;"><tr style=
+=3D"font-size:0;"><td align=3D"left" style=3D"padding:10px 0 0;vertical-ali=
+gn:top;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"w=
+hite-space:normal;color:#000001;font-size:18.67px;font-family:Calibri;font-=
+weight:400;font-style:normal;text-align:left;width:500px;"><tr style=3D"fon=
+t-size:12px;"><td style=3D"font-family:Calibri;">&#8203;Administratorem Pa=
+=C5=84stwa danych jest 4WISE GROUP Sp. z o.o. <br />&#8203;Pa=C5=84stwa dan=
+e przetwarzamy w celu podtrzymania kontaktu z Pa=C5=84stwem i&nbsp;prowadze=
+nia korespondencji. Szczeg&#243;=C5=82owe informacje dotycz=C4=85ce przetwa=
+rzania zawarli=C5=9Bmy w&nbsp;<a href=3D"https://mamrodo.pl/index.php/ochro=
+na-danych-osobowy/" target=3D"_blank" id=3D"LPlnk689713" style=3D"text-deco=
+ration:none;color:#000001;"><strong style=3D"font-weight:400;">polityce pry=
+watno=C5=9Bci</strong></a></td></tr></table></td></tr></table></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr></table></div><hr style=
+=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Michal Siemaszko &lt;=
+mhsiemaszko@fastmail.net&gt;<br>
+<b>Sent:</b> Monday, April 13, 2020 3:29:27 PM<br>
+<b>To:</b> Mateusz Paluch &lt;mateusz.paluch@4wise.pl&gt;<br>
+<b>Subject:</b> Re: Rozw=C3=B3j i komercjalizacja aplikacji &quot;Pasjonata=
+&quot; - model rozlicze=C5=84 miesi=C4=99cznych i lista tego co b=C4=99dzie=
+ po kolei robione</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p>Cze=C5=9B=C4=87 Mateusz, <br>
+<br>
+Chcia=C5=82em zd=C4=85=C5=BCy=C4=87 do 20tego w=C5=82=C4=85cznie dostarczy=
+=C4=87 im automatyzacje generowania tych pozosta=C5=82ych format=C3=B3w, o =
+kt=C3=B3rych informacje i kt=C3=B3rych przyk=C5=82ady dostarczyli dopiero p=
+o akceptacji - ja zlecenie #5 wykona=C5=82em w ca=C5=82o=C5=9Bci wg. inform=
+acji mi przekazanych do akceptacji,
+ przy 5&#43; kontaktach z nimi, jak wykaza=C5=82em w dokumentacji przes=C5=
+=82anej Tobie kilka dni temu. Tak wiec pozosta=C5=82e formaty, tak samo jak=
+ te dodatkowe funkcjonalno=C5=9Bci o kt=C3=B3rych sobie &quot;przypomnieli&=
+quot; po akceptacji, s=C4=85 traktowane jako osobne zlecenia - co nie zmien=
+ia
+ faktu, =C5=BCe trzeba z tym dopi=C4=85=C4=87 tak =C5=BCeby mieli to zrobio=
+ne. <br>
+<br>
+W za=C5=82=C4=85czniku przesy=C5=82am zlecenie wykonania prac #6 w modelu &=
+quot;Time&amp;Material&quot; - dok=C5=82adnie to, o czym wspomina=C5=82em j=
+u=C5=BC kilka razy, i o co p. Jacek prosi=C5=82 ju=C5=BC jaki=C5=9B czas te=
+mu.
+<br>
+<br>
+Chc=C4=85c zd=C4=85=C5=BCy=C4=87 do 20tego z automatyzacj=C4=85 generowania=
+ tych pozosta=C5=82ych format=C3=B3w zestawie=C5=84, musz=C4=99 mie=C4=87 z=
+ap=C5=82acone za zlecenie #5 pozosta=C5=82=C4=85 cz=C4=99=C5=9B=C4=87 kwoty=
+ i zlecenie #6 podpisane; rozliczenia za zlecenie #6 b=C4=99d=C4=85 p=C5=
+=82atne &quot;z do=C5=82u&quot; - wszelkie informacje zawar=C5=82em w defin=
+icji
+ zlecenia. <br>
+<br>
+Je=C5=9Bli p=C5=82atno=C5=9B=C4=87 i akceptacja b=C4=99dzie w dacie wskazan=
+ej na za=C5=82=C4=85czonym zleceniu, w bie=C5=BC=C4=85cym okresie rozliczen=
+iowym, tj. do 30 kwietnia w=C5=82=C4=85cznie, wykonam dla nich nast=C4=99pu=
+j=C4=85ce pozycje z listy, kt=C3=B3r=C4=85 dostarczy=C5=82em kilka dni temu=
+ (lista jeszcze raz poni=C5=BCej):
+<br>
+<br>
+&nbsp;<b>I</b>. (<b>1</b>) (<b>a</b>) (tj. &quot;Zestawienie MFM, BFM&quot;=
+ &#43; &quot;Mieszanki&quot;)<br>
+<br>
+&nbsp;<b>I</b>. (<b>2</b>) (<b>a</b>) (tj. &quot;Zestawienie MPX - M05, MFS=
+, MFE, MFK&quot; &#43; &quot;Zestawienie MFS&quot;)
+<br>
+<br>
+&nbsp;<b>I</b>. (<b>2</b>) (<b>b</b>) (tj. &quot;Zestawienie us=C5=82ug&quo=
+t;) <br>
+<br>
+&nbsp;<b>II</b>. (&quot;Uruchomienie dodatkowych wersji dedykowanych Pasjon=
+ata WEB B2B&quot;)<br>
+<br>
+&nbsp;<b>III</b>. Zdalne szkolenie w ramach &quot;Dalszy rozw=C3=B3j aplika=
+cji Pasjonata WEB i Pasjonata Android - Wykorzystanie GitLab Pasja dla =C5=
+=9Bledzenia problem=C3=B3w / zbierania wymaga=C5=84 - b=C5=82=C4=99d=C3=B3w=
+, zada=C5=84, pomys=C5=82=C3=B3w&quot;<br>
+<br>
+<br>
+I jeszcze raz LISTA / BACKLOG - zob. mail z pi=C4=85tku, 10 kwietnia (poni=
+=C5=BCej); mam nadzieje, =C5=BCe ju=C5=BC nied=C5=82ugo do tych cel=C3=B3w =
+b=C4=99dzie wykorzystywany GitLab, jak tylko oni zaczn=C4=85 z niego korzys=
+ta=C4=87 (czyli pewnie jaki=C5=9B czas od szkolenia).<br>
+</p>
+<p>Pozdrawiam,<br>
+</p>
+<pre class=3D"x_moz-signature" cols=3D"72">-- 
+  Michael H. Siemaszko
+  Mobile: &#43;48 723 039 978
+  Signal IM: &#43;48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"x_moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"x_moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"x_moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"x_moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"x_moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"x_moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+<p><br>
+</p>
+<div class=3D"x_moz-cite-prefix">On 4/10/20 3:55 PM, Michal Siemaszko wrote=
+:<br>
+</div>
+<blockquote type=3D"cite">
+<p>Cze=C5=9B=C4=87 Mateusz, <br>
+<br>
+Oko=C5=82o p=C3=B3=C5=82tora miesi=C4=85ca temu, przy okazji spotkania 27.0=
+2 w Miko=C5=82owie, p. Jacek wspomina=C5=82, =C5=BCe chce i=C5=9B=C4=87 dal=
+ej ale nie mo=C5=BCe &quot;na raz&quot; zap=C5=82aci=C4=87 pe=C5=82nej kwot=
+y i dlatego preferuje rozliczenia miesi=C4=99czne.
+<br>
+<br>
+W miedzy czasie kilka razy ju=C5=BC o tym wspomina=C5=82em - wychodz=C4=85c=
+ naprzeciw oczekiwaniom, i chc=C4=85c rozwi=C4=85za=C4=87 problem tego, =
+=C5=BCe to Pasja nie przekaza=C5=82a / nie przekazuje kompletnych informacj=
+i, tak aby nie musieli si=C4=99 o to martwic. Ja nie mog=C4=99 bra=C4=87 na=
+ siebie takich
+ sytuacji w modelu &quot;fixed price&quot;, bior=C4=85c pod uwag=C4=99 =C5=
+=BCe ju=C5=BC kilka razy mia=C5=82o miejsce co=C5=9B takiego.. Tylko w mode=
+lu &quot;time &amp; material&quot;, przy kontrakcie min. 6 miesi=C4=99cznym=
+, takie sytuacje przestaj=C4=85 by=C4=87 problemem. Je=C5=9Bli o czym=C5=
+=9B nie powiedzieli, b=C4=99d=C4=85c o to pytani 5&#43;
+ krotnie, a okazuje si=C4=99 ze nak=C5=82ad pracy jest ok. 100% wi=C4=99ksz=
+y, po prostu nie dzia=C5=82a to w ten spos=C3=B3b w &quot;fixed price&quot;=
+=2E W modelu rozlicze=C5=84 miesi=C4=99cznych maja ten problem z g=C5=82owy=
+ - ale tu tez oczywi=C5=9Bcie racjonalnie musi to wygl=C4=85da=C4=87, czyli=
+ to co w danym okresie miesi=C4=99cznym
+ mo=C5=BCna rzeczywi=C5=9Bcie wykona=C4=87, czyli z g=C3=B3ry ustalone, wys=
+tarczy &quot;lu=C5=BAno&quot; doprecyzowane wymagania, spriorytetyzowane, i=
+ po kolei robione.
+<br>
+<br>
+Bior=C4=85c pod uwag=C4=99 wszystko to co mia=C5=82o miejsce dotychczas i p=
+owtarza si=C4=99, oraz i przede wszystkim ilo=C5=9B=C4=87 temat=C3=B3w kt=
+=C3=B3re zalegaj=C4=85 / chc=C4=85 mi=C4=99=C4=87 zrobione, proponuje w mod=
+elu rozlicze=C5=84 miesi=C4=99cznych, przy kontrakcie na min. 6 miesi=C4=
+=99cy, przy kwocie 12 500 PLN / miesi=C4=85c,
+ przy dost=C4=99pno=C5=9Bci min. 13 dni roboczych w miesi=C4=85cu, po kolei=
+ lecie=C4=87 z tym co chc=C4=85 mie=C4=87 robione, tj.:
+<br>
+<br>
+<br>
+<b>I</b>. Usprawnienia aplikacji Pasjonata WEB pod k=C4=85tem funkcjonalno=
+=C5=9Bci potrzebnej dla wymiany danych z ksi=C4=99gowo=C5=9Bci=C4=85 (AUTOM=
+ATYZACJA &amp; INTEGRACJA) (c.d.)
+<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;<b>1</b>) &quot;Zestawienia Magazynowe&quot; (instrukcja_zestawienia_=
+sprzedazy.pdf) (c.d.)<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; a) &quot;Zestawienie MFM, BFM&quot; (punkt #1 z 'instruk=
+cja_zestawienia_sprzedazy.pdf') &#43; &quot;Mieszanki&quot; (punkt #2 z ins=
+trukcja_zestawienia_sprzedazy.pdf)
+<br>
+&nbsp;&nbsp;&nbsp; Jest to ok. 1,5 dnia pracy, wiec ok. 1440 PLN gdyby chci=
+eli rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to ujete j=
+uz / wliczone.
+<br>
+<br>
+&nbsp;<b>2</b>) &quot;Zestawienia Sprzedazy&quot; (instrukcja_zestawienia_m=
+agazyny.pdf)<br>
+<br>
+&nbsp;&nbsp;&nbsp; a) &quot;Zestawienie MPX - M05, MFS, MFE, MFK&quot; (pun=
+kt #1 z 'instrukcja_zestawienia_magazyny.pdf') &#43; &quot;Zestawienie MFS&=
+quot; (punkt #3 z 'instrukcja_zestawienia_magazyny.pdf')
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jest to ok. 2 dni pracy, wiec ok. 1920=
+ PLN gdyby chcieli rozliczyc osobno; w modelu rozliczen miesiecznych beda m=
+ieli to ujete juz / wliczone.<br>
+<br>
+&nbsp;&nbsp;&nbsp; b) &quot;Zestawienie us=C5=82ug&quot; (punkt #2 z 'instr=
+ukcja_zestawienia_magazyny.pdf')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jest to ok. 1 dzien pracy, wiec ok. 96=
+0 PLN gdyby chcieli rozliczyc osobno; w modelu rozliczen miesiecznych beda =
+mieli to ujete juz / wliczone.<br>
+<br>
+&nbsp;<b>3</b>) &quot;Rozliczenia zaliczek&quot; <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Jest to miedzy 0,5 a 2 dni pracy, czyli miedzy 480=
+ a 1920 PLN gdyby chcieli rozliczyc osobno; w modelu rozliczen miesiecznych=
+ beda mieli to ujete juz / wliczone.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Rozpietosc wynika z braku doprecyzowania wymagan -=
+ do wyjasnienia jest czy maja byc generowane dokumenty PDF automatycznie, t=
+j. dla wszystkich rozliczen zaliczek w danym okresie czasu - czy calosc tyc=
+h danych ma byc przekazana w jednym pliku, w formie
+ dokumentu Excel lub EPP?<br>
+<br>
+&nbsp;<b>4</b>) &quot;Rozliczenia VAT&quot; <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Brak wystarczajacych informacji / specyfikacje do =
+uzupelnienia. W rozliczeniu miesiecznym te informacje uzupelnie juz w trakc=
+ie, przekaze informacje ile to zajmie, nastepnie wykonam co potrzebne - tym=
+ samym sytuacja jak obecnie, pracujac w modelu &quot;fixed
+ price&quot; (gdzie wymagania sa najpierw zbierane i jest to punkt wejscia =
+do przedstawienia wyceny) nie bedzie miala miejsce.<br>
+<br>
+&nbsp;<b>5</b>) &quot;Integracja / komunikacja z bankiem&quot;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Brak wystarczajacych informacji / specyfikacje do =
+uzupelnienia. W rozliczeniu miesiecznym te informacje uzupelnie juz w trakc=
+ie, przekaze informacje ile to zajmie, nastepnie wykonam co potrzebne - tym=
+ samym sytuacja jak obecnie, pracujac w modelu &quot;fixed
+ price&quot; (gdzie wymagania sa najpierw zbierane i jest to punkt wejscia =
+do przedstawienia wyceny) nie bedzie miala miejsce.<br>
+<br>
+&nbsp;<b>6</b>) &quot;Integracja generatora EPP / rozliczen kas / z poziomu=
+ aplikacji Pasjonata WEB&quot;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Jest to ok. 1 dzien pracy, wiec ok. 960 PLN gdyby =
+chcieli rozliczyc osobno; w modelu rozliczen miesiecznych beda mieli to uje=
+te juz / wliczone.<br>
+<br>
+<br>
+<b>II</b>. Uruchomienie dodatkowych wersji dedykowanych Pasjonata WEB B2B<b=
+r>
+<br>
+&nbsp; Wdro=C5=BCenie na nowym =C5=9Brodowisku dw=C3=B3ch dodatkowych wersj=
+i dedykowanych (B2B) aplikacji Pasjonata WEB =E2=80=93 poza pierwszymi 4 ju=
+=C5=BC wdro=C5=BConymi w ramach opcji #2 =E2=80=93 tj. 91.201.122.25:40000/=
+tolek/ i 91.201.122.25:40000/aaprint/<br>
+<br>
+&nbsp; Wycene w modelu &quot;fixed price&quot; przedstawialem wielokrotnie.=
+ W modelu rozliczen miesiecznych jest to juz &quot;wliczone&quot; i zajmie =
+ok. 1,5 dnia roboczego.
+<br>
+<br>
+<br>
+<b>III</b>. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB i Pasjonata Android =
+- Wykorzystanie GitLab Pasja dla =C5=9Bledzenia problem=C3=B3w / zbierania =
+wymaga=C5=84 - b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=82=C3=B3w<br>
+<br>
+&nbsp; Kilka tygodni temu przekazalem juz jako kolejny &quot;gratis&quot; k=
+omplet informacji potrzebny pracownikom Pasji zeby dodawac zgloszenia (bled=
+y, zadania, pomysly) do GitLab, zalozylem im konta, przygotowalem i przesla=
+lem screencasty. Zaproponowalem wtedy ze jesli
+ po zapoznaniu sie z tym dalej nie wiedza jak korzystac, moge im pomoc w ra=
+mach szkolenia. Oprocz szkolenia, na biezaco dodawane przez nich zgloszenia=
+ (b=C5=82=C4=99d=C3=B3w, zada=C5=84, pomys=C5=82=C3=B3w) trzeba bedzie uzup=
+elniac / konsolidowac / merdzowac / priorytetyzowac, itp. - czynnosci,
+ ktorymi zazwyczaj zajmuje sie analityk czy product owner, ale akurat wysta=
+rczajaco wiem na ten temat ze tez moge im z tym pomoc i bedzie to wliczone =
+w ramach rozliczen miesiecznych.<br>
+<br>
+<br>
+<b>IV</b>. Dalszy rozw=C3=B3j aplikacji Pasjonata WEB - Zarzadzanie uprawni=
+eniami - Zdefiniowanie roli super-admina i modyfikacje wybranych uprawnien =
+tylko z tego poziomu, ew. uruchomienie osobnej mini-aplikacji (jesli ingene=
+rencja w kod PHP okaze sie byc niemozliwa
+ przed jego posprzataniem) do przydzielania wybranych uprawnien. s<br>
+<br>
+<br>
+<b>V</b>. Dalszy rozw=C3=B3j aplikacji na Androida&nbsp; - Aplikacje na And=
+roida kompatybilne z najnowszymi wersjami Android OS i mozliwosc &quot;samo=
+-obslugi&quot;<br>
+<br>
+&nbsp; To kolejny temat, ktory p. Jacek wspominal juz kilka razy, rowniez p=
+rzy spotkaniu 27.02, ze jest dla niego pilny. Wiec idac po kolei, w ramach =
+tego zostaloby wykonane:
+<br>
+<br>
+&nbsp;&nbsp; * podciagniecie aplikacji tak aby mogly byc kompilowane dla i =
+instalowane na najnowszych wersjach systemu operacyjnego Android
+<br>
+<br>
+&nbsp;&nbsp; * mozliwosc &quot;samo-obslugi&quot; - tj. umozliwienie instal=
+acji i uaktualniania wszystkich 14 aplikacji na Androida poprzez jedna apli=
+kacje - w miare mozliwosci wykorzystanie do tego celu istniejacej aplikacji=
+ &quot;Updater&quot; lub napisanie od nowa<br>
+<br>
+<br>
+<b>VI</b>. Przygotowanie aplikacji Pasjonata WEB i Pasjonata Android do dal=
+szego rozwoju / splata dlugu technicznego<br>
+<br>
+&nbsp;1) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w aplik=
+acji Pasjonata WEB - wg. analizy statycznej kodu PHP aplikacji zostalo zost=
+alo zidentyfikowanych ponad 10 tysi=C4=99cy powa=C5=BCnych i krytycznych pr=
+oblem=C3=B3w, ktore sa przyczyna wiekszosci jesli nie wszystkich problemow,
+ z ktorymi spotykaja sie na codzien uzytkownicy aplikacji. Problemy wynikaj=
+ace z NIEDOKONCZONYCH funkcjonalnosci wymagaja DOKONCZENIA tych funkcjonaln=
+osci, i bedzie to wykonane w nastepnym etapach.<br>
+<br>
+&nbsp;2) Naprawa powa=C5=BCnych i krytycznych b=C5=82=C4=99d=C3=B3w w aplik=
+acjach Pasjonata Android<br>
+<br>
+&nbsp;3) Naprawa powa=C5=BCnych i krytycznych problem=C3=B3w z modelem dany=
+ch wykorzystywanym w aplikacjiach Pasonata WEB i Pasjonata Android<br>
+<br>
+&nbsp;3) Optymalizacja zapytan SQL powodujacych zawieszanie sie / wolne dzi=
+alanie czesci widokow aplikacji Pasjonata WEB i Pasjonata Android<br>
+<br>
+&nbsp;4) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie PHP aplikacj=
+i Pasjonata WEB<br>
+<br>
+&nbsp;5) Wydzielenie warstw, modu=C5=82=C3=B3w i klas w kodzie Java aplikac=
+ji Pasjonata Android<br>
+&nbsp;<br>
+&nbsp;6) Opracowanie dokumentacji technicznej / wysokopoziomowej architektu=
+ry aplikacji<br>
+<br>
+<br>
+<br>
+Aby zaj=C4=85=C4=87 si=C4=99 tematami takimi jak (nazwy z oferty z listopad=
+a 2019): <br>
+<br>
+&nbsp;* &quot;Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i no=
+wych funkcjonalno=C5=9Bci w aplikacji Pasjonata WEB&quot;<br>
+<br>
+&nbsp;* &quot;Wdra=C5=BCanie usprawnie=C5=84 oraz niedoko=C5=84czonych i no=
+wych funkcjonalno=C5=9Bci w aplikacjach Pasjonata Android&quot;<br>
+<br>
+&nbsp;* &quot;Aplikacja zintegrowana ze sklepami internetowymi firmy =E2=
+=80=9EPasja=E2=80=9D&quot;<br>
+<br>
+&nbsp;* &quot;Aplikacja zintegrowana z zewn=C4=99trznym systemem firmy kuri=
+erskiej&quot;<br>
+<br>
+&nbsp;* &quot;Aplikacja zintegrowana z programem do CRM&quot;<br>
+<br>
+&nbsp;* &quot;Aplikacja gotowa do odsprzeda=C5=BCy i wdra=C5=BCania w innyc=
+h firmach =C5=9Bwiadcz=C4=85cych us=C5=82ugi uszlachetniania druku w Polsce=
+ i zagranic=C4=85&quot;<br>
+<br>
+=2E.. aplikacja musi zosta=C4=87 najpierw przygotowana do dalszego rozwoju =
+/ d=C5=82ug techniczny sp=C5=82acony przynajmniej dla krytycznych i powa=
+=C5=BCnych b=C5=82=C4=99d=C3=B3w. Je=C5=9Bli prace wymienione w punktach I-=
+VI powy=C5=BCej zajm=C4=85 mniej ni=C5=BC 6 miesi=C4=99cy, wtedy mo=C5=BCna=
+ od razu p=C5=82ynnie przej=C5=9B=C4=87 do
+ tych temat=C3=B3w i r=C3=B3wnie=C5=BC w rozliczeniach miesi=C4=99cznych je=
+ za=C5=82atwia=C4=87 po kolei.<br>
+<br>
+Podsumowuj=C4=85c - =C5=BCeby to mia=C5=82o &quot;r=C4=99ce i nogi&quot;, j=
+edna i druga strona transakcji musi by=C4=87 zadowolona; odno=C5=9Bnie mode=
+l=C3=B3w i stawek ju=C5=BC kilka tygodni wyja=C5=9Bnia=C5=82em; je=C5=9Bli =
+nie s=C4=85 w stanie doprecyzowa=C4=87 czego=C5=9B przed akceptacja, model =
+rozlicze=C5=84 miesi=C4=99cznych to jest jedyny
+ spos=C3=B3b na to =C5=BCeby takie sytuacje nie stawa=C5=82y si=C4=99 probl=
+emami i moc p=C5=82ynnie i=C5=9B=C4=87 dalej.<br>
+</p>
+<p>Pozdrawiam,<br>
+</p>
+<pre class=3D"x_moz-signature" cols=3D"72">-- 
+  Michal H. Siemaszko
+  Mobile: &#43;48 723 039 978
+  Signal IM: &#43;48668566023
+  Telegram: mhsiemaszko
+  Email: <a class=3D"x_moz-txt-link-abbreviated" href=3D"mailto:mhsiemaszko=
+@7thraylabs.com">mhsiemaszko@7thraylabs.com</a>,
+         <a class=3D"x_moz-txt-link-abbreviated" href=3D"mailto:mhs@into.so=
+ftware">mhs@into.software</a>
+  WWW: <a class=3D"x_moz-txt-link-freetext" href=3D"http://ideas.into.softw=
+are/">http://ideas.into.software/</a>
+  GitHub: <a class=3D"x_moz-txt-link-freetext" href=3D"https://github.com/i=
+deas-into-software/">https://github.com/ideas-into-software/</a>
+  LinkedIn: <a class=3D"x_moz-txt-link-freetext" href=3D"http://www.linkedi=
+n.com/in/mhsiemaszko/">http://www.linkedin.com/in/mhsiemaszko/</a>
+  Twitter: <a class=3D"x_moz-txt-link-freetext" href=3D"https://twitter.com=
+/IntoSoftware/">https://twitter.com/IntoSoftware/</a></pre>
+</blockquote>
+<pre class=3D"x_moz-signature" cols=3D"72">
+</pre>
+</div>
+</body>
+</html>
+
+--_000_AM0PR10MB1860B66169B408216A4DF10BB8DD0AM0PR10MB1860EURP_--
+
+------_=_NextPart_313d7baa-a554-4d30-b321-ed817643d7ab
+Content-Type: image/png;
+	name="image458242.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image458242.png@A5AAAF2A.4304929E>
+Content-Description: image458242.png
+Content-Disposition: inline;
+	creation-date="Mon, 13 Apr 2020 13:44:10 +0000";
+	filename=image458242.png;
+	modification-date="Mon, 13 Apr 2020 13:44:10 +0000";
+	size=48723
+
+iVBORw0KGgoAAAANSUhEUgAAAfQAAADDCAYAAAB03uMrAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIMaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8
+P3hwYWNrZXQgYmVnaW49J++7vycgaWQ9J1c1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCc/Pgo8eDp4
+bXBtZXRhIHhtbG5zOng9J2Fkb2JlOm5zOm1ldGEvJyB4OnhtcHRrPSdJbWFnZTo6RXhpZlRvb2wg
+MTAuMTAnPgo8cmRmOlJERiB4bWxuczpyZGY9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjIt
+cmRmLXN5bnRheC1ucyMnPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6
+cGRmPSdodHRwOi8vbnMuYWRvYmUuY29tL3BkZi8xLjMvJz4KICA8cGRmOkF1dGhvcj5LbGF1ZGlh
+PC9wZGY6QXV0aG9yPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6
+YWJvdXQ9JycKICB4bWxuczp4bXA9J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8nPgogIDx4
+bXA6Q3JlYXRvclRvb2w+Q2FudmE8L3htcDpDcmVhdG9yVG9vbD4KIDwvcmRmOkRlc2NyaXB0aW9u
+Pgo8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSdyJz8+6VszMgAAu9BJREFU
+eF7sXQVgHDfW/pbXzBxjHGZmhqZNuU3KeOVeuX8Z73rl9sq9MjMlTZM00DAzo5M4dhwz8+L/nnbl
+jLdrx0mcxHbm88ozo9FI7z1J70kajaRxEqBChQoVKlSoaNXQuo8qVKhQoUKFilYM1aCrUKFChQoV
+bQCqQVehQoUKFSraAFSDrkKFChUqVLQBqAZdhQoVKlSoaANQDboKFSpUqFDRBqAadBUqVKhQoaIN
+QDXoKlSoUKFCRRuAatBVqFChQoWKNgDVoKtQoUKFChVtAKpBV6FChQoVKtoAVIOuQoUKFSpUtAGo
+Bl2FChUqVKhoA1ANugoVKlSoUNEGoBp0FSpUqFChog1ANegqVKhQoUJFG4Bq0FWoUKFChYo2ANWg
+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
+
+------_=_NextPart_313d7baa-a554-4d30-b321-ed817643d7ab--
